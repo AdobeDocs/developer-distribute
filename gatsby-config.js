@@ -11,101 +11,76 @@
  */
 
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/creative-cloud/distribution/',
+  pathPrefix: process.env.PATH_PREFIX || "/creative-cloud/distribution/",
   siteMetadata: {
-    versions: [
-      {
-        title: 'v2.0',
-        selected: true
-      },
-      {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/dev-site'
-      }
-    ],
     pages: [
       {
-        title: 'Cat Analytics',
-        path: '/'
+        path: "/",
+        title: "Developer Distribution",
       },
       {
-        title: 'Guides',
-        path: '/guides/'
+        path: "guides/index.md",
+        title: "Documentation",
       },
       {
-        title: 'API Reference',
-        menu: [
-          {
-            title: 'Cat Reference v2.0',
-            description: 'Cat Reporting API',
-            path: '/api/index.md'
-          },
-          {
-            title: 'Cat Reference v1.4',
-            description: 'Cat API Spec',
-            path: '/api/1.4.md'
-          }
-        ]
+        title: "Support",
+        path: "/support/",
       },
-      {
-        title: 'Support',
-        path: '/support/'
-      }
     ],
     subPages: [
       {
-        title: 'Get Started',
-        path: '/guides/',
+        path: "guides/index.md",
+        title: "Developer Distribution",
         pages: [
           {
-            title: 'Dummy an OAuth Client',
-            path: '/guides/dummy_oauth_client/'
+            path: "guides/getting_started.md",
+            title: "Getting Started",
           },
           {
-            title: 'Dummy OAuth using POSTMAN',
-            path: '/guides/dummy_using_postman/'
-          }
-        ]
-      },
-      {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
-      },
-      {
-        title: 'Migrating',
-        path: '/guides/migrating/'
-      },
-      {
-        title: 'Overview',
-        path: '/support/',
-        header: true,
-        pages: [
-          {
-            title: 'Help',
-            path: '/support/'
+            title: "Developer Distribution App",
+            path: "https://developer-stage.adobe.com/distribute/home",
           },
           {
-            title: 'FAQ',
-            path: '/support/FAQ/'
+            title: "Listing Details",
+            path: "/guides/listing_details/overview.md",
+            pages: [
+              {
+                path: "/guides/listing_details/overview.md",
+                title: "Overview",
+              },
+              {
+                path: "/guides/listing_details/listing_details.md",
+                title: "Listing Details",
+              },
+              {
+                path: "/guides/listing_details/versions.md",
+                title: "Versions",
+              },
+              {
+                path: "/guides/listing_details/review_history.md",
+                title: "Review History",
+              },
+              {
+                path: "/guides/listing_details/insights.md",
+                title: "Insights",
+              },
+            ],
           },
           {
-            title: 'How to contribute',
-            path: '/support/contribute/'
-          }
-        ]
-      },
-      {
-        title: 'Community',
-        path: '/support/community/',
-        header: true,
-        pages: [
+            title: "Submission",
+            path: "/guides/submission.md",
+          },
           {
-            title: 'Information',
-            path: '/support/community/'
-          }
-        ]
-      }
-    ]
+            title: "Glossary",
+            path: "/guides/glossary.md",
+          },
+          {
+            title: "FAQ",
+            path: "/guides/faq.md",
+          },
+        ],
+      },
+    ],
   },
-  plugins: [`@adobe/gatsby-theme-aio`]
+  plugins: [`@adobe/gatsby-theme-aio`],
 };
