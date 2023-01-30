@@ -11,7 +11,9 @@
  */
 
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || "/creative-cloud/distribution/",
+  // pathPrefix: process.env.PATH_PREFIX || "/creative-cloud/distribution/",
+  // The /developer-distribution will go to the helix landing page
+  pathPrefix: process.env.PATH_PREFIX || "/developer-distribution/overview",
   siteMetadata: {
     pages: [
       {
@@ -19,21 +21,21 @@ module.exports = {
         title: "Developer Distribution",
       },
       {
-        path: "guides/index.md",
+        path: "overview/guides/index.md",
         title: "Documentation",
       },
       {
         title: "Support",
-        path: "/support/",
+        path: "overview/support/",
       },
     ],
     subPages: [
       {
-        path: "guides/index.md",
+        path: "overview/guides/index.md",
         title: "Developer Distribution",
         pages: [
           {
-            path: "guides/getting_started.md",
+            path: "overview/guides/getting_started.md",
             title: "Getting Started",
           },
           {
@@ -42,41 +44,41 @@ module.exports = {
           },
           {
             title: "Listing Details",
-            path: "/guides/listing_details/overview.md",
+            path: "overview/guides/listing_details/overview.md",
             pages: [
               {
-                path: "/guides/listing_details/overview.md",
+                path: "overview/guides/listing_details/overview.md",
                 title: "Overview",
               },
               {
-                path: "/guides/listing_details/listing_details.md",
+                path: "overview/guides/listing_details/listing_details.md",
                 title: "Listing Details",
               },
               {
-                path: "/guides/listing_details/versions.md",
+                path: "overview/guides/listing_details/versions.md",
                 title: "Versions",
               },
               {
-                path: "/guides/listing_details/review_history.md",
+                path: "overview/guides/listing_details/review_history.md",
                 title: "Review History",
               },
               {
-                path: "/guides/listing_details/insights.md",
+                path: "overview/guides/listing_details/insights.md",
                 title: "Insights",
               },
             ],
           },
           {
             title: "Submission",
-            path: "/guides/submission.md",
+            path: "overview/guides/submission.md",
           },
           {
             title: "Glossary",
-            path: "/guides/glossary.md",
+            path: "overview/guides/glossary.md",
           },
           {
             title: "FAQ",
-            path: "/guides/faq.md",
+            path: "overview/guides/faq.md",
           },
         ],
       },

@@ -1,6 +1,6 @@
 <Hero slots="image, heading, text" background="rgb(141, 52, 78)" hideBreadcrumbNav={false} width="100%"/>
 
-![Hero image](../images/S_filled_DD_Welcome2_320x180.png)
+![Hero image](../../images/S_filled_DD_Welcome2_320x180.png)
 
 # Adobe Developer Distribution
 
