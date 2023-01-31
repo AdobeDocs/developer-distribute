@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         title: "Support",
-        path: "overview/support/",
+        path: "support/",
       },
     ],
     subPages: [
