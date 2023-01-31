@@ -1,51 +1,22 @@
----
-title: Support - Cat Analytics
-description: This is the support page of Cat Analytics 
----
+<Hero slots="heading, text"/>
 
-<Hero slots="heading, text" background="rgb(19, 93, 183)"/>
+# Adobe Developer Distribution Support
 
-# Support
+If you have questions about how to use Adobe Developer Distribution or you are looking to report bugs, make feature requests, and more, Developer Distribution provides multiple resources that can help.
 
-Learn where to ask questions, report bugs, make feature requests, and spark discussions.
+## Frequently Asked Questions
 
-## Feedback
+Access a knowledge base of frequently asked questions and find answers to some of the most common questions asked by other Adobe Developer Console users. This is a great place to start when needing answers to a question.
 
-You've got a place to start discussions.
+Visit the [Adobe Developer Distribution FAQ](faq.md) to learn more.
 
-<DiscoverBlock slots="image, heading, link, text" width="25%"/>
+## Developer Forums
 
-![Cat Experience Cloud](experience_cloud.png)
+<!--
+To start a discussion or ask questions please visit our [Developer Distribution Forums](https://www.adobe.com/go/devs_console_exl) on Adobe Experience League.
 
-### Developer forum
+On the forums you will find official Adobe developers and knowledgeable community members who are ready and available to help you find the information you need. -->
 
-[Get started](https://adobe.io)
+## Bugs and Feature Requests
 
-Open discussion and support with community experts and Adobe staff.
-
-<DiscoverBlock slots="link, text" width="25%"/>
-
-[Experience league](https://adobe.io) 
-
-Tutorials and videos for the whole community.
-
-<DiscoverBlock slots="link, text" width="25%"/>
-
-[Experience forum](https://adobe.io) 
-
-Forum to get help and help others
-
-## Community
-
-You've got a place to join the conversation.
-
-<DiscoverBlock slots="image, heading, link, text" width="100%"/>
-
-![Stack Overflow](stack-overflow.png)
-
-### Stack Overflow
-
-[Explore](https://adobe.io)
-
-Developer Q&A using a specific tag.
-
+Log an issue on <https://github.com/AdobeDocs/developer-distribute/issues> to report any bugs or request new product features.

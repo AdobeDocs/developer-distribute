@@ -17,16 +17,16 @@ module.exports = {
   siteMetadata: {
     pages: [
       {
-        path: "/",
+        path: "/developer-distribution",
         title: "Developer Distribution",
       },
       {
-        path: "overview/guides/index.md",
+        path: "overview/guides",
         title: "Documentation",
       },
       {
         title: "Support",
-        path: "support/",
+        path: "overview/support/",
       },
     ],
     subPages: [
@@ -39,46 +39,63 @@ module.exports = {
             title: "Getting Started",
           },
           {
-            title: "Developer Distribution App",
-            path: "https://developer-stage.adobe.com/distribute/home",
-          },
-          {
-            title: "Listing Details",
-            path: "overview/guides/listing_details/overview.md",
+            title: "Reference",
+            path: "overview/guides/reference/index.md",
             pages: [
               {
-                path: "overview/guides/listing_details/overview.md",
-                title: "Overview",
+                path: "overview/guides/reference/listing/overview.md",
+                title: "Home",
               },
               {
-                path: "overview/guides/listing_details/listing_details.md",
-                title: "Listing Details",
+                title: "List of Listings",
+                path: "overview/guides/reference/listings.md",
               },
               {
-                path: "overview/guides/listing_details/versions.md",
-                title: "Versions",
-              },
-              {
-                path: "overview/guides/listing_details/review_history.md",
-                title: "Review History",
-              },
-              {
-                path: "overview/guides/listing_details/insights.md",
-                title: "Insights",
+                title: "Listing",
+                path: "overview/guides/reference/listing/index.md",
+                pages: [
+                  {
+                    path: "overview/guides/reference/listing/overview.md",
+                    title: "Overview",
+                  },
+                  {
+                    path: "overview/guides/reference/listing/details.md",
+                    title: "Details",
+                  },
+                  {
+                    path: "overview/guides/reference/listing/versions.md",
+                    title: "Versions",
+                  },
+                  {
+                    path: "overview/guides/listing/insights.md",
+                    title: "Insights",
+                  },
+                ],
               },
             ],
           },
+
           {
             title: "Submission",
             path: "overview/guides/submission.md",
           },
           {
+            title: "Distribution Guidelines",
+            path: "overview/guides/distribution_guidelines.md",
+          },
+          {
             title: "Glossary",
             path: "overview/guides/glossary.md",
           },
+        ],
+      },
+      {
+        path: "support/index.md",
+        title: "Support",
+        pages: [
           {
+            path: "support/faq.md",
             title: "FAQ",
-            path: "overview/guides/faq.md",
           },
         ],
       },
