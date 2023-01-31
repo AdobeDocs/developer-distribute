@@ -67,21 +67,21 @@ module.exports = {
                     title: "Versions",
                   },
                   {
-                    path: "overview/guides/listing/insights.md",
+                    path: "overview/guides/reference/listing/insights.md",
                     title: "Insights",
+                  },
+
+                  {
+                    title: "Preview and Submit",
+                    path: "overview/guides/reference/listing/preview_submit.md",
                   },
                 ],
               },
             ],
           },
-
           {
-            title: "Submission",
-            path: "overview/guides/submission.md",
-          },
-          {
-            title: "Distribution Guidelines",
-            path: "overview/guides/distribution_guidelines.md",
+            title: "Submission Guidelines",
+            path: "overview/guides/submission_guidelines.md",
           },
           {
             title: "Glossary",

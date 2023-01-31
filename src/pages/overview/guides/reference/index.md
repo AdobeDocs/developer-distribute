@@ -12,4 +12,4 @@ The [List of Listings](#listings) page provides you with a list of your listings
 
 ## Listing
 
-The [Listing](#listing) page provides you with a way to enter or manage metadata for your listing, or versions, upload your plugin package.
+The [Listing](#listing) view provides you with everything you need to create and manage your listing. This is where you enter and update your metadata for listings, upload your plugin package and submit it for approval.
