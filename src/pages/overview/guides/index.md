@@ -1,15 +1,28 @@
-<Hero slots="image, heading, text" background="rgb(141, 52, 78)" hideBreadcrumbNav={false} width="100%"/>
+<Hero slots="heading, text" background="rgb(141, 52, 78)" hideBreadcrumbNav={false} width="100%"/>
 
-![Hero image](../../images/S_filled_DD_Welcome2_320x180.png)
+<!-- ![Hero image](../../images/S_filled_DD_CreateApps_1400x500_x2.png) -->
 
 # Adobe Developer Distribution
 
-A self-service submission portal for Creative Cloud UXP plugin developers to publish their listings on the Adobe Exchange and Creative Cloud Marketplaces.
+A self-service submission portal for Creative Cloud UXP plugin developers to publish listings for their plugins on the Adobe Exchange and Creative Cloud Marketplaces.
 
 ## Overview
 
-Adobe Developer Distribution (DD) is a purpose-built portal for distributing 3rd party Creative Cloud UXP plugins. Previously, developers associated projects, created a plugin ID and distributed UXP plugins from Developer Console. Now if developers choose to “Distribute” from Console they will land on the home page of DD. This documentation provides guidance on how to use DD and all the new developer features it unlocks. Future releases of DD will support ZXP plugins, UXP plugins for more CC Apps and 3rd party integration for other Clouds.
+[Adobe Developer Distribution](/distribute/home) is a portal with the sole purpose of distributing plugins. Previously, developers used the [Adobe Developer Console](/developer-console) to associate a project with a plugin ID for distributing their UXP plugins. The new [Adobe Developer Distribution](/distribute/home) allows developers to skip the step of visiting the Adobe Developer Console and instead provides a one-stop place to do everything needed for distributing their UXP plugins. This documentation provides guidance on how to use the new portal and details on all of the new developer features it unlocks. Future releases of the portal will support ZXP plugins, additional UXP plugins for more Creative Cloud apps and 3rd party integration for other Clouds.
 
+**Note:** Developers can still choose to start in the Adobe Developer Console to create or manage a listing for their plugins if desired, but they will now simply be routed to the [Adobe Developer Distribution portal](/distribute/home) to complete the rest of the steps.
+
+## How to Access
+
+For individual users who do not belong to an Adobe enterprise or team organization, we will automatically create your own personal Developer organization during sign-up. This is the most common scenario for UXP Plugin Developers. Note that if multiple people need to manage a plugin, they will have to share the same Adobe ID credential used.
+
+Users who already belong to an Adobe enterprise or team organization require either System Administrator or Developer permissions to access the Adobe Developer Console. If you are denied access to Developer Distribution when logging in with a “Company” adobe ID, contact your system administrator about getting Developer permissions assigned. More information about user management can be found in the Adobe Admin Console guide.
+
+## How to Use
+
+[TODO - diagram]
+
+<!--
 <DiscoverBlock slots="link, text"/>
 
 [Listings](guides/listing_details.md)
@@ -30,6 +43,6 @@ Frequently Asked Questions
 
 <DiscoverBlock slots="link, text"/>
 
-[Developer Distribution App](https://developer-stage.adobe.com/distribute/home)
+[Adobe Developer Distribution app](/distribute/home)
 
-Go to the app
+Go to the app -->

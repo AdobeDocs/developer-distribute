@@ -1,19 +1,15 @@
 # Glossary
 
-### App
-
+## App
 A 3rd-party distributable item. It could be a UXP/ZXP plugin, a DX Application, an Adobe Sign Integration etc. and may or may not be associated with an API. To unlock future features, all Apps will have a project assigned to them.
 
-### Listing 
-
+## Listing 
 How an App is published on the marketplace. A Listing contains metadata and at least one plugin Version.
 
-### Version
-
+## Version
 The downloadable portion of an App. A UXP listing can have multiple versions available to users simultaneously while ZXP listings only offer the latest version.
 
-### Listing Status
-
+## Listing Status
 The lifecycle of a listing can be tracked by status on the “Your Listings” and Listings details pages. The lifecycle of multiple versions within a listing (i.e., Version Status) is displayed on the left rail of the Listing details page.
 
 - **Draft** – A listing that does not have complete metadata or has not been reviewed.

@@ -1,5 +1,7 @@
 <Hero slots="heading, text" background="rgb(141, 52, 78)" />
 
+<!-- ![Hero image](../images/S_filled_DD_CreateApps_1400x500_x2.png)
+
 # Adobe Developer Distribution
 
 Welcome to Developer Distribution, a self-service submission portal for Creative Cloud UXP plugin developers to publish their listings on the Adobe Exchange and Creative Cloud Marketplaces.
@@ -13,10 +15,8 @@ Developer Distribution enables you to quickly publish a Listing on two CC Market
 3. Upload a packaged plugin version (includes a manifest)
 4. Submit and listing publishes immediately upon approval or manually published later.
 
-## Access 
+## Access
 
-For individual users who do not belong to an Adobe enterprise or team organization, we will automatically create your own personal Developer organization during sign-up. This is the most common scenario for UXP Plugin Developers. Note that if multiple people need to manage a plugin, they will have to share the same Adobe ID credential used. 
+For individual users who do not belong to an Adobe enterprise or team organization, we will automatically create your own personal Developer organization during sign-up. This is the most common scenario for UXP Plugin Developers. Note that if multiple people need to manage a plugin, they will have to share the same Adobe ID credential used.
 
-Users who already belong to an Adobe enterprise or team organization require either System Administrator or Developer permissions to access the Adobe Developer Console. If you are denied access to Developer Distribution when logging in with a “Company” adobe ID, contact your system administrator about assigning you Developer permissions. More information about user management can be found in the Adobe Admin Console guide. 
-
- 
+Users who already belong to an Adobe enterprise or team organization require either System Administrator or Developer permissions to access the Adobe Developer Console. If you are denied access to Developer Distribution when logging in with a “Company” adobe ID, contact your system administrator about assigning you Developer permissions. More information about user management can be found in the Adobe Admin Console guide. -->

@@ -21,7 +21,7 @@ module.exports = {
         title: "Developer Distribution",
       },
       {
-        path: "overview/guides",
+        path: "overview/guides/index.md",
         title: "Documentation",
       },
       {
@@ -39,50 +39,83 @@ module.exports = {
             title: "Getting Started",
           },
           {
-            title: "Reference",
-            path: "overview/guides/reference/index.md",
+            path: "overview/guides/plugin_id.md",
+            title: "Get a Plugin ID",
+          },
+          {
+            title: "Submission and Review",
+            path: "overview/guides/submission/overview.md",
             pages: [
+              // {
+              //   path: "overview/guides/submission/how_submit.md",
+              //   title: "How to Submit",
+              // },
               {
-                path: "overview/guides/reference/listing/overview.md",
-                title: "Home",
+                path: "overview/guides/submission/what_review.md",
+                title: "What We Review",
               },
               {
-                title: "List of Listings",
-                path: "overview/guides/reference/listings.md",
+                path: "overview/guides/submission/timelines_outcomes.md",
+                title: "Timelines and Outcomes",
               },
               {
-                title: "Listing",
-                path: "overview/guides/reference/listing/index.md",
-                pages: [
-                  {
-                    path: "overview/guides/reference/listing/overview.md",
-                    title: "Overview",
-                  },
-                  {
-                    path: "overview/guides/reference/listing/details.md",
-                    title: "Details",
-                  },
-                  {
-                    path: "overview/guides/reference/listing/versions.md",
-                    title: "Versions",
-                  },
-                  {
-                    path: "overview/guides/reference/listing/insights.md",
-                    title: "Insights",
-                  },
-
-                  {
-                    title: "Preview and Submit",
-                    path: "overview/guides/reference/listing/preview_submit.md",
-                  },
-                ],
+                path: "overview/guides/submission/rejection_reasons.md",
+                title: "Top Rejection Reasons",
               },
             ],
           },
           {
-            title: "Submission Guidelines",
-            path: "overview/guides/submission_guidelines.md",
+            path: "overview/guides/branding_guidelines.md",
+            title: "Adobe Branding Guidelines",
           },
+          {
+            path: "overview/guides/best_practices.md",
+            title: "Benefits and Best Practices",
+          },
+          // {
+          //   path: "overview/guides/commerce.md",
+          //   title: "Commerce Guidelines ",
+          // },
+          // {
+          //   title: "User Guide",
+          //   path: "overview/guides/reference/index.md",
+          //   pages: [
+          //     {
+          //       path: "overview/guides/reference/listing/overview.md",
+          //       title: "Home",
+          //     },
+          //     {
+          //       title: "List of Listings",
+          //       path: "overview/guides/reference/listings.md",
+          //     },
+          //     {
+          //       title: "Listing",
+          //       path: "overview/guides/reference/listing/index.md",
+          //       pages: [
+          //         {
+          //           path: "overview/guides/reference/listing/overview.md",
+          //           title: "Overview",
+          //         },
+          //         {
+          //           path: "overview/guides/reference/listing/details.md",
+          //           title: "Details",
+          //         },
+          //         {
+          //           path: "overview/guides/reference/listing/versions.md",
+          //           title: "Versions",
+          //         },
+          //         {
+          //           path: "overview/guides/reference/listing/insights.md",
+          //           title: "Insights",
+          //         },
+          //         {
+          //           title: "Preview and Submit",
+          //           path: "overview/guides/reference/listing/preview_submit.md",
+          //         },
+          //       ],
+          //     },
+          //   ],
+          // },
           {
             title: "Glossary",
             path: "overview/guides/glossary.md",

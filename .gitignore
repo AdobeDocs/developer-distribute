@@ -5,6 +5,7 @@
 
 # npm yarn
 node_modules
+node_modules2
 package.lock
 yarn-error.log
 .pnp.*
