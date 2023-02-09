@@ -39,6 +39,7 @@ Your publisher profile includes required details like:
 
 <!-- **_Your publisher profile is an important thing to get right the first time!_**  -->
 <InlineAlert slots="text" variant="warning"/>
+
 Your publisher profile is an important thing to get right the first time!
 
 After it is approved, changing it is not easy or fast; you will have to email us via the "View public profile" link on your Adobe Developer Console project. Doing so will trigger a new review of your publisher details, and possibly of your plugin as well.
@@ -48,6 +49,7 @@ Frequently changing your publisher profile will confuse users and erode trust. P
 <!-- **_You must complete your publisher profile in order to submit your first plugin or integration._**  -->
 
 <InlineAlert slots="text" variant="info"/>
+
 You must complete your publisher profile in order to submit your first plugin or integration.
 
 Next time you submit something, your publisher profile will already be set, so you won't need to do this again.

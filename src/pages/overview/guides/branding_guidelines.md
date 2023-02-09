@@ -9,4 +9,5 @@ There are a [predefined set of guidelines](https://partners.adobe.com/exchangepr
 - We expect you to thoroughly read the [Adobe Branding Guidelines](https://partners.adobe.com/exchangeprogram/creativecloud/marketing/dev-brand-guide.html) with due diligence and follow the guidelines exactly. Failure to do so will result in rejection during the review process.
 
 <InlineAlert slots="text" variant="warning"/>
+
 You must be logged in to the Adobe Exchange Developer Portal to access the Adobe Branding Guidelines.

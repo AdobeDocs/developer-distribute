@@ -1,6 +1,6 @@
 # Get a Plugin ID
 
-Each marketplace listing should use a unique plugin ID that should match what is in your plugin package manifest file. You can get a unique plugin ID in any of the following three ways:
+Each marketplace listing should use a unique plugin ID that should match what is in your plugin package manifest file. You can obtain a unique plugin ID in any of the following three ways:
 
 ## Starting from the Adobe UXP Developer Tool (UDT)
 
@@ -15,4 +15,5 @@ Create a new listing from the [Developer Distribution home page](/distribute/hom
 Add a plugin to a project in Developer Console, download a starter package. Click on "Distribute" and you will be redirected to the Developer Distribution "Listing Overview" page.
 
 <InlineAlert slots="text"/>
+
 This is considered a legacy option with the introduction of the new Developer Distribution portal.

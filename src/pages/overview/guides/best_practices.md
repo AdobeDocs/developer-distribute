@@ -44,9 +44,11 @@ Always share test credentials with the review team via the "Notes to Adobe revie
 
 Some plugins require users to enter a license key before use. If the same is to be done for your plugin and FastSpring is used to handle your payments, you should share 100 license keys with the review team via the "Notes to Adobe reviewers" section and we will store the license keys on FastSpring. FastSpring will distribute the license key to users who have successfully purchased your plugin.
 
-**Note:** Before the current license expires, asupport@adobe.com will contact you to provide an additional license and they will restore the license on FastSpring so that the user can obtain the license key after purchase.
+<InlineAlert slots="text"/>
 
-How many licenses you want to store on FastSpring is up to you, the developer. In general, we encourage developers to share at least 100 licenses, although you are free to share fewer or more license keys if you wish to do so.
+You will be contacted by asupport@adobe.com to provide an additional license to be restored on FastSpring before the current license expires so users can obtain a license key after purchase.
+
+**Note:** The number of licenses you want to store on FastSpring is up to you, the developer. In general, we encourage developers to share at least 100 licenses, although you are free to share fewer or more license keys if you wish to do so.
 
 #### Provide Proper Installation Instructions
 

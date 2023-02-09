@@ -1,6 +1,6 @@
 <Hero slots="heading, text" background="rgb(141, 52, 78)" hideBreadcrumbNav={false} width="100%"/>
 
-<!-- ![Hero image](../../images/S_filled_DD_CreateApps_1400x500_x2.png) -->
+![Hero image](../../images/S_filled_DD_CreateApps_1400x500_x2.png)
 
 # Adobe Developer Distribution
 
@@ -12,37 +12,14 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 **Note:** Developers can still choose to start in the Adobe Developer Console to create or manage a listing for their plugins if desired, but they will now simply be routed to the [Adobe Developer Distribution portal](/distribute/home) to complete the rest of the steps.
 
+## How to Use
+
+![](../../images/4_ways_to_use.png)
+
 ## How to Access
 
 For individual users who do not belong to an Adobe enterprise or team organization, we will automatically create your own personal Developer organization during sign-up. This is the most common scenario for UXP Plugin Developers. Note that if multiple people need to manage a plugin, they will have to share the same Adobe ID credential used.
 
 Users who already belong to an Adobe enterprise or team organization require either System Administrator or Developer permissions to access the Adobe Developer Console. If you are denied access to Developer Distribution when logging in with a “Company” adobe ID, contact your system administrator about getting Developer permissions assigned. More information about user management can be found in the Adobe Admin Console guide.
 
-## How to Use
-
-[TODO - diagram]
-
-<!--
-<DiscoverBlock slots="link, text"/>
-
-[Listings](guides/listing_details.md)
-
-Learng about entering your listing details
-
-<DiscoverBlock slots="link, text"/>
-
-[Submission](guides/submission.md)
-
-Submission
-
-<DiscoverBlock slots="link, text"/>
-
-[FAQ](guides/faq.md)
-
-Frequently Asked Questions
-
-<DiscoverBlock slots="link, text"/>
-
-[Adobe Developer Distribution app](/distribute/home)
-
-Go to the app -->
+<br/>

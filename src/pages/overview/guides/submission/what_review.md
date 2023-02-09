@@ -6,7 +6,7 @@ This is not meant to be an exhaustive list of what we review for, and our test c
 
 ## Publisher Profile
 
-All data in your publisher profile will be reviewed, including public profile name, website, and logo. Make sure that publisher profile is [Adobe Branding Guidelines](../branding_guidelines.md) compliant.
+All data in your publisher profile will be reviewed, including your _public name_, _website_, and _logo_. Make sure that your publisher profile is [Adobe Branding Guidelines](../branding_guidelines.md) compliant.
 
 ## Listing Details
 
