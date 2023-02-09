@@ -10,7 +10,7 @@ All data in your publisher profile will be reviewed, including your _public name
 
 ## Listing Details
 
-Users will see your plugin listing and version details when browsing the Creative Cloud Plugin Marketplace.
+Users will see your plugin listing and version details when browsing Adobe marketplace surfaces.
 
 In this section, we’ll go over what we’re checking for to ensure that your plugin listing details are complete, correct, and in line with Adobe’s standards.
 

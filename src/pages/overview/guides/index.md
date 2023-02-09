@@ -1,10 +1,10 @@
 <Hero slots="heading, text" background="rgb(141, 52, 78)" hideBreadcrumbNav={false} width="100%"/>
 
-![Hero image](../../images/S_filled_DD_CreateApps_1400x500_x2.png)
+<!-- ![Hero image](../../images/S_filled_DD_CreateApps_1400x500_x2.png) -->
 
 # Adobe Developer Distribution
 
-A self-service submission portal for Creative Cloud UXP plugin developers to publish listings for their plugins on the Adobe Exchange and Creative Cloud Marketplaces.
+A self-service submission portal for Creative Cloud UXP plugin developers to publish listings for their plugins on the Adobe Exchange and Creative Cloud desktop app marketplaces.
 
 ## Overview
 
