@@ -14,15 +14,13 @@ Users will see your plugin listing and version details when browsing Adobe marke
 
 In this section, we’ll go over what we’re checking for to ensure that your plugin listing details are complete, correct, and in line with Adobe’s standards.
 
+### Plugin Description
+
+
 ### Plugin Metadata
 
 - A plugin name should be unique and not identical to existing third party plugin name.
 
-- A plugin name can only include the host app name (e.g. “Photoshop” or “XD”) if it fits the pattern `“{Plugin Name} for XD”. Refer to the [Adobe Branding section](#adobe-branding)for further information.
-
-  - **Acceptable:** “Rectangulator”, or “Rectangulator for Photoshop”
-
-  - **NOT Acceptable:** “Photoshop Rectangulator”, or “Rectangulator Photoshop.
 
 - The plugin description must be relevant and self-explanatory.
 

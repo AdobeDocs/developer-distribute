@@ -20,7 +20,7 @@
 
 9. Additional Support is available to users for installation issues.
 
-10. Developers receive a free Creative Cloud subscription. For a free seat, please contact us at [ccintrev@adobe.com](mailto:ccintrev@adobe.com).
+<!-- 10. Developers receive a free Creative Cloud subscription. For a free seat, please contact us at [ccintrev@adobe.com](mailto:ccintrev@adobe.com). -->
 
 ## Best Practices
 

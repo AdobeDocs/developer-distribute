@@ -14,7 +14,7 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 ## How to Use
 
-![](../../images/4_ways_to_use.png)
+![](../../images/dd-use-cases.png)
 
 ## How to Access
 

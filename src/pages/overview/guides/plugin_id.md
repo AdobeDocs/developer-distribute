@@ -1,6 +1,6 @@
 # Get a Plugin ID
 
-Each marketplace listing should use a unique plugin ID that should match what is in your plugin package manifest file. You can obtain a unique plugin ID in any of the following three ways:
+Each marketplace listing should have a unique Plugin ID. The plugin package manifest should use the same ID that is associated with the listing. You can obtain a unique plugin ID in any of the following three ways:
 
 ## Starting from the Adobe UXP Developer Tool (UDT)
 

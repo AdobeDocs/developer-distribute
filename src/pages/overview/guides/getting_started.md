@@ -28,7 +28,12 @@ As listings are created, up to three of the most recent will be shown for quick 
 
 Manage your listings either in card view or list view. Clicking **View** on any card leads to the Listing screen to update the listing details or plugin version. The ellipsis points to more options to manage listing lifecycle, such as publish an approved app or retract a published one. Note that until plugin icon is uploaded, a default product mneumonic logo will appear.
 
+**Card View**
+
 ![](../../images/Your_Listings_card_view.png)
+
+**List View**
+
 ![](../../images/Your_Listings_list_view.png)
 
 ## Listing
@@ -37,7 +42,7 @@ This view is shown when you click on a listing from either the "Home" tab or "Li
 
 #### Overview - New Listing
 
-Creating a listing lands you on the "Listing Overview" page. The "Get Started" helper text guides developers to new "Listing Details" or "Version" screens. Note that the first time a Listing is published, both Listing and Version information must both be complete before proceeding to submit.
+Creating a listing lands you on the "Listing Overview" page. The "Get Started" helper text guides you to the new "Listing Details" or "Version" screens. Note that the first time alListing is published, both listing and version information must be complete before proceeding to submit.
 
 ![](../../images/Listing_Overview_new_listing.png)
 
