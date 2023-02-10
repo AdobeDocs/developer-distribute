@@ -56,7 +56,7 @@ For modal or headless plugins, the manifest minVersion must be set to 13.0 or ab
 
 - All required plugin icons must be provided at the appropriate dimensions and file sizes. See the manifest documentation for your host app and "Pre-submission checklist" in this guide to learn more about which icons to include in your plugin package versus which to upload via the Adobe Developer Console.
 
-- Plugin icon should be visible properly when the Creative Cloud Desktop Color theme is set to Dark mode.
+- Plugin icon should be visible properly when the Creative Cloud desktop app color theme is set to Dark mode.
 
 ### Adobe Branding
 

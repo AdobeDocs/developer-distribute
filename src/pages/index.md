@@ -4,4 +4,4 @@
 
 # Adobe Developer Distribution
 
-A self-service submission portal for Creative Cloud UXP plugin developers to publish their listings on the Adobe marketplace surfaces.
+A self-service submission portal for Creative Cloud UXP plugin developers to publish their listings on the Adobe Marketplace surfaces.

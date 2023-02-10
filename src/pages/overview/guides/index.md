@@ -18,11 +18,11 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 ## Access the Developer Distribution Portal
 
-For individual users who do not belong to an Adobe Enterprise or Team organization, we will automatically create your own personal Developer organization during sign-up. This is a common scenario for UXP Plugin Developers. Please see this <a href="https://helpx.adobe.com/enterprise/using/identity.html">guide to identity types for more information</a>.
+For individual users who do not belong to an Adobe Enterprise or Team organization, we will automatically create your own personal Developer organization during sign-up. This is a common scenario for UXP Plugin Developers. Please see this [guide to identity types for more information](https://helpx.adobe.com/enterprise/using/identity.html).
 
 
 Note that if multiple people need to manage a plugin, they will have to share the same Adobe ID credential used.
 
-Users who already belong to an Adobe Enterprise or Team organization require either System Administrator or Developer permissions to access the Adobe Developer Console. If you are denied access to Developer Distribution when logging in with a “Company” Adobe ID, <a href="https://helpx.adobe.com/enterprise/kb/contact-administrator.html">contact your system administrator</a> about getting Developer permissions assigned. More information about user management can be found in <a href="https://helpx.adobe.com/enterprise/using/setup-enterprise-id.html">the Adobe Admin Console guide</a>.
+Users who already belong to an Adobe Enterprise or Team organization require either System Administrator or Developer permissions to access the Adobe Developer Console. If you are denied access to Developer Distribution when logging in with a “Company” Adobe ID, [contact your system administrator](https://helpx.adobe.com/enterprise/kb/contact-administrator.html) about getting Developer permissions assigned. More information about user management can be found in [the Adobe Admin Console guide](https://helpx.adobe.com/enterprise/using/setup-enterprise-id.html).
 
 <br/>
