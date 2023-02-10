@@ -2,7 +2,7 @@
 
 Congratulations! You've built a great plugin and you're ready to release it to your customers.
 
-To be able to publish on our marketplace, your plugin must first go through a review process.
+To be able to publish on our Marketplace, your plugin must first go through a review process.
 By reviewing every plugin, Adobe aims to help developers get ready for prime time and ensure that users have great experiences with the plugins they consume. Our goal is to balance providing you the best developer experience during review that we can, while helping ensure that approved plugins offer a great user experience for our mutual customers.
 
 This document will give you an idea of how to prepare for and submit to the review process, as well as details on what we’re checking for. While lengthy, working through the points below will help you make sure you’ve accounted for all of the requirements, and avoid having to fix things and resubmit before being published. Please note that this list is intended as a helpful overview; it will change over time, and cannot cover absolutely everything we look at.
@@ -62,7 +62,7 @@ Always check the Adobe Developer Console for the latest list of required det
 
 ### Plugin information
 
-The information you add here will be made public to users via Adobe's marketplace surfaces once your plugin is approved. An list of some of the types of metadata entered here is below:
+The information you add here will be made public to users via Adobe's Marketplace surfaces once your plugin is approved. An list of some of the types of metadata entered here is below:
 
 - Public plugin name
 - Subtitle

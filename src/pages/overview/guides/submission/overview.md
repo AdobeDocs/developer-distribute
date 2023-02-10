@@ -2,7 +2,7 @@
 
 Congratulations! You've built a great plugin and you're ready to release it to your customers.
 
-To publish on our marketplaces, your plugin must first go through a review process.
+To publish on our Marketplaces, your plugin must first go through a review process.
 By reviewing every plugin, Adobe aims to help developers get ready for prime time and ensure that users have great experiences with the plugins they consume. Our goal is to balance providing you with the best developer experience during the review process as possible, while also ensuring the approved plugins offer a great user experience for our mutual customers.
 
 <InlineAlert slots="text" variant="info"/>
@@ -42,7 +42,7 @@ For paid plugin listings, you’ll need to register with Adobe’s third-party p
 
 Your listing metadata provides Adobe and users with details about the plugin you are currently submitting. See the [plugin version details below](#plugin-version-details) for the metadata that is submitted for each plugin version.
 
-The information you add in the following tabs will be made public to users via Adobe's marketplace surfaces once your listing is published.
+The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your listing is published.
 
 #### General Tab
 
@@ -79,7 +79,7 @@ Localized versions of:
 
 Here you will provide plugin level details for each plugin version submitted.
 
-The information you add in the following tabs will be made public to users via Adobe's marketplace surfaces once your version is published.
+The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your version is published.
 
 #### General Tab
 
