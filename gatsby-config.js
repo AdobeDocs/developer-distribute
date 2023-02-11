@@ -117,6 +117,10 @@ module.exports = {
           //   ],
           // },
           {
+            title: "FAQ",
+            path: "overview/support/faq.md",
+          },
+          {
             title: "Glossary",
             path: "overview/guides/glossary.md",
           },

@@ -4,126 +4,55 @@ This document provides answers to frequently asked questions about Adobe Develop
 
 ## Questions
 
-### Listings
-
-- [Frequently Asked Questions](#frequently-asked-questions)
-  - [Questions](#questions)
-    - [Listings](#listings)
-    - [Versions](#versions)
-  - [Answers](#answers)
-    - [How do I delete Runtime from my project or workspace?](#how-do-i-delete-runtime-from-my-project-or-workspace)
-    - [What is a workspace?](#what-is-a-workspace)
-    - [What is the difference between "Project title" and "App name"?](#what-is-the-difference-between-project-title-and-app-name)
-    - [What can I do with the App Builder template?](#what-can-i-do-with-the-app-builder-template)
-    - [What is required to build an App Builder app?](#what-is-required-to-build-an-app-builder-app)
-    - [Why can't I create a project for my organization?](#why-cant-i-create-a-project-for-my-organization)
-    - [Why can't I add an XD plugin to my project?](#why-cant-i-add-an-xd-plugin-to-my-project)
-    - [Why can't I add Adobe I/O Runtime to my project?](#why-cant-i-add-adobe-io-runtime-to-my-project)
-    - [I want to generate my own JWT. How do I do that?](#i-want-to-generate-my-own-jwt-how-do-i-do-that)
-    - [Why do I see a Read Only label on some of my projects? Even some that I created?](#why-do-i-see-a-read-only-label-on-some-of-my-projects-even-some-that-i-created)
-    - [Why do I see an Auto-generated label on some of my projects?](#why-do-i-see-an-auto-generated-label-on-some-of-my-projects)
-    - [How do I know if I should use JWT or OAuth?](#how-do-i-know-if-i-should-use-jwt-or-oauth)
-    - [Why can't I change the name of my App Builder app?](#why-cant-i-change-the-name-of-my-app-builder-app)
-    - [Where did my integrations and plugins go?](#where-did-my-integrations-and-plugins-go)
-    - [Where can I find the sample code for OAuth authentication?](#where-can-i-find-the-sample-code-for-oauth-authentication)
-    - [How to use the private key for generating a JWT?](#how-to-use-the-private-key-for-generating-a-jwt)
-    - [What do Default Redirect URI and the Redirect URI Pattern mean?](#what-do-default-redirect-uri-and-the-redirect-uri-pattern-mean)
-
-### Listings
-
-- [Why was my listing rejected?](#why-was-my-listing-rejected)
-- [Why is the service I want to use greyed out?](#why-is-the-service-i-want-to-use-greyed-out)
-- [I want to generate my own JWT. How do I do that?](#i-want-to-generate-my-own-jwt-how-do-i-do-that)
-- [How do I know if I should use JWT or OAuth?](#how-do-i-know-if-i-should-use-jwt-or-oauth)
-- [Why can't I add Adobe I/O Runtime to my project?](#why-cant-i-add-adobe-io-runtime-to-my-project)
-- [How do I delete Runtime from my project or workspace?](#how-do-i-delete-runtime-from-my-project-or-workspace)
-
-### Versions
-
-- [What can I do with the App Builder template?](#what-can-i-do-with-the-app-builder-template)
-- [What is required to build an App Builder app?](#what-is-required-to-build-an-app-builder-app)
-- [Why can't I change the name of my App Builder app?](#why-cant-i-change-the-name-of-my-app-builder-app)
+- [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
+- [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
+- [When will ZXPs be supported by this portal?](#when-will-zxps-be-supported-by-this-portal)
+- [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
+- [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
+- [How do Tags work?](#how-do-tags-work)
+- [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
 
-### Why was my listing rejected?
+### How do I set up an account with FastSpring to collect revenue for my first paid listing?
 
-Many listings get rejected for different reasons. See the Submission and Review section for more details.
+Use [this link](https://fastspring.com/sign-up/payee-adobe/) to create an account with our third-party payment provider FastSpring in order to sell paid plugins.
 
-### How do I delete Runtime from my project or workspace?
+Once you have your account you can [login to FastSpring](https://springboard.fastspring.com/email.xml) and set your payment method. After you obtain your key, set it in the Commerce section of your public profile under the "Account and Profile".
 
-Currently it is not possible to remove Runtime from a project. Please create a new project instead.
+Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogram/creativecloud/support/faq.html#Tabs_contentbody_section_par_tabs_tab3:~:text=CC%20Integrations%20Review) if you need help entering your FastSpring key.
 
-### What is a workspace?
+### What do I do when I get “Access Denied” upon login?
 
-Workspaces are currently only available when building App Builder apps using a templated project. Workspaces allow you to collaborate with other developers on your team as part of the same larger project, yet with your own dedicated Runtime namespace and credentials. Stage and Production workspaces are provided out of the box, and you are able to add as many workspaces as you need. Please note that the Production workspace will be the one used for submission approval.
+First, if you have both an Enterprise and Personal account, you can try to login with the other. Next if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use the slack channel to get help [here](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
 
-### What is the difference between "Project title" and "App name"?
+### When will ZXPs be supported by this portal?
 
-The _Project title_ is for internal use only. It is recommended that if you are working in collaboration with multiple developers, you provide a project title that is meaningful and makes the project easy to distinguish from other projects in the organization.
+Support for ZXPs is planned for June 2023
 
-The _App name_ is the public-facing name of the application and is used for setting up environments and **cannot be changed once the project is created**. It is important to consider the name of the application as it cannot be altered once it is saved in the set up screen.
+### What is the revenue share for paid products?
 
-### What can I do with the App Builder template?
+For any paid product you offer for sale you will take 90% of the sales revenue. Further details are covered here. You will need to register with our payment provider FastSpring. After you have registered, you will receive a special FastSpring key and a small text reference you need to add to your profile page, so we can ensure all sales are applied to your account.
 
-The App Builder template provides all of the developer tools you need to build Single Page Applications with Adobe's UI toolkit, create microservices, and orchestrate APIs in Adobe Experience Cloud. Collaborate with your team in dedicated workspaces and deploy to your organization seamlessly. App Builder apps need to be approved by your organization's administrators before they can be published.
+### What should I do to get support with development?
 
-For more information, please see the [App Builder documentation](https://www.adobe.io/apis/experienceplatform/project-firefly/).
+Please refer to this page for development support. The developer support annual case bundles are priced as follows:
 
-### What is required to build an App Builder app?
+- [Three cases for US$ 750](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan)
+- [Seven cases for US$ 1,600](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan-7-cases)
 
-Please see the latest [App Builder documentation](https://www.adobe.io/apis/experienceplatform/project-firefly/).
+### How do Tags work?
 
-### Why can't I create a project for my organization?
+There are three types of Tags to choose when creating or editing a listing:
 
-For enterprise organizations, you must be a system administrator or developer in order to create projects for your organization.
+**Primary Tags** – These are for filtering Extensions on Adobe Exchange. Producers can choose up to two from a list of twenty primary tags. The “Most Popular Tags” filter on Adobe Exchange will display the twelve most popular tags. Producers can always go back and edit their primary tags if they are not displayed in the filter.
 
-For information on how to manage developers in the admin console, see the [managing developers documentation](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+**Secondary Tags** – Producers can choose up to seven from the same 20 tags and these will be searchable on Adobe Exchange.
 
-### Why can't I add an XD plugin to my project?
+**Custom Tags** – Producers can enter up to two custom tags and these will also be searchable on Adobe Exchange. TIP: Use one-word custom tags. If two words are entered, the custom tag will be truncated to the first word.
 
-XD plugins are currently only available to create as personal projects. This feature will be available to enterprise organizations soon. To begin building an XD plugin, visit the [plugins overview](../guides/plugins/index.md).
+**Migrated Tags from Add-ons Exchange Listings** - Migrated Tags will be grandfathered if they had more than the allowable 7+2 searchable tags. However, there is a max character count of 256 characters for secondary+custom tags. Delete some migrated tags to stay within the limit if new tags are desired.
 
-Quickly navigate between personal projects and your organization’s projects through the “org switcher” in the top-right corner of Console. For a walk through of Console UI elements, see the [getting started guide](../guides/getting-started.md).
+### I’m stuck! Can you help me?
 
-### Why can't I add Adobe I/O Runtime to my project?
-
-Adobe I/O Runtime is only available for enterprise customers and requires a license. Please contact your Adobe sales representative for more details.
-
-### I want to generate my own JWT. How do I do that?
-
-Head to Service Account (JWT) in the Credentials section to see your credential details and generate the JWT.
-
-### Why do I see a Read Only label on some of my projects? Even some that I created?
-
-A project or workspace is set to _Read Only_ if you have not been granted access to all services within the project or workspace. Work with your organization's administrators to determine which services and product profiles you should have access to.
-
-### Why do I see an Auto-generated label on some of my projects?
-
-Certain Adobe products may need to create projects in Developer Console inside your organization. These auto-generated projects are visible, but cannot be edited, by normal organization users.
-
-### How do I know if I should use JWT or OAuth?
-
-The authentication method depends on the type of app you're building. To learn more about authentication and authorization, read the [authentication documentation](../guides/authentication/index.md).
-
-### Why can't I change the name of my App Builder app?
-
-The app name is used to generate the URL for your project. We also leverage the app name for the namespace of each workspace.
-
-### Where did my integrations and plugins go?
-
-Integrations and plugins are now projects. Go to **Projects** in the UI to find all of your existing integrations & plugins. To learn more about projects, read the [projects overview](../guides/projects/index.md).
-
-### Where can I find the sample code for OAuth authentication?
-
-There are currently code samples available for [NodeJS](https://github.com/AdobeDocs/adobe-dev-console/tree/main/samples/adobe-auth-node) and [Python](https://github.com/AdobeDocs/adobe-dev-console/tree/main/samples/adobe-auth-python).
-
-### How to use the private key for generating a JWT?
-
-Please copy the full content of private key including `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----` to generate a correct JWT token.
-
-### What do Default Redirect URI and the Redirect URI Pattern mean?
-
-The default redirect URI is the URL where Adobe Identity Management Service (IMS) will send the authorization code after a successful login with Adobe. You will need that code to make a call to the token endpoint to receive an access token.
-
-The redirect URI pattern is a regex representation of allowed URLs to receive the authorization code. It is used when you pass an optional parameter `redirect_url` with your request.
+It’s all going to be OK. [Email us](mailto:ccintrev@adobe.com) and we’ll help you.
