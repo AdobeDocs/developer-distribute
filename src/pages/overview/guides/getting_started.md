@@ -42,31 +42,21 @@ This view is shown when you click on a listing from either the "Home" tab or "Li
 
 ### Overview
 
-#### Overview - New Listing
-
-Creating a listing lands you on the "Listing Overview" page. The "Get Started" helper text guides you to the new "Listing Details" or "Version" screens. Note that the first time a listing is published, both listing and version information must be complete before proceeding to submit.
+**New Listing** - Creating a listing lands you on the "Listing Overview" page. The "Get Started" helper text guides you to the new "Listing Details" or "Version" screens. Note that the first time a listing is published, both listing and version information must be complete before proceeding to submit.
 
 ![](../../images/Listing_Overview_new_listing.png)
 
-#### Overview - Published Listing
-
-Clicking the **View** button on any listing will navigate you to its "Listing Overview" screen. The "Next Steps" helper text guides developers to update the listing details or add a plugin version.
+**Published Listing** - Clicking the **View** button on any listing will navigate you to its "Listing Overview" screen. The "Next Steps" helper text guides developers to update the listing details or add a plugin version.
 
 ![](../../images/Listing_Overview_published_listing.png)
 
 ### Listing Details
 
-This view allows you to manage your listing metadata in five tabs: General, Localizations, Media, Tags and Services.
-
-#### Listing Details - New Listing
-
-This is where you enter your new listing metadata. All mandatory fields are marked with an asterisk. “Add a version” helper text reminds developer that a version is also needed the first time a listing is published.
+This is where you enter your new listing metadata in five tabs: General, Localizations, Media, Tags and Services.All mandatory fields are marked with an asterisk. “Add a version” helper text reminds developer that a version is also needed the first time a listing is published.
 
 ![](../../images/Listing_Details_new_listing.png)
 
-#### Listing Details - Published Listing
-
-Clicking the upper right **Edit** button on a published, approved or retracted "Listing Details" page will enable editing of your metadata. Note the Published status has an – editing suffix and all edited fields are highlighted with a “Changed” box.
+**Published Listing** - Clicking the upper right **Edit** button on a published, approved or retracted "Listing Details" page will enable editing of your metadata. Note the Published status has a "– editing" suffix and all edited fields are highlighted with a “Changed” box.
 
 ![](../../images/Listing_Details_published_listing.png)
 
@@ -74,21 +64,15 @@ Clicking the upper right **Edit** button on a published, approved or retracted "
 
 This section of the listing details can be found in the left side nav and allows you to **Add** a new version or click on existing versions to manage them.
 
-#### Version - Add New Version
-
-This view allows you to add your specific version data, including your plugin package file in the "General" tab, your release notes in the "Localizations" tab and your screenshots/videos in the "Media" tab.
+**Add New Version** - This view allows you to add your specific version data, including your plugin package file in the "General" tab, your release notes in the "Localizations" tab and your screenshots/videos in the "Media" tab.
 
 ![](../../images/plugin_version_add_new_version.png)
 
-#### Version - Manage Existing Version
-
-The main thing to note that is different from the above, is that no data can be changed for a "Submitted" or "Published" version, but the plugin can be downloaded.
+**Manage Existing Version** - The main thing to note that is different from the above, is that no data can be changed for a "Submitted" or "Published" version, but the plugin can be downloaded.
 
 ![](../../images/plugin_version_manage_published.png)
 
-#### Version - Manage All Versions
-
-Here you are shown your list of versions so you can easily retract published ones, re-publish retracted ones or delete rejected or draft versions.
+**Manage All Versions** - Here you are shown your list of versions so you can easily retract published ones, re-publish retracted ones or delete rejected or draft versions.
 
 ![](../../images/plugin_version_manage_all.png)
 
@@ -107,8 +91,3 @@ Manage/submit your public facing publisher profile information and enter a [Fast
 The public profile _must_ be submitted before, or simultaneously with your first listing submission.
 
 ![](../../images/Account_and_Profile.png)
-
-<!-- 1. Create and submit a public profile
-2. Create your listing and enter the associated metadata
-3. Upload a packaged plugin version
-4. Submit your listing (with the option to preview it first, and the choice to publish it immediately or later) -->
