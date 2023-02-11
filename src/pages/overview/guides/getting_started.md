@@ -1,6 +1,6 @@
 # Getting Started
 
-This getting started guide introduces key areas of the [Adobe Developer Distribution portal](/distribute/home) to help you begin distributing your plugins quickly and easily. The Adobe Developer Distribution portal enables you to quickly publish a **listing** for your plugin on two Creative Cloud marketplaces; the Creative Cloud desktop app marketplace and Adobe Exchange in these three easy steps:
+This getting started guide introduces key areas of the [Adobe Developer Distribution portal](/distribute/home) to help you begin distributing your plugins quickly and easily. The Adobe Developer Distribution portal enables you to quickly publish a **listing** for your plugin on two Creative Cloud Marketplaces; the Creative Cloud desktop app Marketplace and Adobe Exchange in these three easy steps:
 
 1. Add your public profile.
 2. Create a **listing** to represent your plugin with metadata, the packaged plugin, and a **version**.
@@ -8,7 +8,7 @@ This getting started guide introduces key areas of the [Adobe Developer Distribu
 
 <InlineAlert slots="text" variant="help"/>
 
-A **listing** is what users see on a marketplace. It contains metadata to describe your plugin and how to use it, along with a specific **version** of your plugin to be installed by the Creative Cloud desktop app. For more details on these concepts and how they are used in the distribution of your plugin, see the [Glossary](./glossary.md).
+A **listing** is what users see on a Marketplace. It contains metadata to describe your plugin and how to use it, along with a specific **version** of your plugin to be installed by the Creative Cloud desktop app. For more details on these concepts and how they are used in the distribution of your plugin, see the [Glossary](./glossary.md).
 
 ## Overview
 

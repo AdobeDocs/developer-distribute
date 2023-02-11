@@ -6,7 +6,7 @@ A 3rd-party distributable item. It could be a UXP/ZXP plugin, a DX Application, 
 
 ## Listing 
 
-How an _App_ is published on the marketplace. A _Listing_ contains metadata and at least one plugin _Version_.
+How an _App_ is published on the Marketplace. A _Listing_ contains metadata and at least one plugin _Version_.
 
 ## Version
 
@@ -34,7 +34,7 @@ The lifecycle of a _Listing_ can be tracked by status on the “Your Listings”
 
 - **Approved** – A _Listing_ that has been reviewed but not yet published. A developer has chosen to “publish later” and can do so by clicking the “Publish” CTA.
 
-- **Published** – A reviewed _Listing_ that can be searched and browsed on a marketplace if public. DP deep-link is enabled to allow users to acquire public or limited apps.
+- **Published** – A reviewed _Listing_ that can be searched and browsed on a Marketplace if public. DP deep-link is enabled to allow users to acquire public or limited apps.
 
 - **Retracted** – A reviewed published _Listing_ whose Details Page deep-link is disabled and no longer discoverable.
 

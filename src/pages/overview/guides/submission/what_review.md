@@ -10,7 +10,7 @@ All data in your publisher profile will be reviewed, including your _public name
 
 ## Listing Details
 
-Users will see your plugin listing and version details when browsing Adobe marketplace surfaces.
+Users will see your plugin listing and version details when browsing Adobe Marketplace surfaces.
 
 In this section, we’ll go over what we’re checking for to ensure that your plugin listing details are complete, correct, and in line with Adobe’s standards.
 
@@ -56,7 +56,7 @@ For modal or headless plugins, the manifest minVersion must be set to 13.0 or ab
 
 - All required plugin icons must be provided at the appropriate dimensions and file sizes. See the manifest documentation for your host app and "Pre-submission checklist" in this guide to learn more about which icons to include in your plugin package versus which to upload via the Adobe Developer Console.
 
-- Plugin icon should be visible properly when the Creative Cloud Desktop Color theme is set to Dark mode.
+- Plugin icon should be visible properly when the Creative Cloud desktop app color theme is set to Dark mode.
 
 ### Adobe Branding
 

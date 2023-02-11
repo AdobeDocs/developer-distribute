@@ -14,7 +14,7 @@
 
 6. An easy monetization opportunity built in. Adobe uses [FastSpring](https://fastspring.com/sign-up/payee-adobe/) for the handling of payments.
 
-7. Users can trust that plugins listed on the marketplace are both secure and useable, because they have gone through a formal review process.
+7. Users can trust that plugins listed on the Marketplace are both secure and useable, because they have gone through a formal review process.
 
 8. You may use our official "Designed for" badges to promote your plugin.
 
