@@ -14,12 +14,11 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 ## How to Use the Developer Distribution Portal
 
-![](../../images/dd-use-cases.png)
+![](../../images/dd_use_cases.png)
 
 ## Access the Developer Distribution Portal
 
 For individual users who do not belong to an Adobe Enterprise or Team organization, we will automatically create your own personal Developer organization during sign-up. This is a common scenario for UXP Plugin Developers. Please see this [guide to identity types for more information](https://helpx.adobe.com/enterprise/using/identity.html).
-
 
 Note that if multiple people need to manage a plugin, they will have to share the same Adobe ID credential used.
 

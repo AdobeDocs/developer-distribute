@@ -36,13 +36,15 @@ Manage your listings either in card view or list view. Clicking **View** on any 
 
 ![](../../images/Your_Listings_list_view.png)
 
-## Listing
+## View Listing
 
 This view is shown when you click on a listing from either the "Home" tab or "Listings" tab and is where new or existing listings are managed. It also displays the overall listing and version status.
 
+### Overview
+
 #### Overview - New Listing
 
-Creating a listing lands you on the "Listing Overview" page. The "Get Started" helper text guides you to the new "Listing Details" or "Version" screens. Note that the first time alListing is published, both listing and version information must be complete before proceeding to submit.
+Creating a listing lands you on the "Listing Overview" page. The "Get Started" helper text guides you to the new "Listing Details" or "Version" screens. Note that the first time a listing is published, both listing and version information must be complete before proceeding to submit.
 
 ![](../../images/Listing_Overview_new_listing.png)
 
@@ -96,7 +98,7 @@ View the number of plugins acquired by month and year, multiple version status s
 
 ![](../../images/Published_Listing_Insights.png)
 
-## Account and Profile Page
+## Account and Profile
 
 Manage/submit your public facing publisher profile information and enter a [FastSpring](https://fastspring.com/sign-up/payee-adobe/) Key in the "Commerce" tab for paid listings.
 
