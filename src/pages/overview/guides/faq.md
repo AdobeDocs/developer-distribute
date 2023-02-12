@@ -1,8 +1,10 @@
 # Frequently Asked Questions
 
-This document provides answers to frequently asked questions about Adobe Developer Console. This is a great place to start when troubleshooting a problem with distributing your plugin. If you are unable to find the answer you're looking for, please refer to the [Support overview](index.md) for additional resources.
+This document provides answers to frequently asked questions about Adobe Developer Distribution. This is a great place to start when troubleshooting a problem with distributing your plugin.
 
 ## Questions
+
+<br/>
 
 - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
 - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)

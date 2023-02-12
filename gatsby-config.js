@@ -72,53 +72,9 @@ module.exports = {
             path: "overview/guides/best_practices.md",
             title: "Benefits and Best Practices",
           },
-          // {
-          //   path: "overview/guides/commerce.md",
-          //   title: "Commerce Guidelines ",
-          // },
-          // {
-          //   title: "User Guide",
-          //   path: "overview/guides/reference/index.md",
-          //   pages: [
-          //     {
-          //       path: "overview/guides/reference/listing/overview.md",
-          //       title: "Home",
-          //     },
-          //     {
-          //       title: "List of Listings",
-          //       path: "overview/guides/reference/listings.md",
-          //     },
-          //     {
-          //       title: "Listing",
-          //       path: "overview/guides/reference/listing/index.md",
-          //       pages: [
-          //         {
-          //           path: "overview/guides/reference/listing/overview.md",
-          //           title: "Overview",
-          //         },
-          //         {
-          //           path: "overview/guides/reference/listing/details.md",
-          //           title: "Details",
-          //         },
-          //         {
-          //           path: "overview/guides/reference/listing/versions.md",
-          //           title: "Versions",
-          //         },
-          //         {
-          //           path: "overview/guides/reference/listing/insights.md",
-          //           title: "Insights",
-          //         },
-          //         {
-          //           title: "Preview and Submit",
-          //           path: "overview/guides/reference/listing/preview_submit.md",
-          //         },
-          //       ],
-          //     },
-          //   ],
-          // },
           {
             title: "FAQ",
-            path: "overview/support/faq.md",
+            path: "overview/guides/faq.md",
           },
           {
             title: "Glossary",
@@ -131,7 +87,7 @@ module.exports = {
         title: "Support",
         pages: [
           {
-            path: "support/faq.md",
+            path: "overview/guides/faq.md",
             title: "FAQ",
           },
         ],

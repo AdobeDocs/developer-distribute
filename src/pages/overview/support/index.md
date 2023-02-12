@@ -8,9 +8,9 @@ If you have questions about how to use Adobe Developer Distribution or you are l
 
 Access a knowledge base of frequently asked questions and find answers to some of the most common questions asked by other Adobe Developer Console users. This is a great place to start when needing answers to a question.
 
-Visit the [Adobe Developer Distribution FAQ](faq.md) to learn more.
+Visit the [Adobe Developer Distribution FAQ](../guides/faq.md) to learn more.
 
-## Developer Forums
+<!-- ## Developer Forums -->
 
 <!--
 To start a discussion or ask questions please visit our [Developer Distribution Forums](https://www.adobe.com/go/devs_console_exl) on Adobe Experience League.
