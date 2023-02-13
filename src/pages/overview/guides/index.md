@@ -12,7 +12,7 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 **Note:** Developers can still choose to start in the Adobe Developer Console to create or manage a listing for their plugins if desired, but they will now simply be routed to the [Adobe Developer Distribution portal](/distribute/home) to complete the rest of the steps.
 
-## How to Use the Developer Distribution Portal
+## Developer Distribution New Listing Use Cases
 
 ![](../../images/dd_use_cases.png)
 
