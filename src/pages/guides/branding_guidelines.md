@@ -7,5 +7,3 @@ There are a [predefined set of guidelines](https://partners.adobe.com/exchangepr
 - Adobe does not allow any change of product icons. Developers are allowed to use Adobe published assets and logos within their products, as long as they do not alter Adobe icons in any way.
 
 - We expect you to thoroughly read the [Adobe Branding Guidelines](https://partners.adobe.com/exchangeprogram/creativecloud/marketing/dev-brand-guide.html) with due diligence and follow the guidelines exactly. Failure to do so will result in rejection during the review process.
-
-<InlineAlert slots="text" variant="warning"/>

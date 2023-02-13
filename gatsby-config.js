@@ -21,64 +21,64 @@ module.exports = {
         title: "Developer Distribution",
       },
       {
-        path: "overview/guides/index.md",
+        path: "guides/index.md",
         title: "Documentation",
       },
       {
         title: "Support",
-        path: "overview/support/",
+        path: "support/index.md",
       },
     ],
     subPages: [
       {
-        path: "overview/guides/index.md",
+        path: "guides/index.md",
         title: "Developer Distribution",
         pages: [
           {
-            path: "overview/guides/getting_started.md",
+            path: "guides/getting_started.md",
             title: "Getting Started",
           },
           {
-            path: "overview/guides/plugin_id.md",
+            path: "guides/plugin_id.md",
             title: "Get a Plugin ID",
           },
           {
             title: "Submission and Review",
-            path: "overview/guides/submission/overview.md",
+            path: "guides/submission/overview.md",
             pages: [
               // {
               //   path: "overview/guides/submission/how_submit.md",
               //   title: "How to Submit",
               // },
               {
-                path: "overview/guides/submission/what_review.md",
+                path: "guides/submission/what_review.md",
                 title: "What We Review",
               },
               {
-                path: "overview/guides/submission/timelines_outcomes.md",
+                path: "guides/submission/timelines_outcomes.md",
                 title: "Timelines and Outcomes",
               },
               {
-                path: "overview/guides/submission/rejection_reasons.md",
+                path: "guides/submission/rejection_reasons.md",
                 title: "Top Rejection Reasons",
               },
             ],
           },
           {
-            path: "overview/guides/branding_guidelines.md",
+            path: "guides/branding_guidelines.md",
             title: "Adobe Branding Guidelines",
           },
           {
-            path: "overview/guides/best_practices.md",
+            path: "guides/best_practices.md",
             title: "Benefits and Best Practices",
           },
           {
             title: "FAQ",
-            path: "overview/guides/faq.md",
+            path: "guides/faq.md",
           },
           {
             title: "Glossary",
-            path: "overview/guides/glossary.md",
+            path: "guides/glossary.md",
           },
         ],
       },

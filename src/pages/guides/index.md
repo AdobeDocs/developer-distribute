@@ -14,7 +14,7 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 ## Developer Distribution New Listing Use Cases
 
-![](../../images/dd_use_cases.png)
+![](../images/dd_use_cases.png)
 
 ## Access the Developer Distribution Portal
 
