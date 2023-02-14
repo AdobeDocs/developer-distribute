@@ -18,11 +18,11 @@ The following section will provide a brief overview of each view in the [Adobe D
 
 The home page is where developers create their public profile and create a new listing for their plugin. Here you will find "Quick start" links to create a new listing and edit or view your public profile. The "Get Started" box helps reminds developers that a profile must be created and submitted before any plugin can be submitted for approval.
 
-![](../images/DD_Home_first_time_user_sm.jpg)
+![Screenshot of the home page without any created plugins](../images/DD_Home_first_time_user_sm.jpg)
 
 As listings are created, up to three of the most recent will be shown for quick view and access. As listings are published, an "Insights" summary table will replace the "Get Started" box. To manage more than three listings, choose the **All listings** link or the **Listings** tab in the nav bar to go to the "Your Listings" page.
 
-![](../images/DD_Home_returning_user.png)
+![Screenshot of the home page with links to three plugins](../images/DD_Home_returning_user.png)
 
 ## Listings
 
@@ -30,11 +30,11 @@ Manage your listings either in card view or list view. Clicking **View** on any 
 
 **Card View**
 
-![](../images/Your_Listings_card_view.png)
+![Screenshot of the listings page](../images/Your_Listings_card_view.png)
 
 **List View**
 
-![](../images/Your_Listings_list_view.png)
+![Screenshot of the "Listings" page, with the information displayed in a tabular manner](../images/Your_Listings_list_view.png)
 
 ## View Listing
 
@@ -44,21 +44,21 @@ This view is shown when you click on a listing from either the "Home" tab or "Li
 
 **New Listing** - Creating a listing lands you on the "Listing Overview" page. The "Get Started" helper text guides you to the new "Listing Details" or "Version" screens. Note that the first time a listing is published, both listing and version information must be complete before proceeding to submit.
 
-![](../images/Listing_Overview_new_listing.png)
+![Screenshot of the listing page of a new listing](../images/Listing_Overview_new_listing.png)
 
 **Published Listing** - Clicking the **View** button on any listing will navigate you to its "Listing Overview" screen. The "Next Steps" helper text guides developers to update the listing details or add a plugin version.
 
-![](../images/Listing_Overview_published_listing.png)
+![Screenshot of the listing page of the "Overview" tab in a published listing](../images/Listing_Overview_published_listing.png)
 
 ### Listing Details
 
 This is where you enter your new listing metadata in five tabs: General, Localizations, Media, Tags and Services.All mandatory fields are marked with an asterisk. “Add a version” helper text reminds developer that a version is also needed the first time a listing is published.
 
-![](../images/Listing_Details_new_listing.png)
+![Screenshot of the listing details page with a form to edit the plugin information](../images/Listing_Details_new_listing.png)
 
 **Published Listing** - Clicking the upper right **Edit** button on a published, approved or retracted "Listing Details" page will enable editing of your metadata. Note the Published status has a "– editing" suffix and all edited fields are highlighted with a “Changed” box.
 
-![](../images/Listing_Details_published_listing.png)
+![Screenshot of a form with the same options as before publishing](../images/Listing_Details_published_listing.png)
 
 ### Versions
 
@@ -66,15 +66,15 @@ This section of the listing details can be found in the left side nav and allows
 
 **Add New Version** - This view allows you to add your specific version data, including your plugin package file in the "General" tab, your release notes in the "Localizations" tab and your screenshots/videos in the "Media" tab.
 
-![](../images/plugin_version_add_new_version.png)
+![Screenshot of a form where you can upload a .ccx or .xdx file](../images/plugin_version_add_new_version.png)
 
 **Manage Existing Version** - The main thing to note that is different from the above, is that no data can be changed for a "Submitted" or "Published" version, but the plugin can be downloaded.
 
-![](../images/plugin_version_manage_published.png)
+![Screenshot of the same form, but this time, all the fields are disabled. The existing file can be downloaded](../images/plugin_version_manage_published.png)
 
 **Manage All Versions** - Here you are shown your list of versions so you can easily retract published ones, re-publish retracted ones or delete rejected or draft versions.
 
-![](../images/plugin_version_manage_all.png)
+![Screenshot of the versions being displayed in a table including version number, status, app min and max version, and the publication date](../images/plugin_version_manage_all.png)
 
 ### Insights
 
@@ -82,7 +82,7 @@ View the number of plugins acquired by month and year, multiple version status s
 
 <!-- ![](../../images/Published_Listing_Insights.png) -->
 
-![](../images/Published_Listing_Insights.png)
+![Screenshot showing multiple charts, including number of acquisitions per month, yearly acquisitions, ratings and reviews, as well as a pie chart showing a "status breakdown" of the available versions ("approved", "draft", etc.)](../images/Published_Listing_Insights.png)
 
 ## Account and Profile
 
@@ -94,4 +94,4 @@ The public profile _must_ be submitted before, or simultaneously with your first
 
 <!-- ![](../../images/Account_and_Profile.png) -->
 
-![](../images/Account_and_Profile.png)
+![Screenshot of the Account and information page, containing the option to specify "public name", "marketing website", "description", a 250*250 px logo, and Commerce information](../images/Account_and_Profile.png)
