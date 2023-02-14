@@ -4,7 +4,7 @@
 
 A 3rd-party distributable item. It could be a UXP/ZXP plugin, a DX Application, an Adobe Sign Integration etc. and may or may not be associated with an API. To unlock future features, all Apps will have a project assigned to them.
 
-## Listing 
+## Listing
 
 How an _App_ is published on the Marketplace. A _Listing_ contains metadata and at least one plugin _Version_.
 
