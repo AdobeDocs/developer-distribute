@@ -13,7 +13,7 @@
 module.exports = {
   // pathPrefix: process.env.PATH_PREFIX || "/creative-cloud/distribution/",
   // The /developer-distribution will go to the helix landing page
-  pathPrefix: process.env.PATH_PREFIX || "/developer-distribution/overview",
+  pathPrefix: process.env.PATH_PREFIX || "/developer-distribution/docs/",
   siteMetadata: {
     pages: [
       {
