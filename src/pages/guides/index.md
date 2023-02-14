@@ -14,7 +14,13 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 ## Developer Distribution New Listing Use Cases
 
-![](../images/dd_use_cases.png)
+![
+Diagram listing common use cases:
+Developer Distribution (Start with the listing metadata): Create new listing, then Download starter package with plugin ID, then Upload plugin & enter version details, then Submit for review.
+Developer's own sandbox (Develop new plugin): Create new listing, then download starter package with plugin ID, then upload plugin & enter version details, then complete listings & submit for review.
+UXP Development Tool (UDT) (Develop plugin using temporary plugin ID): Create new listing, then obtain plugin ID and add to manifest, then upload plugin & enter version details, then complete listing & submit for review.
+Adobe Developer Console (Create plugin project and get plugin ID): Create new listing, then upload plugin & enter verison details, then complete listing details, then submit for review
+](../images/dd_use_cases.png)
 
 ## Access the Developer Distribution Portal
 
