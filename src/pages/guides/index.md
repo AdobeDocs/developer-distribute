@@ -24,4 +24,26 @@ Note that if multiple people need to manage a plugin, they will have to share th
 
 Users who already belong to an Adobe Enterprise or Team organization require either System Administrator or Developer permissions to access the Adobe Developer Console. If you are denied access to Developer Distribution when logging in with a “Company” Adobe ID, [contact your system administrator](https://helpx.adobe.com/enterprise/kb/contact-administrator.html) about getting Developer permissions assigned. More information about user management can be found in [the Adobe Admin Console guide](https://helpx.adobe.com/enterprise/using/setup-enterprise-id.html).
 
+
+<DiscoverBlock slots="heading, link, text"/>
+
+## Next Steps
+
+[Getting started](./getting_started.md)
+
+Get to know the key concepts around the developer distribution portal.
+
+<DiscoverBlock slots="link, text"/>
+
+[Get a Plugin ID](./plugin_id.md)
+
+Learn how to get a plugin ID for your plugin.
+
+<DiscoverBlock slots="link, text"/>
+
+[Submission and Review](./submission/overview.md)
+
+Learn about the submission and review process for your plugin.
+
+<br/>
 <br/>
