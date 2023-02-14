@@ -46,4 +46,3 @@ Learn how to get a plugin ID for your plugin.
 Learn about the submission and review process for your plugin.
 
 <br/>
-<br/>
