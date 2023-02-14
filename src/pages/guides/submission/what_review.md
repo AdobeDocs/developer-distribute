@@ -16,11 +16,9 @@ In this section, we’ll go over what we’re checking for to ensure that your p
 
 ### Plugin Description
 
-
 ### Plugin Metadata
 
 - A plugin name should be unique and not identical to existing third party plugin name.
-
 
 - The plugin description must be relevant and self-explanatory.
 
