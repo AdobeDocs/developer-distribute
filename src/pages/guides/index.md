@@ -1,7 +1,5 @@
 <Hero slots="heading, text" background="rgb(141, 52, 78)" hideBreadcrumbNav={false} width="100%"/>
 
-<!-- ![Hero image](../../images/S_filled_DD_CreateApps_1400x500_x2.png) -->
-
 # Adobe Developer Distribution
 
 A self-service submission portal for Creative Cloud UXP plugin developers to publish listings on the Adobe Exchange and Creative Cloud Marketplaces.
@@ -14,13 +12,34 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
 
 ## Developer Distribution New Listing Use Cases
 
-![
+![Diagram outlining the Use Cases of Developer Distribution. Text description in collapsible element below.](../images/use-cases.drawio.svg)
+
+<details>
+    <summary>Text Description of Diagram</summary>
+
 Diagram listing common use cases:
-Developer Distribution (Start with the listing metadata): Create new listing, then Download starter package with plugin ID, then Upload plugin & enter version details, then Submit for review.
-Developer's own sandbox (Develop new plugin): Create new listing, then download starter package with plugin ID, then upload plugin & enter version details, then complete listings & submit for review.
-UXP Development Tool (UDT) (Develop plugin using temporary plugin ID): Create new listing, then obtain plugin ID and add to manifest, then upload plugin & enter version details, then complete listing & submit for review.
-Adobe Developer Console (Create plugin project and get plugin ID): Create new listing, then upload plugin & enter verison details, then complete listing details, then submit for review
-](../images/dd_use_cases.png)
+- Developer Distribution (Start with the listing metadata): 
+  1. Create new listing
+  2. Download starter package with plugin ID
+  3. Upload plugin & enter version details
+  4. Submit for review.
+- Developer's own sandbox (Develop new plugin):
+  1. Create new listing
+  2. download starter package with plugin ID
+  3. upload plugin & enter version details
+  4. complete listings & submit for review.
+- UXP Development Tool (UDT) (Develop plugin using temporary plugin ID):
+  1. Create new listing
+  2. obtain plugin ID and add to manifest
+  3. upload plugin & enter version details
+  4. complete listing & submit for review.
+- Adobe Developer Console (Create plugin project and get plugin ID):
+  1. Create new listing
+  2. upload plugin & enter verison details
+  3. complete listing details
+  4. submit for review
+
+</details>
 
 ## Access the Developer Distribution Portal
 
