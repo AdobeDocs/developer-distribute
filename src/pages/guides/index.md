@@ -18,7 +18,7 @@ A self-service submission portal for Creative Cloud UXP plugin developers to pub
     <summary>Text Description of Diagram</summary>
 
 Diagram listing common use cases:
-- Developer Distribution (Start with the listing metadata): 
+- Developer Distribution (Start with the listing metadata):
   1. Create new listing
   2. Download starter package with plugin ID
   3. Upload plugin & enter version details
