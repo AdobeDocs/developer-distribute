@@ -86,7 +86,7 @@ module.exports = {
         title: "Support",
         pages: [
           {
-            path: "overview/guides/faq.md",
+            path: "guides/faq.md",
             title: "FAQ",
           },
         ],
