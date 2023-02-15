@@ -16,7 +16,7 @@ module.exports = {
   siteMetadata: {
     pages: [
       {
-        path: "/developer-distribution",
+        path: "/developer-distribution/creative-cloud/",
         title: "Developer Distribution",
       },
       {
