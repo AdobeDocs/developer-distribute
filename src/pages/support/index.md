@@ -2,11 +2,11 @@
 
 # Adobe Developer Distribution Support
 
-If you have questions about how to use Adobe Developer Distribution or you are looking to report bugs, make feature requests, and more, Developer Distribution provides multiple resources that can help.
+If you have questions about how to use Adobe Developer Distribution or you are looking to report bugs, make feature requests, and more, we provide resources here to help.
 
 ## Frequently Asked Questions
 
-Access a knowledge base of frequently asked questions and find answers to some of the most common questions asked by other Adobe Developer Console users. This is a great place to start when needing answers to a question.
+Access a knowledge base of frequently asked questions and find answers to some of the most common questions asked by other Developer Distribution users. This is a great place to start when needing answers to a question.
 
 Visit the [Adobe Developer Distribution FAQ](../guides/faq.md) to learn more.
 
