@@ -45,10 +45,6 @@ module.exports = {
             title: "Submission and Review",
             path: "guides/submission/overview.md",
             pages: [
-              // {
-              //   path: "overview/guides/submission/how_submit.md",
-              //   title: "How to Submit",
-              // },
               {
                 path: "guides/submission/what_review.md",
                 title: "What We Review",
@@ -78,16 +74,6 @@ module.exports = {
           {
             title: "Glossary",
             path: "guides/glossary.md",
-          },
-        ],
-      },
-      {
-        path: "support/index.md",
-        title: "Support",
-        pages: [
-          {
-            path: "guides/faq.md",
-            title: "FAQ",
           },
         ],
       },
