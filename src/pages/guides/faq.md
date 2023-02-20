@@ -13,6 +13,9 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
 - [How do Tags work?](#how-do-tags-work)
 - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
+- [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
+- [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
+- [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
 
 ## Answers
 
@@ -58,3 +61,64 @@ There are three types of Tags to choose when creating or editing a listing:
 ### I’m stuck! Can you help me?
 
 It’s all going to be OK. [Email us](mailto:ccintrev@adobe.com) and we’ll help you.
+
+### Do I need to use the Adobe Developer Console at all in the process of distributing my plugin?
+
+No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
+
+### How can I fix a server error encountered while using the portal?
+
+Kindly clear the cache and cookies (at least the adobe.com cookies) before logging in to the Developer Distribution portal. If the issue persists, then please follow these steps:
+
+1. Clear the browser cache and cookies.
+
+2. Log out from the Developer Distribution portal and log in again.
+
+3. Use the steps below to collect the browser network and console logs as you try to publish your listing.
+
+How to capture browser network and console logs:
+
+- Open the Chrome browser and reproduce the error.
+- Open the Chrome Developer Tools by typing Cmd+Option+I on Mac or F12 on Windows.
+- Please keep the Developer Tools open to see the error.
+- Select the Network tab and in the Name column, click on the Name for which you are getting server errors.
+- Share all the details that appear in the Headers tab (Request URL, Response Header, Request Headers etc.)
+- Next, select the Console tab and share the logs if you see any errors there.
+
+Create a HAR file by following the steps in this article: https://support.zendesk.com/hc/en-us/articles/204410413-Generating-a-HAR-file-for-troubleshooting
+
+Kindly share both the network logs and the HAR file through Google Drive or Dropbox.
+
+If possible, record a video and share it as well, via link or in the same Google Drive or Dropbox folder.
+
+Share the logs described above with us (share the logs in the HAR file along with screenshot of network/console logs with ccintrev@adobe.com. Providing logs (and optionally video) will help the Adobe Engineering team in fixing the problem expeditiously.
+
+### When do I have to complete my public profile?
+
+The public profile _must_ be submitted with at least the minimum required fields before, or simultaneously with your first listing submission.
+
+### How can I troubleshoot the following errors on package upload?
+
+- Plugin manifest has an invalid host app min version
+- Ensure that the Adobe product minimum version is in valid x.y format.
+- Ensure that the Adobe product maximum version is in valid x.y format.
+
+##### UXP Manifest Notes
+
+Due to an issue with the Exchange portal, the `host.minVersion` and `host.maxVersion` in your UXP plugin manifest must be specified in a.b format. We will soon support the a.b.c format (later in 2023, the date is unconfirmed at this time). For example, if your `manifest.json` contains:
+
+```
+    "host": {
+        "app": "PS",
+        "minVersion": "22.5.7"
+    },
+```
+
+Before submitting to the Marketplace, please edit your `manifest.json` to an a.b. `minVersion` format:
+
+```
+    "host": {
+        "app": "PS",
+        "minVersion": "22.5"
+    },
+```
