@@ -58,10 +58,6 @@ There are three types of Tags to choose when creating or editing a listing:
 
 **Migrated Tags from Add-ons Exchange Listings** - Migrated Tags will be grandfathered if they had more than the allowable 7+2 searchable tags. However, there is a max character count of 256 characters for secondary+custom tags. Delete some migrated tags to stay within the limit if new tags are desired.
 
-### I’m stuck! Can you help me?
-
-It’s all going to be OK. [Email us](mailto:ccintrev@adobe.com) and we’ll help you.
-
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my plugin?
 
 No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
@@ -122,3 +118,7 @@ Before submitting to the Marketplace, please edit your `manifest.json` to an a.b
         "minVersion": "22.5"
     },
 ```
+
+### I’m stuck! Can you help me?
+
+It’s all going to be OK. [Email us](mailto:ccintrev@adobe.com) and we’ll help you.
