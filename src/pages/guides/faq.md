@@ -11,11 +11,11 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [When will ZXPs be supported by this portal?](#when-will-zxps-be-supported-by-this-portal)
 - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
 - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
-- [How do Tags work?](#how-do-tags-work)
-- [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
+- [How do Categories and Tags work?](#how-do-categories-and-tags-work)
 - [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
 - [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
 - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
+- [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
 
@@ -46,9 +46,29 @@ Please refer to this page for development support. The developer support annual 
 - [Three cases for US$ 750](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan)
 - [Seven cases for US$ 1,600](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan-7-cases)
 
-### How do Tags work?
+### How do Categories and Tags work?
 
-You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets".
+#### Categories:
+
+When creating or editing a listing, you can choose from five categories:
+
+1. Collaboration
+2. Tools & Automation
+3. Usability & Testing
+4. Publish & Handoff
+5. Design Assets
+
+**Note:** Developers can select up to two categories at a time.
+
+#### Tags:
+
+In addition to the pre-defined categories, you can also add custom tags to your listing. To create a new tag:
+
+- Type at least two characters for your tag.
+- Use up to 100 characters to describe your tag.
+- Hit "Enter" to create the tag.
+
+<!-- You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets". -->
 
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my plugin?
 
