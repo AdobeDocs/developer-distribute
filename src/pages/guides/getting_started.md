@@ -26,7 +26,7 @@ As listings are created, up to three of the most recent will be shown for quick 
 
 ## Listings
 
-Manage your listings either in card view or list view. Clicking **View** on any card leads to the Listing screen to update the listing details or plugin version. The ellipsis points to more options to manage listing lifecycle, such as publish an approved app or retract a published one. Note that until plugin icon is uploaded, a default product mneumonic logo will appear.
+Manage your listings either in card view or list view. Clicking **View** on any card leads to the Listing details screens to update the listing details or plugin version. The ellipsis points to more options to manage listing lifecycle, such as publish an approved app or retract a published one. Note that until a plugin icon is uploaded, a default product mneumonic logo will appear.
 
 **Card View**
 
