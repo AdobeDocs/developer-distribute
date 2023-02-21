@@ -1,3 +1,24 @@
+---
+keywords:
+  - Creative Cloud
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+title: Branding Guidelines
+description: This is the page for branding guidelines
+---
+
 # Adobe Branding Guidelines
 
 There are a [predefined set of guidelines](https://partners.adobe.com/exchangeprogram/creativecloud/marketing/dev-brand-guide.html) that are published by Adobe periodically for the use of Adobe assets and product icons. It is expected that developers strictly adhere to these guidelines.

@@ -1,3 +1,24 @@
+---
+keywords:
+  - Creative Cloud
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+title: Get a Plugin ID
+description: This is the get a plugin ID page
+---
+
 # Get a Plugin ID
 
 Each Marketplace listing should have a unique Plugin ID. The plugin package manifest should use the same ID that is associated with the listing. You can obtain a unique plugin ID in any of the following three ways:

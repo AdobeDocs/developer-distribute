@@ -1,3 +1,24 @@
+---
+keywords:
+  - Creative Cloud
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+title: Submission and Review - What We Review
+description: This is the page that describes what we review for a plugin submission
+---
+
 # What We Review
 
 In this section, we will show many of our review test cases and criteria. Each review test case is cause for rejection if not adhered to.

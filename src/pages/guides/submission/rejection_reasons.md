@@ -1,3 +1,24 @@
+---
+keywords:
+  - Creative Cloud
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+title: Submission and Review - Rejection Reasons
+description: This is the rejection reasons page for submission and review
+---
+
 # Top Rejection Reasons
 
 During the review process, plugins are reviewed with the goal of making sure users have positive experiences with the plugins they install, and thus sometimes plugins need to be rejected. This is most often seen when a developer submits a plugin for the first time. If a plugin is rejected, certain changes are requested to be made before they can be re-submitted for review.

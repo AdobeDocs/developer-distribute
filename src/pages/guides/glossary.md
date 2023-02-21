@@ -1,3 +1,24 @@
+---
+keywords:
+  - Creative Cloud
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+title: Glossary
+description: This is the glossary of terms page
+---
+
 # Glossary
 
 ## App

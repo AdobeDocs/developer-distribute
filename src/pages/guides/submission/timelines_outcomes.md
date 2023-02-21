@@ -1,3 +1,24 @@
+---
+keywords:
+  - Creative Cloud
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+title: Submission and Review - Timelines and Outcomes
+description: This is the timelines and outcomes page for submission and review
+---
+
 # Timelines and Outcomes
 
 We aim to respond to all submissions within 10 business days, but we are typically much faster on average.
