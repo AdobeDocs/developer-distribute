@@ -22,7 +22,7 @@ A Creative Cloud host app associated with a particular _Listing_. UXP plugins ca
 
 ## Platform
 
-The platform being extended. Currently only UXP and ZXP will be introduced by June 2023.
+Developer Distribution will support plugin listing submission for Photoshop and XD on the UXP desktop extensibility platform starting in February 2023. Listing submission for all Creative Cloud Products using the ZXP/CEP extensibility platform will be available in June 2023. Submission for more Creative Cloud Products on UXP will continue to be introduced in the 2nd half of 2023.
 
 ## Listing Status
 

@@ -48,15 +48,7 @@ Please refer to this page for development support. The developer support annual 
 
 ### How do Tags work?
 
-There are three types of Tags to choose when creating or editing a listing:
-
-**Primary Tags** – These are for filtering Extensions on Adobe Exchange. Producers can choose up to two from a list of twenty primary tags. The “Most Popular Tags” filter on Adobe Exchange will display the twelve most popular tags. Producers can always go back and edit their primary tags if they are not displayed in the filter.
-
-**Secondary Tags** – Producers can choose up to seven from the same 20 tags and these will be searchable on Adobe Exchange.
-
-**Custom Tags** – Producers can enter up to two custom tags and these will also be searchable on Adobe Exchange. TIP: Use one-word custom tags. If two words are entered, the custom tag will be truncated to the first word.
-
-**Migrated Tags from Add-ons Exchange Listings** - Migrated Tags will be grandfathered if they had more than the allowable 7+2 searchable tags. However, there is a max character count of 256 characters for secondary+custom tags. Delete some migrated tags to stay within the limit if new tags are desired.
+You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets".
 
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my plugin?
 
