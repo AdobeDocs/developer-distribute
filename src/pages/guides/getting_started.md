@@ -73,17 +73,17 @@ This view is shown when you click on a listing from either the "Home" tab or "Li
 
 ### Listing Details
 
-This is where you enter your new listing metadata in five tabs: General, Localizations, Media, Tags and Services.All mandatory fields are marked with an asterisk. “Add a version” helper text reminds developer that a version is also needed the first time a listing is published.
+This is where you enter your new listing metadata in five tabs: General, Localizations, Media, Tags and Services. All mandatory fields are marked with an asterisk. “Add a version” helper text reminds you that a version is also needed the first time a listing is published.
 
 ![Screenshot of the listing details page with a form to edit the plugin information](../images/Listing_Details_new_listing.png)
 
-**Published Listing** - Clicking the upper right **Edit** button on a published, approved or retracted "Listing Details" page will enable editing of your metadata. Note the Published status has a "– editing" suffix and all edited fields are highlighted with a “Changed” box.
+**Published Listing** - Clicking the upper right **Edit** button on a published, approved or retracted "Listing Details" page will enable editing of your metadata. Note, the "Published" status has a "– editing" suffix and all edited fields are highlighted with a “Changed” box.
 
 ![Screenshot of a form with the same options as before publishing](../images/Listing_Details_published_listing.png)
 
 ### Versions
 
-This section of the listing details can be found in the left side nav and allows you to **Add** a new version or click on existing versions to manage them.
+This section of the listing details can be found in the left side navigation and allows you to **Add** a new version or click on existing versions to manage them.
 
 **Add New Version** - This view allows you to add your specific version data, including your plugin package file in the "General" tab, your release notes in the "Localizations" tab and your screenshots/videos in the "Media" tab.
 
@@ -93,7 +93,7 @@ This section of the listing details can be found in the left side nav and allows
 
 ![Screenshot of the same form, but this time, all the fields are disabled. The existing file can be downloaded](../images/plugin_version_manage_published.png)
 
-**Manage All Versions** - Here you are shown your list of versions so you can easily retract published ones, re-publish retracted ones or delete rejected or draft versions.
+**Manage All Versions** - Here you are shown your list of versions so you can easily retract "Published" versions, re-publish "Retracted" ones or delete "Rejected" or "Draft" versions.
 
 ![Screenshot of the versions being displayed in a table including version number, status, app min and max version, and the publication date](../images/plugin_version_manage_all.png)
 

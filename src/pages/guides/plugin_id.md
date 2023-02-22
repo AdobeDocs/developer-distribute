@@ -25,7 +25,7 @@ Each Marketplace listing should have a unique Plugin ID. The plugin package mani
 
 ## Starting from the Adobe UXP Developer Tool (UDT)
 
-Build your plugin using UDT and once you are ready to publish click on ‘Share on marketplace’. From the Developer Distribution home page, create a new listing and simply copy the unique plugin ID generated. Replace the ID in your plugin package manifest with the copied plugin ID.
+Build your plugin using UDT, and once you are ready to publish click on ‘Share on marketplace’. From the Developer Distribution home page, create a new listing and simply copy the unique plugin ID generated. Replace the ID in your plugin package manifest with the copied plugin ID.
 
 ## Starting from Adobe Developer Distribution
 
@@ -33,7 +33,7 @@ Create a new listing from the [Developer Distribution home page](/distribute/hom
 
 ## Starting from Adobe Developer Console
 
-Add a plugin to a project in Developer Console, download a starter package. Click on "Distribute" and you will be redirected to the Developer Distribution "Listing Overview" page.
+Add a plugin to a project in Developer Console and download a starter package. Click on "Distribute" and you will be redirected to the Developer Distribution "Listing Overview" page.
 
 <InlineAlert slots="text"/>
 
