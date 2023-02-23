@@ -19,7 +19,7 @@ title: Documentation for Adobe Developer Distribution
 description: A self-service submission portal for Creative Cloud UXP plugin developers to publish listings on the Adobe Exchange and Creative Cloud Marketplaces.
 ---
 
-<Hero slots="heading, text" background="rgb(141, 52, 78)" hideBreadcrumbNav={false} width="100%"/>
+<Hero slots="heading, text" background="rgb(141, 52, 78)"/>
 
 # Adobe Developer Distribution
 
