@@ -50,11 +50,11 @@ Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogr
 
 ### What do I do when I get “Access Denied” upon login?
 
-First, if you have both an Enterprise and Personal account, you can try to login with the other. Next if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use the slack channel to get help [here](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
+First, if you have both an Enterprise and Personal account, you can try to login with the other. Next, if you are in an Enterprise, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). Your Admin should consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees may use this slack channel to get help: [#adobe-admin-console](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
 
 ### When will ZXPs be supported by this portal?
 
-Support for ZXPs is planned for June 2023
+Support for ZXPs is planned for June 2023.
 
 ### What is the revenue share for paid products?
 
