@@ -58,14 +58,14 @@ Support for ZXPs is planned for June 2023
 
 ### What is the revenue share for paid products?
 
-For any paid product you offer for sale you will take 90% of the sales revenue. Further details are covered here. You will need to register with our payment provider FastSpring. After you have registered, you will receive a special FastSpring key and a small text reference you need to add to your profile page, so we can ensure all sales are applied to your account.
+For any paid product you offer for sale you will take 90% of the sales revenue. Further details are covered [here](https://partners.adobe.com/exchangeprogram/creativecloud/support/ae-payment-policy.html). You will need to register with our payment provider FastSpring. After you have registered, you will receive a special FastSpring key and a small text reference you need to add to your profile page, so we can ensure all sales are applied to your account.
 
 ### What should I do to get support with development?
 
-Please refer to this page for development support. The developer support annual case bundles are priced as follows:
+The developer support annual case bundles are priced as follows:
 
-- [Three cases for US$ 750](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan)
-- [Seven cases for US$ 1,600](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan-7-cases)
+- [Three cases for US $750](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan)
+- [Seven cases for US $1,600](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan-7-cases)
 
 ### How do Categories and Tags work?
 
