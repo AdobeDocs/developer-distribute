@@ -60,10 +60,63 @@ import "@spectrum-css/typography";
 import "@spectrum-css/assetlist";
 import { Divider } from "@adobe/gatsby-theme-aio/src/components/Divider";
 import DEFAULT_AVATAR from "./avatar.svg";
+/*
+ * Copyright 2020 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
 
-const clearQueryStringParameters = () => {
-  window.history.replaceState({}, "", `${window.location.pathname}`);
-};
+// import React, { Fragment, useRef, useEffect, useState } from "react";
+// import PropTypes from "prop-types";
+// import nextId from "react-id-generator";
+// import { withPrefix } from "gatsby";
+// import { GatsbyLink } from "../GatsbyLink";
+// import {
+//   findSelectedTopPage,
+//   findSelectedTopPageMenu,
+//   rootFix,
+//   rootFixPages,
+//   getExternalLinkProps,
+//   DESKTOP_SCREEN_WIDTH,
+//   MOBILE_SCREEN_WIDTH,
+//   DEFAULT_HOME,
+// } from "../../utils";
+// import { css } from "@emotion/react";
+// import { AnchorButton } from "../AnchorButton";
+// import { Button } from "../Button";
+// import { ProgressCircle } from "../ProgressCircle";
+// import {
+//   Adobe,
+//   ChevronDown,
+//   Magnify,
+//   Close,
+//   TripleGripper,
+//   CheckMark,
+// } from "../Icons";
+// import { ActionButton, Text as ActionButtonLabel } from "../ActionButton";
+// import { PickerButton } from "../Picker";
+// import { Menu, Item as MenuItem } from "../Menu";
+// import { Popover } from "../Popover";
+// import { Image } from "../Image";
+// import { Link } from "../Link";
+// import {
+//   Tabs,
+//   HeaderTabItem as TabsItem,
+//   Label as TabsItemLabel,
+//   TabsIndicator,
+//   positionIndicator,
+//   animateIndicator,
+// } from "../Tabs";
+// import "@spectrum-css/typography";
+// import "@spectrum-css/assetlist";
+// import { Divider } from "../Divider";
+// import DEFAULT_AVATAR from "./avatar.svg";
 
 const getSelectedTabIndex = (location, pages) => {
   const pathWithRootFix = rootFix(location.pathname);
@@ -72,12 +125,23 @@ const getSelectedTabIndex = (location, pages) => {
   let selectedIndex = pagesWithRootFix.indexOf(
     findSelectedTopPage(pathWithRootFix, pagesWithRootFix)
   );
-
+  let tempArr = pathWithRootFix.split("/");
+  let inx = tempArr.indexOf("use-cases");
+  if (selectedIndex === -1 && inx > -1) {
+    tempArr[inx + 1] = "agreements-and-contracts";
+    tempArr[inx + 2] = "sales-proposals-and-contracts";
+    if (tempArr[inx + 3] === undefined) {
+      tempArr.push("");
+    }
+    let tempPathName = tempArr.join("/");
+    selectedIndex = pagesWithRootFix.indexOf(
+      findSelectedTopPage(tempPathName, pagesWithRootFix)
+    );
+  }
   // Assume first item is selected
   if (selectedIndex === -1) {
     selectedIndex = 0;
   }
-
   return selectedIndex;
 };
 
@@ -92,10 +156,6 @@ const getAvatar = async (userId) => {
     console.warn(e);
     return DEFAULT_AVATAR;
   }
-};
-
-const toggleSideNavExpanded = (setSideNavExpanded) => {
-  setSideNavExpanded((sideNavExpanded) => !sideNavExpanded);
 };
 
 const GlobalHeader = ({
@@ -130,11 +190,11 @@ const GlobalHeader = ({
   const [profile, setProfile] = useState(null);
   const [avatar, setAvatar] = useState(DEFAULT_AVATAR);
   const [isLoadingProfile, setIsLoadingProfile] = useState(true);
-  const [sideNavExpanded, setSideNavExpanded] = useState(false);
+  const [selectedMenuItem, setSelectedMenuItem] = useState({});
 
   const POPOVER_ANIMATION_DELAY = 200;
-  const versionPopoverId = nextId();
-  const profilePopoverId = nextId();
+  const versionPopoverId = "version " + nextId();
+  const profilePopoverId = "profile " + nextId();
   const hasHome = home?.hidden !== true;
 
   const positionSelectedTabIndicator = (index) => {
@@ -148,7 +208,8 @@ const GlobalHeader = ({
   useEffect(() => {
     const index = getSelectedTabIndex(location, pages);
     setSelectedTabIndex(index);
-
+    const pathWithRootFix = rootFix(location.pathname);
+    setSelectedMenuItem(findSelectedTopPageMenu(pathWithRootFix, pages[index]));
     animateIndicator(selectedTabIndicatorRef, isAnimated);
     positionSelectedTabIndicator(index);
   }, [location.pathname]);
@@ -251,6 +312,18 @@ const GlobalHeader = ({
       tabsContainerRef.current.removeEventListener("scroll", onScroll);
   }, []);
 
+  const openDropDown = (data) => {
+    if (data.isOpen) {
+      setOpenMenuIndex(data.index);
+      setOpenVersion(data.isOpen);
+      if (openMenuIndex === -1 || openMenuIndex !== data.index) {
+        setTimeout(() => {
+          document.getElementById(`menuIndex${data.index}-0`).focus();
+        }, 100);
+      }
+    }
+  };
+
   return (
     <header
       role="banner"
@@ -295,10 +368,30 @@ const GlobalHeader = ({
         >
           <div
             css={css`
-              height: 100%;
-              grid-area: title;
+              display: none;
 
-              @media screen and (max-width: ${DESKTOP_SCREEN_WIDTH}) {
+              @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
+                grid-area: title;
+                display: block;
+                margin: 0 var(--spectrum-global-dimension-size-100);
+              }
+            `}
+          >
+            <ActionButton
+              isQuiet
+              onClick={() => {
+                toggleSideNav && toggleSideNav();
+              }}
+            >
+              <TripleGripper />
+            </ActionButton>
+          </div>
+
+          <div
+            css={css`
+              height: 100%;
+              @media screen and (min-width: ${MOBILE_SCREEN_WIDTH}) {
+                grid-area: title;
                 padding-left: ${!hasSideNav
                   ? "var(--spectrum-global-dimension-size-200)"
                   : "0"};
@@ -319,31 +412,15 @@ const GlobalHeader = ({
                   align-items: center;
                 `}
               >
-                <div
-                  css={css`
-                    display: none;
-
-                    @media screen and (max-width: ${DESKTOP_SCREEN_WIDTH}) {
-                      display: ${hasSideNav ? "block" : "none"};
-                      margin: 0 var(--spectrum-global-dimension-size-100);
-                    }
-                  `}
-                >
-                  <ActionButton
-                    isQuiet
-                    aria-expanded={sideNavExpanded}
-                    aria-controls="side-menu"
-                    aria-label="Open side menu"
-                    onClick={() => {
-                      toggleSideNav && toggleSideNav();
-                      toggleSideNavExpanded();
-                    }}
-                  >
-                    <TripleGripper aria-hidden="true" focusable="false" />
-                  </ActionButton>
-                </div>
                 <a
                   href="/"
+                  tabIndex={"0"}
+                  id="adobeIcon"
+                  onKeyDown={(e) => {
+                    if (e.key === "ArrowRight") {
+                      document.getElementById("product").focus();
+                    }
+                  }}
                   css={css`
                     display: flex;
                     height: 100%;
@@ -352,7 +429,7 @@ const GlobalHeader = ({
                     padding-right: var(--spectrum-global-dimension-size-300);
                     padding-bottom: var(--spectrum-global-dimension-size-25);
 
-                    @media screen and (max-width: ${DESKTOP_SCREEN_WIDTH}) {
+                    @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
                       padding-left: 0;
                       padding-right: 0;
                     }
@@ -420,6 +497,17 @@ const GlobalHeader = ({
                 >
                   <Link isQuiet variant="secondary">
                     <a
+                      tabIndex={"0"}
+                      id={"product"}
+                      // onBlur={()=>setOpenMenuIndex(-1)}
+                      onKeyDown={(e) => {
+                        if (e.key === "ArrowLeft") {
+                          document.getElementById("adobeIcon").focus();
+                        }
+                        if (e.key === "ArrowRight") {
+                          document.getElementById("tabindex0").focus();
+                        }
+                      }}
                       css={css`
                         display: flex;
                         height: calc(
@@ -460,7 +548,7 @@ const GlobalHeader = ({
             css={css`
               grid-area: navigation;
               ${hasHome &&
-              "margin-left: var(--spectrum-global-dimension-size-350);"}
+              "margin-left: var(--spectrum-global-dimension-size-200);"}
 
               @media screen and (max-width: ${DESKTOP_SCREEN_WIDTH}) {
                 ${!hasHome &&
@@ -480,6 +568,7 @@ const GlobalHeader = ({
               }
 
               @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
+                display: none;
                 position: absolute;
                 top: calc(
                   var(--spectrum-global-dimension-size-600) -
@@ -499,7 +588,6 @@ const GlobalHeader = ({
             <div
               css={css`
                 display: none;
-
                 @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
                   display: block;
                   pointer-events: none;
@@ -533,6 +621,7 @@ const GlobalHeader = ({
                   margin-top: 0;
                 }
               `}
+              isHeader={true}
               ref={tabsRef}
               onFontsReady={() => {
                 positionSelectedTabIndicator(selectedTabIndex);
@@ -563,8 +652,7 @@ const GlobalHeader = ({
               )}
               {pages.map((page, i) => {
                 const isSelectedTab = selectedTabIndex === i;
-                const menuPopoverId = nextId();
-
+                const menuPopoverId = "menu " + nextId();
                 const setTabRef = (element) => {
                   page.tabRef = { current: element };
                 };
@@ -577,16 +665,34 @@ const GlobalHeader = ({
                   <Fragment key={i}>
                     {page.href ? (
                       <TabsItem
+                        className={isSelectedTab ? "isSelected" : ""}
+                        css={css`
+                          ${isSelectedTab &&
+                          `
+                          color: var(--spectrum-global-color-gray-900);
+                        `}
+                        `}
+                        onFocus={() => {
+                          setOpenMenuIndex(-1);
+                        }}
                         elementType={GatsbyLink}
                         {...getExternalLinkProps(page.href)}
                         ref={setTabRef}
+                        id={`tabindex${i}`}
                         to={withPrefix(page.href)}
                         selected={isSelectedTab}
                       >
-                        <TabsItemLabel>{page.title}</TabsItemLabel>
+                        <TabsItemLabel> {page.title} </TabsItemLabel>
                       </TabsItem>
                     ) : (
                       <TabsItem
+                        tabIndex={"0"}
+                        id={`tabindex${i}`}
+                        className={isSelectedTab ? "isSelected" : ""}
+                        //  onFocus={()=>{setOpenMenuIndex(-1)}}
+                        index={i}
+                        hasDropdown
+                        openDropDown={openDropDown}
                         css={css`
                           ${openMenuIndex === i &&
                           `
@@ -601,10 +707,15 @@ const GlobalHeader = ({
                             background-color: var(--spectrum-global-color-gray-100);
                           }
                         `}
+                          ${isSelectedTab &&
+                          `
+                          color: var(--spectrum-global-color-gray-900);
+                        `}
                         `}
                         ref={setTabRef}
                         selected={isSelectedTab}
                         aria-controls={menuPopoverId}
+                        aria-label={page.title}
                         onClick={(event) => {
                           event.stopImmediatePropagation();
 
@@ -632,85 +743,243 @@ const GlobalHeader = ({
                             `transform: rotate(-90deg);`}
                           `}
                         />
-                        <Popover
-                          ref={setTabMenuRef}
-                          id={menuPopoverId}
-                          css={css`
-                            margin-left: calc(
-                              -1 * var(--spectrum-global-dimension-size-65)
-                            );
-                            margin-top: var(
-                              --spectrum-global-dimension-size-25
-                            );
-                            border-top-left-radius: 0;
-                            border-top-right-radius: 0;
-                            ${page.menu.some((menu) => menu.description) &&
-                            `width: var(--spectrum-global-dimension-size-2400);`}
+                        <div
+                          onClick={(event) => {
+                            event.stopImmediatePropagation();
 
-                            @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
-                              margin-top: calc(
-                                -1 * var(--spectrum-global-dimension-size-40)
-                              );
-                            }
-                          `}
-                          isOpen={openMenuIndex === i}
+                            setOpenVersion(false);
+                            setOpenProfile(false);
+                            setOpenMenuIndex(openMenuIndex === i ? -1 : i);
+                          }}
+                          role="button"
+                          tabIndex={0}
+                          aria-label={page.title}
+                          onFocus={() => {
+                            setOpenMenuIndex(i);
+                          }}
                         >
-                          <Menu>
-                            {page.menu.map((menu, k) => {
-                              const pathWithRootFix = rootFix(
-                                location.pathname
+                          <Popover
+                            ref={setTabMenuRef}
+                            id={menuPopoverId}
+                            css={css`
+                              margin-left: calc(
+                                -1 * var(--spectrum-global-dimension-size-65)
                               );
-                              const selectedMenu = findSelectedTopPageMenu(
-                                pathWithRootFix,
-                                page
+                              margin-top: var(
+                                --spectrum-global-dimension-size-25
                               );
-                              const menuHref = withPrefix(menu.href);
+                              border-top-left-radius: 0;
+                              border-top-right-radius: 0;
+                              ${page.menu.some((menu) => menu.description) &&
+                              `width: var(--spectrum-global-dimension-size-2400);`}
 
-                              return (
-                                <MenuItem
-                                  key={k}
-                                  href={menuHref}
-                                  {...getExternalLinkProps(menuHref)}
-                                  isHighlighted={menu === selectedMenu}
-                                >
-                                  {menu.description ? (
-                                    <div
-                                      css={css`
-                                        margin: var(
-                                            --spectrum-global-dimension-size-100
+                              @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
+                                margin-top: calc(
+                                  -1 * var(--spectrum-global-dimension-size-40)
+                                );
+                              }
+                            `}
+                            isOpen={openMenuIndex === i}
+                          >
+                            <Menu>
+                              {page.menu.map((menu, k) => {
+                                const pathWithRootFix = rootFix(
+                                  location.pathname
+                                );
+                                const selectedMenu = findSelectedTopPageMenu(
+                                  pathWithRootFix,
+                                  page
+                                );
+                                const menuHref = withPrefix(menu.href);
+                                return (
+                                  <MenuItem
+                                    className="spectrum-Link spectrum-Link--quiet"
+                                    key={k}
+                                    tabIndex="0"
+                                    id={`menuIndex${i}-${k}`}
+                                    href={menuHref}
+                                    {...getExternalLinkProps(menuHref)}
+                                    isHighlighted={menu === selectedMenu}
+                                    isSelected={menu === selectedMenuItem}
+                                    isHeightUnset={
+                                      menu.description ? true : false
+                                    }
+                                    css={css`
+                                      display: -webkit-box;
+                                      display: -webkit-flex;
+                                      display: -ms-flexbox;
+                                      display: flex;
+                                      height: calc(
+                                        100% -
+                                          var(
+                                            --spectrum-global-dimension-size-10
                                           )
-                                          0;
-                                      `}
-                                    >
+                                      ) !important;
+                                      -webkit-align-items: center;
+                                      -webkit-box-align: center;
+                                      -ms-flex-align: center;
+                                      align-items: center;
+                                      -webkit-box-pack: center;
+                                      -ms-flex-pack: center;
+                                      -webkit-justify-content: center;
+                                      justify-content: center;
+                                      box-sizing: border-box;
+                                      padding: 0
+                                        var(
+                                          --spectrum-global-dimension-size-175
+                                        ) !important;
+                                      margin-right: var(
+                                        --spectrum-global-dimension-size-175
+                                      ) !important;
+                                      white-space: nowrap;
+                                      color: var(
+                                        --spectrum-global-color-gray-700
+                                      ) !important;
+                                      -webkit-transition: background-color
+                                          var(
+                                            --spectrum-global-animation-duration-100
+                                          )
+                                          ease-out,
+                                        color
+                                          var(
+                                            --spectrum-global-animation-duration-100
+                                          )
+                                          ease-out;
+                                      transition: background-color
+                                          var(
+                                            --spectrum-global-animation-duration-100
+                                          )
+                                          ease-out,
+                                        color
+                                          var(
+                                            --spectrum-global-animation-duration-100
+                                          )
+                                          ease-out;
+
+                                      &:hover {
+                                        background-color: var(
+                                          --spectrum-global-color-gray-75
+                                        ) !important;
+                                        color: var(
+                                          --spectrum-global-color-gray-900
+                                        ) !important;
+                                        text-decoration: none !important;
+                                      }
+                                    `}
+                                    onKeyDown={(e) => {
+                                      if (e.key === "ArrowDown") {
+                                        e.preventDefault();
+
+                                        if (k + 1 === page.menu.length) {
+                                          setTimeout(() => {
+                                            setOpenMenuIndex(-1);
+                                            if (pages.length === i + 1) {
+                                              document
+                                                .getElementById(
+                                                  "getCredentialID"
+                                                )
+                                                .focus();
+                                            } else {
+                                              document
+                                                .getElementById(
+                                                  `tabindex${i + 1}`
+                                                )
+                                                .focus();
+                                            }
+                                          }, 100);
+                                        } else {
+                                          e.preventDefault();
+                                          e.currentTarget.nextElementSibling &&
+                                            e.currentTarget.nextElementSibling.focus();
+                                        }
+                                      }
+                                      if (e.key === "ArrowUp") {
+                                        e.preventDefault();
+                                        var event = e;
+                                        if (k === 0) {
+                                          setOpenMenuIndex(-1);
+                                          setTimeout(() => {
+                                            document
+                                              .getElementById(`tabindex${i}`)
+                                              .focus();
+                                          }, 100);
+                                        }
+                                        event.currentTarget
+                                          .previousElementSibling &&
+                                          e.currentTarget.previousElementSibling.focus();
+                                      }
+                                      if (e.key === "ArrowRigt") {
+                                        e.preventDefault();
+                                        e.currentTarget.nextElementSibling &&
+                                          e.currentTarget.nextElementSibling.focus();
+                                      }
+                                      if (e.key === "ArrowLeft") {
+                                        e.preventDefault();
+                                        if (k === 0) {
+                                          document
+                                            .getElementById(`tabindex${i}`)
+                                            .focus();
+                                        }
+                                        e.currentTarget
+                                          .previousElementSibling &&
+                                          e.currentTarget.previousElementSibling.focus();
+                                      }
+                                      if (e.key === "Enter") {
+                                        e.currentTarget.focus();
+                                      }
+                                    }}
+                                  >
+                                    {menu.description ? (
                                       <div
                                         css={css`
-                                          color: var(
-                                            --spectrum-global-color-gray-900
+                                          margin: var(
+                                              --spectrum-global-dimension-size-100
+                                            )
+                                            0;
+                                        `}
+                                      >
+                                        <div
+                                          css={css`
+                                            color: var(
+                                              --spectrum-global-color-gray-900
+                                            );
+                                          `}
+                                        >
+                                          {menu.title}
+                                        </div>
+
+                                        <div
+                                          className="spectrum-Body spectrum-Body--sizeXS"
+                                          css={css`
+                                            white-space: normal;
+                                            margin-top: var(
+                                              --spectrum-global-dimension-size-50
+                                            );
+                                          `}
+                                        >
+                                          {menu.description}
+                                        </div>
+                                      </div>
+                                    ) : (
+                                      <div
+                                        css={css`
+                                          margin-top: var(
+                                            --spectrum-global-dimension-size-50
+                                          );
+                                          margin-bottom: var(
+                                            --spectrum-global-dimension-size-50
                                           );
                                         `}
                                       >
                                         {menu.title}
                                       </div>
-                                      <div
-                                        className="spectrum-Body spectrum-Body--sizeXS"
-                                        css={css`
-                                          white-space: normal;
-                                          margin-top: var(
-                                            --spectrum-global-dimension-size-50
-                                          );
-                                        `}
-                                      >
-                                        {menu.description}
-                                      </div>
-                                    </div>
-                                  ) : (
-                                    <span>{menu.title}</span>
-                                  )}
-                                </MenuItem>
-                              );
-                            })}
-                          </Menu>
-                        </Popover>
+                                    )}
+                                  </MenuItem>
+                                );
+                              })}
+                            </Menu>
+                          </Popover>
+                        </div>
                       </TabsItem>
                     )}
                     {i === 0 && versions?.length > 0 && (
@@ -774,17 +1043,8 @@ const GlobalHeader = ({
                     -1 * var(--spectrum-global-dimension-size-125)
                   ) !important;
 
-                  @media screen and (max-width: ${DESKTOP_SCREEN_WIDTH}) {
-                    bottom: calc(
-                      var(--spectrum-global-dimension-size-400) -
-                        var(--spectrum-global-dimension-size-125)
-                    ) !important;
-                  }
-
                   @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
-                    bottom: calc(
-                      -1 * var(--spectrum-tabs-rule-size)
-                    ) !important;
+                    bottom: 0px !important;
                   }
                 `}
               />
@@ -796,38 +1056,22 @@ const GlobalHeader = ({
                   `}
                 >
                   <AnchorButton
+                    onFocus={(e) => {
+                      setOpenMenuIndex(-1);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === "ArrowLeft") {
+                        document.getElementById("tabindex5").focus();
+                      }
+                    }}
+                    id={"getCredentialID"}
                     variant="primary"
-                    style="outline"
                     href={withPrefix(docs.href)}
                   >
-                    <span class="spectrum-Button-label">
-                      {docs.title ?? "View Docs"}
-                    </span>
+                    {docs.title ?? "View Docs"}
                   </AnchorButton>
                 </div>
               )}
-              <div
-                css={css`
-                  display: none;
-                  margin-left: var(--spectrum-global-dimension-size-300);
-
-                  @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
-                    display: block;
-                  }
-                `}
-              >
-                <AnchorButton
-                  variant="primary"
-                  style="outline"
-                  href="/distribute"
-                >
-                  <span class="spectrum-Button-label">Distribute</span>
-                </AnchorButton>
-                &nbsp;&nbsp;
-                <AnchorButton variant="primary" style="outline" href="/console">
-                  <span class="spectrum-Button-label">Console</span>
-                </AnchorButton>
-              </div>
             </Tabs>
           </div>
           <div
@@ -844,43 +1088,56 @@ const GlobalHeader = ({
               {hasSearch && (
                 <ActionButton
                   id={searchButtonId}
-                  aria-label="search"
                   onClick={() => {
-                    setShowSearch((show) => {
-                      if (show) {
-                        clearQueryStringParameters();
-                      }
-                      return !show;
-                    });
+                    setShowSearch((show) => !show);
                   }}
+                  aria-label={showSearch ? "Close Search" : "Search"}
                   isQuiet
+                  tabIndex="0"
                   css={css`
                     margin-right: var(--spectrum-global-dimension-size-200);
 
                     @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
                       margin-right: 0;
                     }
+                    &:focus {
+                      border: 2px solid #007aff !important;
+                      border-radius: 15% !important;
+                    }
                   `}
                 >
                   {showSearch ? <Close /> : <Magnify />}
                 </ActionButton>
               )}
-              <AnchorButton style="outline" href="/distribute">
-                <span class="spectrum-Button-label">Distribute</span>
-              </AnchorButton>
-              &nbsp;&nbsp;
-              <AnchorButton
-                variant="primary"
-                style="outline"
-                href="/console"
+              <div
+                css={css`
+                  margin-right: var(--spectrum-global-dimension-size-50);
+
+                  @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
+                    display: none;
+                  }
+                `}
+              >
+                <AnchorButton style="outline" href="/distribute">
+                  <span class="spectrum-Button-label">Distribute</span>
+                </AnchorButton>
+              </div>
+              <div
                 css={css`
                   @media screen and (max-width: ${MOBILE_SCREEN_WIDTH}) {
                     display: none;
                   }
                 `}
               >
-                Console
-              </AnchorButton>
+                <AnchorButton
+                  variant="primary"
+                  href="/console"
+                  id={"consoleId"}
+                  tabIndex="0"
+                >
+                  Console
+                </AnchorButton>
+              </div>
               {hasIMS && (
                 <div
                   css={css`
@@ -888,7 +1145,8 @@ const GlobalHeader = ({
                     align-items: center;
                     justify-content: center;
                     margin-left: var(--spectrum-global-dimension-size-200);
-                    width: var(--spectrum-global-dimension-size-800);
+                    width: auto;
+                    // width: var(--spectrum-global-dimension-size-800);
                   `}
                 >
                   <ProgressCircle size="S" hidden={!isLoadingIms} />
@@ -898,9 +1156,15 @@ const GlobalHeader = ({
                       margin-top: calc(
                         -1 * var(--spectrum-global-dimension-size-25)
                       );
+                      &:focus {
+                        border: 2px solid #007aff !important;
+                        border-radius: 15% !important;
+                        padding-right: 5px;
+                      }
                     `}
                     hidden={isLoadingIms || isLoadingProfile || profile}
                     variant="primary"
+                    tabIndex="0"
                     isQuiet
                     onClick={() => {
                       ims.signIn();
@@ -913,6 +1177,7 @@ const GlobalHeader = ({
                     <button
                       aria-label="Profile"
                       aria-controls={profilePopoverId}
+                      aria-expanded={openProfile}
                       onClick={(event) => {
                         event.stopImmediatePropagation();
 
@@ -973,7 +1238,7 @@ const GlobalHeader = ({
                             );
                           `}
                         >
-                          <Image alt="Avatar" src={avatar} />
+                          <Image alt="" src={avatar} />
                         </div>
 
                         <div
@@ -999,15 +1264,15 @@ const GlobalHeader = ({
 
                         <AnchorButton
                           href="https://account.adobe.com/"
-                          variant="secondary"
-                          style="outline"
+                          variant="primary"
+                          isQuiet
                         >
                           Edit Profile
                         </AnchorButton>
 
                         <Button
+                          tabIndex="0"
                           variant="primary"
-                          style="outline"
                           css={css`
                             margin: var(--spectrum-global-dimension-size-200) 0;
                           `}
