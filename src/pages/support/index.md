@@ -31,13 +31,13 @@ Access a knowledge base of frequently asked questions and find answers to some o
 
 Visit the [Adobe Developer Distribution FAQ](../guides/faq.md) to learn more.
 
-<!-- ## Developer Forums -->
+## Developer Forums
 
-<!--
-To start a discussion or ask questions please visit our [Developer Distribution Forums](https://www.adobe.com/go/devs_console_exl) on Adobe Experience League.
-
-On the forums you will find official Adobe developers and knowledgeable community members who are ready and available to help you find the information you need. -->
+To start a discussion, ask questions or report something you're seeing, please visit our [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/plugin-marketplace/66). On the forums you will find official Adobe developers and knowledgeable community members who are ready and available to help you find the information you need. 
 
 ## Bugs and Feature Requests
 
-Log an issue on <https://github.com/AdobeDocs/developer-distribute/issues> to report any bugs or request new product features.
+Log an issue on <https://github.com/AdobeDocs/developer-distribute/issues> to report any bugs or request new product features. 
+
+## Formal Support Requests
+If none of the above helped you arrive at a solution to your issue, you can send an email to [ccintrev@adobe.com](mailto:ccintrev@adobe.com) with a thorough description of the problem and attach all relevant log details and screenshots.
