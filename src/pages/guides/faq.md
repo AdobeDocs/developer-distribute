@@ -107,7 +107,8 @@ The most common approach is to log in with your personal Adobe ID, since the Dev
 ### How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?
 Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
  
-On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view, (and the actions column in the list view), all affect the status of the overall listing, and will be different depending on the status. 
+On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status. 
+
 1. If a listing is “In Review” the *recall* action will remove your listing from the Review Queue and change its status back to "Draft" (but you lose your place in the review queue).
 2. If an Adobe reviewer rejects a submission the status will change to "Rejected".
 3. If an Adobe reviewer approves a submission, the status will change to "Approved" or "Published",  depending on whether or not you chose for it to be published immediately.
