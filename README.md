@@ -8,7 +8,7 @@ View the [demo](https://adobedocs.github.io/dev-site-documentation-template/) ru
 
 The slack channel #adobeio-onsite-onboarding is our main point of contact for help. Feel free to join the channel and ask any questions. 
 
-## How to develop
+## How to Develop
 
 For local development, simply use :
 ```
