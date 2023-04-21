@@ -903,11 +903,7 @@ const GlobalHeader = ({
                   }
                 `}>
 
-                <AnchorButton
-                  variant="primary"
-                  style="outline"
-                  href="/distribute"
-                >
+                <AnchorButton variant="accent" style="fill" href="/distribute">
                   <span class="spectrum-Button-label">Distribute</span>
                 </AnchorButton>
                 &nbsp;&nbsp;
