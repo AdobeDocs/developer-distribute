@@ -292,7 +292,7 @@ const SideNav = ({ mainNavPages, selectedPages, selectedSubPages, setShowSideNav
                 margin-bottom: 5px;
                `}>               
                 <AnchorButton variant="accent" style="fill" href="/distribute" id={'distributeId'} tabIndex="0">
-                    Distribute
+                  <span class="spectrum-Button-label">Distribute</span>
                 </AnchorButton>
               </li>
               <li>
