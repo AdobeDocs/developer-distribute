@@ -290,8 +290,8 @@ const SideNav = ({ mainNavPages, selectedPages, selectedSubPages, setShowSideNav
               <li
                css={css`
                 margin-bottom: 5px;
-               `}>
-                <AnchorButton variant="primary" href="/distribute" id={'distributeId'} tabIndex="0">
+               `}>               
+                <AnchorButton variant="accent" style="fill" href="/distribute" id={'distributeId'} tabIndex="0">
                     Distribute
                 </AnchorButton>
               </li>
