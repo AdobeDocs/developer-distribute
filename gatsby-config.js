@@ -38,6 +38,10 @@ module.exports = {
             title: "Getting Started",
           },
           {
+            path: "guides/cep/coming_soon.md",
+            title: "Coming soon for CEP",
+          },
+          {
             path: "guides/plugin_id.md",
             title: "Get a Plugin ID",
           },
