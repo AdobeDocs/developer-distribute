@@ -21,6 +21,9 @@ keywords:
 title: Build and Troubleshoot Resources
 description: Build and troubleshooting resources to help developers distributing CEP plugins.
 ---
+# [CEP Cookbook](https://cepcookbook.com)
+A list of resources that walk through how to build your plugin and get help as you go. Head to Developer Distribution when you’re ready to publicly list your plugin on the Adobe marketplaces.​
+
 
 # Build and Troubleshoot Resources
 A list of resources that walk through how to build your plugin and get help as you go. Head to Developer Distribution when you’re ready to publicly list your plugin on the Adobe marketplaces.​
@@ -29,7 +32,6 @@ A list of resources that walk through how to build your plugin and get help as y
 ## Resource header 1​
 2-3 sentences about resource 1, link to resource 1​
 CTA​
-
 ​
 
 ## Resource header 2​
