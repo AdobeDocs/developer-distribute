@@ -34,13 +34,21 @@ module.exports = {
         title: "Developer Distribution",
         pages: [
           {
-            path: "guides/getting_started.md",
-            title: "Getting Started",
-          },
-          {
             path: "guides/cep/coming_soon.md",
             title: "Coming soon for CEP",
           },
+          {
+            path: "guides/getting_started.md",
+            title: "Getting Started",
+          },          
+          // {          
+          //   path: "guides/cep/zxp_distribution.md",
+          //   title: "What's new with ZXP",
+          // },
+          // {
+          //   path: "guides/cep/troubleshoot_resources",
+          //   title: "Build and Troubleshoot Resources",
+          // },
           {
             path: "guides/plugin_id.md",
             title: "Get a Plugin ID",
