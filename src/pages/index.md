@@ -16,7 +16,7 @@ keywords:
   - Creative Cloud Desktop
   - FastSpring
 title: Documentation for Adobe Developer Distribution
-description: A self-service submission portal for Creative Cloud UXP plugin developers to publish listings on the Adobe Exchange and Creative Cloud Marketplaces.
+description: A self-service submission portal for developers to publish listings that extend Adobe products, on the Adobe marketplaces.​
 ---
 
 <Hero slots="heading, text" background="rgb(141, 52, 78)"/>
