@@ -45,10 +45,10 @@ module.exports = {
           //   path: "guides/cep/zxp_distribution.md",
           //   title: "What's new with ZXP",
           // },
-          // {
-          //   path: "guides/cep/troubleshoot_resources",
-          //   title: "Build and Troubleshoot Resources",
-          // },
+          {
+            path: "guides/cep/troubleshoot_resources",
+            title: "Build and Troubleshoot Resources",
+          },
           {
             path: "guides/plugin_id.md",
             title: "Get a Plugin ID",
