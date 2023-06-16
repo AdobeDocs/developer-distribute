@@ -52,6 +52,9 @@ This document provides answers to frequently asked questions about Adobe Develop
 
 ## Answers
 
+### What is Developer Distribution2?
+ew portal for Creative Cloud developers who wish to distribute new and manage existing UXP plugins in the Creative Cloud Marketplace. The Creative Cloud Marketplace can
+
 ### What is Developer Distribution?
 [Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new portal for Creative Cloud developers who wish to distribute new and manage existing UXP plugins in the Creative Cloud Marketplace. The Creative Cloud Marketplace can be found in both the **Stock & Marketplace** tab in the Creative Cloud desktop app, and on the web within [the Exchange Marketplace](https://exchange.adobe.com/apps/browse/cc?product=All&sort=MOST_POPULAR). The new Developer Distribution portal offers a powerful and flexible surface for developers to rapidly create and update listings, and receive approval with minimal reviewer turnaround time.
 
