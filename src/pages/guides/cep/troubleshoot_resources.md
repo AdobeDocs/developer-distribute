@@ -64,5 +64,5 @@ Read this guide to get an idea on what types of information you will need for th
 ## [XML coding best practices](https://helpx.adobe.com/extension-manager/kb/xml-coding.html)
 XML files have strict syntax requirements. When you create or edit an extension installation file, this guide will help you ensure that you use correct XML syntax.
 
-## [Migrating a CEP panel to UXP](hhttps://github.com/Adobe-CEP/CEP-Resources/tree/master/UXP-Migration-Guide)
+## [Migrating a CEP panel to UXP](https://github.com/Adobe-CEP/CEP-Resources/tree/master/UXP-Migration-Guide)
 This guide is geared towards CEP (Common Extensibility Platform) developers who would like more technical guidance on migrating their extensions to UXP (Unified eXtensibility Platform). 
