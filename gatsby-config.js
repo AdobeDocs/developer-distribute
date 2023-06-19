@@ -42,12 +42,12 @@ module.exports = {
             title: "Getting Started",
           },          
           // {          
-          //   path: "guides/cep/zxp_distribution.md",
+          //   path: "guides/cep/distribution.md",
           //   title: "What's new with ZXP",
           // },
           {
-            path: "guides/cep/troubleshoot_resources",
-            title: "Build and Troubleshoot Resources",
+            path: "guides/cep/resources",
+            title: "Resources",
           },
           {
             path: "guides/plugin_id.md",

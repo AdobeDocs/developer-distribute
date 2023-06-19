@@ -28,7 +28,7 @@ By reviewing every plugin, Adobe aims to help developers get ready for prime tim
 
 <InlineAlert slots="text" variant="info"/>
 
-This set of guides is meant to provide you with an idea of what types of information you will need for the submission process and how to best prepare for review. Working through the guides provided in this section will help you make sure you’ve accounted for all of the requirements so you can avoid having to fix things and resubmit before being published.
+This set of guides is meant to provide you with an idea of what types of information you will need for the submission process and how to best prepare for review. Working through the guides provided in this section will help you make sure you’ve accounted for all of the requirements so you can avoid having to fix things and resubmit before being published. If you're distributing ZXP plugins, use [this guide](./packaging_signing.pdf) as a reference on packaging and signing.
 
 ## Submission Data Requirements
 

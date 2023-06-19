@@ -29,9 +29,9 @@ A self-service submission portal for developers to publish listings that extend 
 
 [Adobe Developer Distribution](/distribute/home) is a new surface for developers to submit and manage UXP plugin listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. The four use cases below illustrate how a developer can choose to start with a plugin upload developed using UDT (UXP Developer Tool), their own sandbox, or begin their submission by starting with listing metadata. Developers will still have the option to start their plugin project in Adobe Developer Console, and in that case they will be guided to Developer Distribution as soon as they choose to “distribute” their plugin. This document provides guidance on how to use the Developer Distribution surface for Photoshop and XD UXP plugin listing submission. Documentation will be updated as future releases support ZXP/CEP submissions as well as UXP plugin support for additional Creative Cloud products.
 
-## Developer Distribution New Listing Use Cases
+## Developer Distribution New Listing Use Cases for UXP Plugin Listings​
 
-![Diagram outlining the Use Cases of Developer Distribution. Text description in collapsible element below.](./images/use-cases.drawio.svg)
+![Diagram outlining the Use Cases of Developer Distribution for UXP plugin listings. Text description in collapsible element below.](./images/use-cases.drawio.svg)
 
 <details>
     <summary>Text Description of Diagram</summary>
