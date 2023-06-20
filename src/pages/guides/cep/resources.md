@@ -43,13 +43,13 @@ The brand assets that you can use in-app or for marketing are listed here. Pleas
 ## [Explore Adobe APIs](https://developer.adobe.com/apis/)
 Learn about all APIs and SDKs for all Adobe products.
 
-## [Creative Cloud platform forums​](https://www.adobe.com/go/creative_cloud_developer_forums​)
+## [Creative Cloud platform forums​](https://www.adobe.com/go/creative_cloud_developer_forums)
 Have discussions and get support from community experts and Adobe staff.​
 
-## [Tech blog​](https://www.adobe.com/go/creative_cloud_tech_blog​)
+## [Tech blog​](https://www.adobe.com/go/creative_cloud_tech_blog)
 Explore posts about API updates, how-tos, events and much more.​
 
-## [Newsletter](https://www.adobe.com/go/creative_cloud_developer_news​)
+## [Newsletter](https://www.adobe.com/go/creative_cloud_developer_news)
 Subscribe to updates and news for anyone creating, developing, or building Adobe extensions.​
 ## [Get support](https://helpx.adobe.com/support/programs/cc-exchange-developer-support.html)
 Get support on forums or purchase professional technical support cases.

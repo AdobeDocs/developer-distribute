@@ -33,22 +33,24 @@ module.exports = {
         path: "guides/index.md",
         title: "Developer Distribution",
         pages: [
-          {
-            path: "guides/cep/coming_soon.md",
-            title: "Coming soon for CEP",
-          },
+          // {
+          //   path: "guides/cep/coming_soon.md",
+          //   title: "Coming soon for CEP",
+          // },
           {
             path: "guides/getting_started.md",
             title: "Getting Started",
           },          
-          // {          
-          //   path: "guides/cep/distribution.md",
-          //   title: "What's new with ZXP",
-          // },
-          {
-            path: "guides/cep/resources",
-            title: "Resources",
-          },
+          {          
+            path: "guides/cep/distribution.md",
+            title: "What's new with ZXP",
+            pages: [              
+              {
+                path: "guides/cep/resources",
+                title: "Resources",
+              },              
+            ],
+          },         
           {
             path: "guides/plugin_id.md",
             title: "Get a Plugin ID",
