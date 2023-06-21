@@ -30,7 +30,6 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [What is Developer Distribution?](#what-is-developer-distribution)
 - [Who can use Developer Distribution?](#who-can-use-developer-distribution)
 - [What happens to my existing listings in the Developer Console?](#what-happens-to-my-existing-listings-in-the-developer-console)
-- [Is Developer Console going away?](#is-developer-console-going-away)
 - [I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?](#i-distribute-templatesbrush-packstexturesfilters-or-other-non-plugin-items-via-the-exchange-can-i-use-developer-distribution)
 - [What’s new in Developer Distribution?](#whats-new-in-developer-distribution)
 - [What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?](#whats-the-difference-between-the-creative-cloud-desktop-app-plugin-marketplace-and-exchange-marketplace)
@@ -59,9 +58,6 @@ All Creative Cloud plugin developers (developers of UXP and ZXP i.e. CEP/MXI & n
 
 ### What happens to my existing listings in the Developer Console?
 As of today, developers with existing UXP plugin listings in the Developer Console can find them all in Developer Distribution. All listings were successfully migrated to the new platform and can now take advantage of all the cool new features of the Developer Distribution platform.
-
-### Is Developer Console going away?
-No, the API access needs, SDK downloads, etc will continue to be on the Developer Console. 
 
 ### I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?
 Yes. From June 2023, you can list your non-plugin items as well as your ZXP packages from Developer Distribution. All your existing listings that you had created on Partner Portal have been migrated on Developer Distribution.
