@@ -238,8 +238,8 @@ Before submitting to the Marketplace, please edit your `manifest.json` to an a.b
 ### I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plug-ins? How can I install all of the above without the Creative Cloud desktop app, or while offline?
 
 If you work offline, or in a setting where access to the internet is extremely limited, or otherwise in another “Feature Restricted Licensing” Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plug-ins: 
-####Scripts 
-#####Do not require CCD or the internet (typically)
+ •	Scripts 
+    o	Do not require CCD or the internet (typically)
   •	UXP
     o	Should work thought double-click install or UPIA.
     o	Cannot be downloaded from the Exchange first, as it would tie to a specific user
