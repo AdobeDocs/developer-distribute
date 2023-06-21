@@ -51,6 +51,7 @@ Explore posts about API updates, how-tos, events and much more.​
 
 ## [Newsletter](https://www.adobe.com/go/creative_cloud_developer_news)
 Subscribe to updates and news for anyone creating, developing, or building Adobe extensions.​
+
 ## [Get support](https://helpx.adobe.com/support/programs/cc-exchange-developer-support.html)
 Get support on forums or purchase professional technical support cases.
 
@@ -60,8 +61,8 @@ Browse our FAQs for answers to common questions and issues.​
 ## [Submission documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/submission/overview)
 Read this guide to get an idea on what types of information you will need for the submission process and how to best prepare for review.
 
-<!-- ## [XML coding best practices](https://helpx.adobe.com/extension-manager/kb/xml-coding.html)
-XML files have strict syntax requirements. When you create or edit an extension installation file, this guide will help you ensure that you use correct XML syntax. -->
+## [CEP Plugin Packaging and Signing](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Package%20Distribute%20Install)
+After you have successfully built your extension, you should package the extension in the ZXP format and sign the extension with a valid certificate in order to distribute your extension properly. This guide will walk you through the process of packaging, distributing, and installing your extension.
 
 ## [Migrating a CEP panel to UXP](https://github.com/Adobe-CEP/CEP-Resources/tree/master/UXP-Migration-Guide)
 This guide is geared towards CEP (Common Extensibility Platform) developers who would like more technical guidance on migrating their extensions to UXP (Unified eXtensibility Platform). This guide is geared towards CEP (Common Extensibility Platform) developers who would like more technical guidance on migrating their extensions to UXP (Unified eXtensibility Platform). 

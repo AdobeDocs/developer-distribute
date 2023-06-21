@@ -30,8 +30,6 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [What is Developer Distribution?](#what-is-developer-distribution)
 - [Who can use Developer Distribution?](#who-can-use-developer-distribution)
 - [What happens to my existing listings in the Developer Console?](#what-happens-to-my-existing-listings-in-the-developer-console)
-- [Is Developer Console going away?](#is-developer-console-going-away)
-- [Should I keep using the Exchange Partner Portal?](#should-i-keep-using-the-exchange-partner-portal)
 - [I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?](#i-distribute-templatesbrush-packstexturesfilters-or-other-non-plugin-items-via-the-exchange-can-i-use-developer-distribution)
 - [What’s new in Developer Distribution?](#whats-new-in-developer-distribution)
 - [What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?](#whats-the-difference-between-the-creative-cloud-desktop-app-plugin-marketplace-and-exchange-marketplace)
@@ -41,13 +39,14 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
 - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
 - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
-- [When will ZXPs be supported by this portal?](#when-will-zxps-be-supported-by-this-portal)
 - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
 - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
 - [How do Categories and Tags work?](#how-do-categories-and-tags-work)
+- [Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?](#do-i-need-to-use-the-adobe-developer-console-at-all-in-the-process-of-distributing-my-uxp-plugin)
 - [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
 - [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
 - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
+- [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plug-ins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plug-ins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
 - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
@@ -56,23 +55,13 @@ This document provides answers to frequently asked questions about Adobe Develop
 [Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new portal for Creative Cloud developers who wish to distribute new and manage existing UXP plugins in the Creative Cloud Marketplace. The Creative Cloud Marketplace can be found in both the **Stock & Marketplace** tab in the Creative Cloud desktop app, and on the web within [the Exchange Marketplace](https://exchange.adobe.com/apps/browse/cc?product=All&sort=MOST_POPULAR). The new Developer Distribution portal offers a powerful and flexible surface for developers to rapidly create and update listings, and receive approval with minimal reviewer turnaround time.
 
 ### Who can use Developer Distribution?
-All UXP plugin developers who wish to list their plugins in the Creative Cloud Marketplace need to use the [Developer Distribution](https://developer.adobe.com/distribute/home) portal to submit their plugins for review and approval. UXP developers can list new plugin listings and manage existing plugin listings within the Developer Distribution portal.
-
-In the near future (in 2023), we plan to migrate all CEP/ZXP listings to the Developer Distribution portal to enable management of all listings from Developer Distribution, irrespective of the type of plugin. 
+All Creative Cloud plugin developers (developers of UXP and ZXP i.e. CEP/MXI & non-plugin items) who wish to list their plugins in the Creative Cloud Marketplace need to use the [Developer Distribution](https://developer.adobe.com/distribute/home) portal to submit their plugins for review and approval. Creative Cloud plugin developers can list new plugin listings and manage existing plugin listings within the Developer Distribution portal.
 
 ### What happens to my existing listings in the Developer Console?
 As of today, developers with existing UXP plugin listings in the Developer Console can find them all in Developer Distribution. All listings were successfully migrated to the new platform and can now take advantage of all the cool new features of the Developer Distribution platform.
 
-### Is Developer Console going away?
-No, the API access needs, SDK downloads, etc will continue to be on the Developer Console. 
-
-### Should I keep using the Exchange Partner Portal?
-All CEP/ZXP plugin developers need to keep using Exchange Partner Portal for listing new plugins, as well as managing their existing listings. 
-
-In the near future (in 2023), we plan to migrate all CEP/ZXP listings to the Developer Distribution portal to enable management of all listings from Developer Distribution irrespective of the type of plugin.
-
 ### I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?
-If you package templates/brush packs/textures/filters, you will need to keep listing them via Exchange Partner Portal. There is no change to how ZXP packages (or other types of non-UXP packages) are listed on the marketplace for the time being.
+Yes. From June 2023, you can list your non-plugin items as well as your ZXP packages from Developer Distribution. All your existing listings that you had created on Partner Portal have been migrated on Developer Distribution.
 
 ### What’s new in Developer Distribution? 
 Developer Distribution is a modern distribution platform optimized for minimizing friction in developers’ listing workflows.
@@ -93,7 +82,6 @@ The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are t
 - The Creative Cloud desktop app Plugin Marketplace provides a secure and stable desktop application where we can better manage plugin acquisition and installation, and drive users directly to Creative Cloud apps to start using the plugin they just acquired.
 
 In the future, we plan to keep enhancing both of these surfaces to improve the discovery of all of the different plugins listed on our marketplace.
-
 
 ### Do I need to fill in my profile details all over again?
 No, developers do not need to fill in their public profile information again. All public profiles are equally accessible and manageable from the Developer Distribution portal as well as the Developer Console.
@@ -133,8 +121,6 @@ Since each listing can have multiple plugin versions each with their own status,
 6. If a particular version is “Approved”, its *publish* action will immediately publish the version on the marketplace and change its status to “Published”.
 7. A draft or rejected plugin can be deleted to help clean up a developer’s sandbox. A modal will first be shown to double check if you are sure before continuing.
 
-
-
 ### How do I set up an account with FastSpring to collect revenue for my first paid listing?
 
 Use [this link](https://fastspring.com/sign-up/payee-adobe/) to create an account with our third-party payment provider FastSpring in order to sell paid plugins.
@@ -147,20 +133,13 @@ Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogr
 
 First, if you have both an Enterprise and Personal account, you can try to login with the other. Next, if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use the slack channel to get help [here](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
 
-### When will ZXPs be supported by this portal?
-
-The support for ZXP plugins in the Developer Distribution portal is planned for June 2023.
-
 ### What is the revenue share for paid products?
 
 For any paid product you offer for sale, you will take 90% of the sales revenue. Further details are covered [here](https://partners.adobe.com/exchangeprogram/creativecloud/support/ae-payment-policy.html). You will need to register with our payment provider FastSpring. After you have registered, you will receive a special FastSpring key and a small text reference you need to add to your profile page, so we can ensure all sales are applied to your account.
 
-<!-- ### What should I do to get support with development?
+### What should I do to get support with development?
 
-The developer support annual case bundles are priced as follows:
-
-- [Three cases for US $750](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan)
-- [Seven cases for US $1,600](https://adobedeveloper-production.onfastspring.com/annual-developer-support-plan-7-cases) -->
+See our [support page](https://helpx.adobe.com/support/programs/cc-exchange-developer-support.html), check out [our forums](https://www.adobe.com/go/creative_cloud_developer_forums) or purchase professional technical support cases.
 
 ### How do Categories and Tags work?
 
@@ -186,9 +165,9 @@ In addition to the pre-defined categories, you can also add custom tags to your 
 
 <!-- You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets". -->
 
-### Do I need to use the Adobe Developer Console at all in the process of distributing my plugin?
+### Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?
 
-No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
+No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
 
 ### How can I fix a server error encountered while using the portal?
 
@@ -246,6 +225,26 @@ Before submitting to the Marketplace, please edit your `manifest.json` to an a.b
         "minVersion": "22.5"
     },
 ```
+
+
+### I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plug-ins? How can I install all of the above without the Creative Cloud desktop app, or while offline?
+
+If you work offline, in a setting where access to the internet is extremely limited, or otherwise in another "Feature Restricted Licensing" Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plug-ins:
+
+**Scripts**
+- Do not require CCD or the internet (typically).
+
+**UXP**
+- Should work thought double-click install or UPIA.
+- Cannot be downloaded from the Exchange first, as it would tie to a specific user.
+
+**CEP**
+- Should work, can be installed via UPIA even without CCD present.
+- Cannot be downloaded from the Exchange first, as it would tie to a specific user
+
+**C++ plug-ins**
+- Usually have no reliance on CCD or being online unless the developer mandates it
+- Cannot be downloaded from the Exchange first, as it would tie to a specific user.
 
 ### I’m stuck! Can you help me?
 

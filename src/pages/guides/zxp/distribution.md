@@ -36,6 +36,7 @@ Developer Distribution is a unified portal where you can submit and manage your 
 
 ## Frequently Asked Questions
 - [What is Developer Distribution?](#what-is-developer-distribution)
+- [Why can't I upload a plugin package larger than 300 MB?](#why-cant-i-upload-a-plugin-package-larger-than-300-mb)
 - [Why can’t I see my CEP listings?​](#why-cant-i-see-my-cep-listings)
 - [How can I be added to a developer org?​](#how-can-i-be-added-to-a-developer-org)
 - [How can I find out who from my team is the admin of the developer org created for my organization?](#how-can-i-find-out-who-from-my-team-is-the-admin-of-the-developer-org-created-for-my-organization)
@@ -50,6 +51,9 @@ Developer Distribution is a unified portal where you can submit and manage your 
 ### What is Developer Distribution?
 Developer Distribution is a unified portal where you will be able to submit your CEP and UXP plugin listings, and manage them. Read [this announcement blog post](https://blog.developer.adobe.com/introducing-a-new-developer-distribution-portal-for-listing-uxp-plugins-in-the-creative-cloud-7f81376f46a9) to learn more. Also, check out the [frequently asked questions](../faq.md) about Developer Distribution.
 
+### Why can't I upload a plugin package larger than 300 MB? 
+Currently the new Developer Distribution portal has a maximum upload of 300 MB for ZXP plugin packages. This FAQ will be updated when it's possible to upload larger packages. 
+ 
 ### Why can't I see my CEP Listings?
 If you had multiple users that could access your ZXP listings in the Creative Cloud Adobe Exchange Portal, someone from your team was the primary contact for that account. That person will be assigned as the administrator of a newly created developer organization with all ZXP existing listings assigned to that developer org. Please ask that person to log into [Adobe Admin Console](https://adminconsole.adobe.com/) to assign your Adobe ID in the same org and your access will be restored. Now ZXP and UXP developers can use a single org (with multiple users) to manage all their plugins and they will appear together under one publisher profile on Adobe Exchange.  ​ 
 
