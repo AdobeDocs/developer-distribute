@@ -61,5 +61,8 @@ Browse our FAQs for answers to common questions and issues.​
 ## [Submission documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/submission/overview)
 Read this guide to get an idea on what types of information you will need for the submission process and how to best prepare for review.
 
+## [CEP Plugin Packaging and Signing](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Package%20Distribute%20Install)
+After you have successfully built your extension, you should package the extension in the ZXP format and sign the extension with a valid certificate in order to distribute your extension properly. This guide will walk you through the process of packaging, distributing, and installing your extension.
+
 ## [Migrating a CEP panel to UXP](https://github.com/Adobe-CEP/CEP-Resources/tree/master/UXP-Migration-Guide)
 This guide is geared towards CEP (Common Extensibility Platform) developers who would like more technical guidance on migrating their extensions to UXP (Unified eXtensibility Platform). 
