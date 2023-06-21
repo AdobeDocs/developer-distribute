@@ -49,7 +49,6 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
 - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
 - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plug-ins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#I-work-exclusively-offline,-or-in-a-setting-where-access-to-the-intenet-is-extremely-limited.can-I-use-scripts,-plugins-extensions-or-C++-plugins?-how-can-I-install-all-of-the-above-without-the-creative-cloud-desktop-app,-or-while-offline)
-- [I work 
 - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
@@ -241,8 +240,8 @@ Before submitting to the Marketplace, please edit your `manifest.json` to an a.b
 ### I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plug-ins? How can I install all of the above without the Creative Cloud desktop app, or while offline?
 
 If you work offline, or in a setting where access to the internet is extremely limited, or otherwise in another “Feature Restricted Licensing” Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plug-ins: 
-  •	Scripts 
-    o	Do not require CCD or the internet (typically)
+####Scripts 
+#####Do not require CCD or the internet (typically)
   •	UXP
     o	Should work thought double-click install or UPIA.
     o	Cannot be downloaded from the Exchange first, as it would tie to a specific user
