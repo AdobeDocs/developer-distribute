@@ -46,13 +46,13 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
 - [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
 - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
-- [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plug-ins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plug-ins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
+- [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
 - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
 
 ### What is Developer Distribution?
-[Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new portal for Creative Cloud developers who wish to distribute new and manage existing UXP plugins in the Creative Cloud Marketplace. The Creative Cloud Marketplace can be found in both the **Stock & Marketplace** tab in the Creative Cloud desktop app, and on the web within [the Exchange Marketplace](https://exchange.adobe.com/apps/browse/cc?product=All&sort=MOST_POPULAR). The new Developer Distribution portal offers a powerful and flexible surface for developers to rapidly create and update listings, and receive approval with minimal reviewer turnaround time.
+[Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new portal for Creative Cloud developers who wish to distribute new and manage existing UXP and ZXP plugin in the Creative Cloud Marketplace. The Creative Cloud Marketplace can be found in both the **Stock & Marketplace** tab in the Creative Cloud desktop app, and on the web within [the Exchange Marketplace](https://exchange.adobe.com/apps/browse/cc?product=All&sort=MOST_POPULAR). The new Developer Distribution portal offers a powerful and flexible surface for developers to rapidly create and update listings, and receive approval with minimal reviewer turnaround time.
 
 ### Who can use Developer Distribution?
 All Creative Cloud plugin developers (developers of UXP and ZXP i.e. CEP/MXI & non-plugin items) who wish to list their plugins in the Creative Cloud Marketplace need to use the [Developer Distribution](https://developer.adobe.com/distribute/home) portal to submit their plugins for review and approval. Creative Cloud plugin developers can list new plugin listings and manage existing plugin listings within the Developer Distribution portal.
@@ -227,9 +227,9 @@ Before submitting to the Marketplace, please edit your `manifest.json` to an a.b
 ```
 
 
-### I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plug-ins? How can I install all of the above without the Creative Cloud desktop app, or while offline?
+### I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?
 
-If you work offline, in a setting where access to the internet is extremely limited, or otherwise in another "Feature Restricted Licensing" Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plug-ins:
+If you work offline, in a setting where access to the internet is extremely limited, or otherwise in another "Feature Restricted Licensing" Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plugins:
 
 **Scripts**
 - Do not require CCD or the internet (typically).
