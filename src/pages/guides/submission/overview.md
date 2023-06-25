@@ -34,7 +34,7 @@ This set of guides is meant to provide you with an idea of what types of informa
 
 Below is the list of data you will be asked to provide during the submission process.
 
-### Publisher profile
+## Publisher profile
 
 Your publisher profile is about you as a company or developer as whole. Once you've submitted this information and it has been approved by Adobe, it is shown for all plugins and integrations you publish with Adobe.
 
@@ -55,17 +55,17 @@ You must complete and submit your publisher profile in order to submit your fi
 **Note:** Any changes to your publisher profile will need to be submitted for approval again.
 Frequently changing your publisher profile will confuse users and erode trust. Please be sure you're ready before entering this information.
 
-#### Commerce
+### Commerce
 
 For paid plugin listings, you’ll need to register with Adobe’s third-party payment provider, [FastSpring](https://fastspring.com/sign-up/payee-adobe/), and enter your FastSpring key into your publisher profile. Please note that it may take up to 24 hours for FastSpring to create your key.
 
-### Listing Details
+## Listing Details
 
 Your listing metadata provides Adobe and users with details about the plugin you are currently submitting. See the [plugin version details below](#plugin-version-details) for the metadata that is submitted for each plugin version.
 
 The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your listing is published.
 
-#### General Tab
+### General Tab
 
 - Public plugin name
 - Subtitle
@@ -73,7 +73,7 @@ The information you add in the following tabs will be made public to users via A
 - Help URL
 - Description
 
-#### Localizations Tab
+### Localizations Tab
 
 Localized versions of:
 
@@ -81,51 +81,55 @@ Localized versions of:
 - Subtitle
 - Description
 
-#### Media Tab
+### Media Tab
 
 - 3 plugin icon sizes
 
-#### Tags Tab
+### Tags Tab
 
 - Categories
 - Custom Tags
 
-#### Services Tab
+### Services Tab
 
 - Privacy policy
 - Terms of service
 - Commerce: purchase method (paid or free)
 
-### Plugin Version Details
+## Plugin Version Details
 
 Here you will provide plugin level details for each plugin version submitted.
 
 The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your version is published.
 
-#### General Tab
+### General Tab
+**Note:** this tab will vary depending on plugin type being distributed, but may include:
 
-- Plugin package file (see the [section below](#plugin-package))
+- Plugin package file (see the [section below](#plugin-file))
 - If your plugin requires another application
 - If your plugin requires a 3rd party service
 - Plugin UI supported languages
 - Release notes
 
-#### Localizations Tab
+### Plugin file tab
+This tab will appear specifically for ZXP plugin distribution, and is where you upload your plugin package file. **Note:** for UXP plugins, the file is uploaded in the 'General' tab.
+
+### Localizations Tab
 
 Localized versions of:
 
 - Release notes
 
-#### Media Tab
+### Media Tab
 
 - Screenshots
 - Videos
 
-#### Plugin package
+## Plugin file
 
-As part of your submission, you will upload your plugin package. Take the following steps to create your plugin package.
+As part of your submission, you will upload your plugin package. Take the following steps to create your plugin package, categorized by plugin type.
 
-#### For UXP plugins: 
+### UXP plugin package
 1. Compress your plugin files as a **.zip** file
 
    - Select all files within your plugin's parent folder. On both macOS and Windows you can right-click to compress:
@@ -153,7 +157,7 @@ As part of your submission, you will upload your plugin package. Take the follow
 For more information on how to package your UXP plugins, please refer to these additional resources ([Photoshop](https://developer.adobe.com/photoshop/uxp/2022/guides/distribution/packaging-your-plugin/), [XD](https://developer.adobe.com/xd/uxp/distribution/packaging-your-plugin/)). 
 
 
-#### For ZXP plugins:
+### ZXP plugin package
 <h3>1. .zxp (CEP/MXI):</h3> 
 
 - **CEP**: CEP (Common Extensibility Platform) lets you build extensions in Adobe Creative Cloud applications like Photoshop, Illustrator, InDesign, After Effects, and many more. Extensions built with CEP let users customize their Creative Cloud experience for their unique workflows. To create package for a CEP extension:  
