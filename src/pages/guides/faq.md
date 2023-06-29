@@ -39,6 +39,7 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
 - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
 - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
+- [I don't see my listings after logging in.](#I-don't-see-my-listings-after-logging-in)
 - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
 - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
 - [How do Categories and Tags work?](#how-do-categories-and-tags-work)
@@ -131,13 +132,13 @@ Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogr
 
 ### What do I do when I get “Access Denied” upon login?
 
-First, if you have both an Enterprise and Personal account, you can try to login with the other. Next, if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use the slack channel to get help [here](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
+First, if you have both an Enterprise and Personal account, you can try to login with the other. Next, if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use [this slack channel to get help](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
 
 ### I don't see my listings after logging in.
 
 Your listings may be grouped under different organizations. Click the name next to your profile icon on the upper righthand corner to see a list of organizations you belong to:
 
-![Developer organization picker](./images/developer_org_picker.png)
+![Developer organization picker](../images/developer_org_picker.png)
 
 More information about the organization picker is available in the [Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/#switching-between-your-organizations).
 
