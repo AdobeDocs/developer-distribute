@@ -133,6 +133,14 @@ Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogr
 
 First, if you have both an Enterprise and Personal account, you can try to login with the other. Next, if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use the slack channel to get help [here](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
 
+### I don't see my listings after logging in.
+
+Your listings may be grouped under different organizations. Click the name next to your profile icon on the upper righthand corner to see a list of organizations you belong to:
+
+![Developer organization picker](./images/developer_org_picker.png)
+
+More information about the organization picker is available in the [Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/#switching-between-your-organizations).
+
 ### What is the revenue share for paid products?
 
 For any paid product you offer for sale, you will take 90% of the sales revenue. Further details are covered [here](https://partners.adobe.com/exchangeprogram/creativecloud/support/ae-payment-policy.html). You will need to register with our payment provider FastSpring. After you have registered, you will receive a special FastSpring key and a small text reference you need to add to your profile page, so we can ensure all sales are applied to your account.
@@ -232,18 +240,18 @@ Before submitting to the Marketplace, please edit your `manifest.json` to an a.b
 If you work offline, in a setting where access to the internet is extremely limited, or otherwise in another "Feature Restricted Licensing" Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plugins:
 
 **Scripts**
-- Do not require CCD or the internet (typically).
+- Do not require Creative Cloud desktop app or the internet (typically).
 
 **UXP**
 - Should work thought double-click install or UPIA.
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
 
 **CEP**
-- Should work, can be installed via UPIA even without CCD present.
+- Should work, can be installed via UPIA even without Creative Cloud desktop app present.
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user
 
 **C++ plug-ins**
-- Usually have no reliance on CCD or being online unless the developer mandates it
+- Usually have no reliance on Creative Cloud desktop app or being online unless the developer mandates it
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
 
 ### I’m stuck! Can you help me?
