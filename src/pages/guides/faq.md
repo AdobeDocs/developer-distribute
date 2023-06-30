@@ -87,7 +87,7 @@ Developer Distribution is a modern distribution platform optimized for minimizin
 
 The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are two different surfaces of the Creative Cloud plugin marketplace. Both surfaces showcase the same plugins with similar search results.
 
-- The Exchange Marketplace provides us with a web surface that helps drive organic traffic from google and other search engines. 
+- The Exchange Marketplace provides us with a web surface that helps drive organic traffic from google and other search engines.
 - The Creative Cloud desktop app Plugin Marketplace provides a secure and stable desktop application where we can better manage plugin acquisition and installation, and drive users directly to Creative Cloud apps to start using the plugin they just acquired.
 
 In the future, we plan to keep enhancing both of these surfaces to improve the discovery of all of the different plugins listed on our marketplace.
@@ -108,7 +108,7 @@ The most common approach is to log in with your personal Adobe ID, since the Dev
 
 Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
 
-On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status. 
+On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status.
 
 1. If a listing is “In Review” the *recall* action will remove your listing from the Review Queue and change its status back to "Draft" (but you lose your place in the review queue).
 2. If an Adobe reviewer rejects a submission the status will change to "Rejected".
@@ -117,7 +117,7 @@ On the [Listings Screen](https://developer.adobe.com/developer-distribution/crea
 5. If a listing is “Retracted”, the *publish* action will immediately return your listing to the marketplace and change its status to “Published”.
 6. If a listing is “Approved”, the *publish* action will immediately publish the listing on the marketplace and change its status to “Published”.
 
-**Note:** for items 4-6, the status can be changed without involving an Adobe Reviewer because all three are already approved. 
+**Note:** for items 4-6, the status can be changed without involving an Adobe Reviewer because all three are already approved.
 
 All of the same Listing actions appear on the [View Listing Screens](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#view-listing) in the upper right corner with the addition of an “Edit” action.
 
