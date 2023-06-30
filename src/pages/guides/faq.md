@@ -68,11 +68,12 @@ As of today, developers with existing UXP plugin listings in the Developer Conso
 
 Yes. From June 2023, you can list your non-plugin items as well as your ZXP packages from Developer Distribution. All your existing listings that you had created on Partner Portal have been migrated on Developer Distribution.
 
-### What’s new in Developer Distribution? 
+### What’s new in Developer Distribution?
 
 Developer Distribution is a modern distribution platform optimized for minimizing friction in developers’ listing workflows.
 
 **Key highlights of the new portal:**
+
 - **Video support:** We now provide video support in UXP listings.
 - **Listing Insights:** you can now see insights like plugin acquisitions by month and year. We plan to introduce additional insights in the future.
 - You now have the ability to *retract*, *recall*, *mark as pending*, *modify*, and *re-publish* listings without contacting the Adobe Review Team.
@@ -84,7 +85,8 @@ Developer Distribution is a modern distribution platform optimized for minimizin
 
 ### What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?
 
-The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are two different surfaces of the Creative Cloud plugin marketplace. Both surfaces showcase the same plugins with similar search results. 
+The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are two different surfaces of the Creative Cloud plugin marketplace. Both surfaces showcase the same plugins with similar search results.
+
 - The Exchange Marketplace provides us with a web surface that helps drive organic traffic from google and other search engines. 
 - The Creative Cloud desktop app Plugin Marketplace provides a secure and stable desktop application where we can better manage plugin acquisition and installation, and drive users directly to Creative Cloud apps to start using the plugin they just acquired.
 
@@ -105,7 +107,7 @@ The most common approach is to log in with your personal Adobe ID, since the Dev
 ### How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?
 
 Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
- 
+
 On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status. 
 
 1. If a listing is “In Review” the *recall* action will remove your listing from the Review Queue and change its status back to "Draft" (but you lose your place in the review queue).
@@ -113,11 +115,12 @@ On the [Listings Screen](https://developer.adobe.com/developer-distribution/crea
 3. If an Adobe reviewer approves a submission, the status will change to "Approved" or "Published",  depending on whether or not you chose for it to be published immediately.
 4. If a listing is "Published", the *retract* action will remove your listing from the marketplace  and change its status to “Retracted”.
 5. If a listing is “Retracted”, the *publish* action will immediately return your listing to the marketplace and change its status to “Published”.
-6. If a listing is “Approved”, the *publish* action will immediately publish the listing on the marketplace and change its status to “Published”   
+6. If a listing is “Approved”, the *publish* action will immediately publish the listing on the marketplace and change its status to “Published”.
 
 **Note:** for items 4-6, the status can be changed without involving an Adobe Reviewer because all three are already approved. 
 
 All of the same Listing actions appear on the [View Listing Screens](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#view-listing) in the upper right corner with the addition of an “Edit” action.
+
 1. The “Edit” action is available to make listing edits on "Published", "Retracted" and "Approved" listings (also known as a **Metadata Change Request** or **MCR**).
 2. Listing edits can then be submitted, recalled or deleted independently of the "Published", "Retracted" or "Approved" parent listing.
 3. Listing edits enable developers to make quick changes to their listing information without the need to upload a new plugin version.
@@ -217,7 +220,7 @@ Share the logs described above with us (share the logs in the HAR file along wit
 
 ### When do I have to complete my public profile?
 
-The public profile _must_ be submitted with at least the minimum required fields before, or simultaneously with your first listing submission.
+The public profile *must* be submitted with at least the minimum required fields before, or simultaneously with your first listing submission.
 
 ### How can I troubleshoot the following errors on package upload?
 
@@ -229,7 +232,7 @@ The public profile _must_ be submitted with at least the minimum required fields
 
 Due to an issue with the Exchange portal, the `host.minVersion` and `host.maxVersion` in your UXP plugin manifest must be specified in a.b format. We will soon support the a.b.c format (later in 2023, the date is unconfirmed at this time). For example, if your `manifest.json` contains:
 
-```
+```javascript
     "host": {
         "app": "PS",
         "minVersion": "22.5.7"
@@ -238,30 +241,33 @@ Due to an issue with the Exchange portal, the `host.minVersion` and `host.maxVer
 
 Before submitting to the Marketplace, please edit your `manifest.json` to an a.b. `minVersion` format:
 
-```
+```javascript
     "host": {
         "app": "PS",
         "minVersion": "22.5"
     },
 ```
 
-
 ### I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?
 
 If you work offline, in a setting where access to the internet is extremely limited, or otherwise in another "Feature Restricted Licensing" Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plugins:
 
 **Scripts**
+
 - Do not require Creative Cloud desktop app or the internet (typically).
 
 **UXP**
+
 - Should work thought double-click install or UPIA.
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
 
 **CEP**
+
 - Should work, can be installed via UPIA even without Creative Cloud desktop app present.
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user
 
 **C++ plug-ins**
+
 - Usually have no reliance on Creative Cloud desktop app or being online unless the developer mandates it
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
 
