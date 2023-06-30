@@ -39,6 +39,7 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
 - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
 - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
+- [I don't see my listings after logging in.](#I-don't-see-my-listings-after-logging-in)
 - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
 - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
 - [How do Categories and Tags work?](#how-do-categories-and-tags-work)
@@ -52,21 +53,27 @@ This document provides answers to frequently asked questions about Adobe Develop
 ## Answers
 
 ### What is Developer Distribution?
+
 [Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new portal for Creative Cloud developers who wish to distribute new and manage existing UXP and ZXP plugin in the Creative Cloud Marketplace. The Creative Cloud Marketplace can be found in both the **Stock & Marketplace** tab in the Creative Cloud desktop app, and on the web within [the Exchange Marketplace](https://exchange.adobe.com/apps/browse/cc?product=All&sort=MOST_POPULAR). The new Developer Distribution portal offers a powerful and flexible surface for developers to rapidly create and update listings, and receive approval with minimal reviewer turnaround time.
 
 ### Who can use Developer Distribution?
+
 All Creative Cloud plugin developers (developers of UXP and ZXP i.e. CEP/MXI & non-plugin items) who wish to list their plugins in the Creative Cloud Marketplace need to use the [Developer Distribution](https://developer.adobe.com/distribute/home) portal to submit their plugins for review and approval. Creative Cloud plugin developers can list new plugin listings and manage existing plugin listings within the Developer Distribution portal.
 
 ### What happens to my existing listings in the Developer Console?
+
 As of today, developers with existing UXP plugin listings in the Developer Console can find them all in Developer Distribution. All listings were successfully migrated to the new platform and can now take advantage of all the cool new features of the Developer Distribution platform.
 
 ### I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?
+
 Yes. From June 2023, you can list your non-plugin items as well as your ZXP packages from Developer Distribution. All your existing listings that you had created on Partner Portal have been migrated on Developer Distribution.
 
-### What’s new in Developer Distribution? 
+### What’s new in Developer Distribution?
+
 Developer Distribution is a modern distribution platform optimized for minimizing friction in developers’ listing workflows.
 
 **Key highlights of the new portal:**
+
 - **Video support:** We now provide video support in UXP listings.
 - **Listing Insights:** you can now see insights like plugin acquisitions by month and year. We plan to introduce additional insights in the future.
 - You now have the ability to *retract*, *recall*, *mark as pending*, *modify*, and *re-publish* listings without contacting the Adobe Review Team.
@@ -76,25 +83,31 @@ Developer Distribution is a modern distribution platform optimized for minimizin
 - **Version management:** Our new version management experience enables you to review older versions of your listings with ease.
 - You can manage your marketplace listings as well as your Public Profile from a single place now in the Developer Distribution portal, eliminating the need to go back and forth between the Developer Console and the Exchange Partner Portal.
 
-### What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace? 
-The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are two different surfaces of the Creative Cloud plugin marketplace. Both surfaces showcase the same plugins with similar search results. 
+### What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?
+
+The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are two different surfaces of the Creative Cloud plugin marketplace. Both surfaces showcase the same plugins with similar search results.
+
 - The Exchange Marketplace provides us with a web surface that helps drive organic traffic from google and other search engines. 
 - The Creative Cloud desktop app Plugin Marketplace provides a secure and stable desktop application where we can better manage plugin acquisition and installation, and drive users directly to Creative Cloud apps to start using the plugin they just acquired.
 
 In the future, we plan to keep enhancing both of these surfaces to improve the discovery of all of the different plugins listed on our marketplace.
 
 ### Do I need to fill in my profile details all over again?
+
 No, developers do not need to fill in their public profile information again. All public profiles are equally accessible and manageable from the Developer Distribution portal as well as the Developer Console.
 
 ### What is an Adobe ID?
+
 An Adobe ID is a federated login credential you create or use when logging into any Adobe website.  You have the option to create a new Adobe ID whenever logging in, or to use an existing Adobe ID.  Once you create a personal Adobe ID (account) and use it to login to the Developer Console or Developer Distribution portal for the first time, you should continue to reuse that same Adobe ID each time, since it is the one that is associated with your individual organization.
 
 ### Should I log in with a personal Adobe ID or Corporate Adobe ID?
+
 The most common approach is to log in with your personal Adobe ID, since the Developer Console and Developer Distribution portal assign an individual organization to your personal Adobe ID the first time you log in.  If you are an enterprise developer who has an Enterprise organization assigned by Adobe, and multiple people in your organization need to be able to manage your plugin, each of you can use your Corporate Adobe ID accounts as long as your admin has assigned you "Developer" privileges. The "Developer" privilege is required for you to sign in to the Developer Console or Developer Distribution portal with a Corporate Adobe ID. You will receive and "Access Denied" message if you do not have this privilege.
 
 ### How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?
+
 Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
- 
+
 On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status. 
 
 1. If a listing is “In Review” the *recall* action will remove your listing from the Review Queue and change its status back to "Draft" (but you lose your place in the review queue).
@@ -102,11 +115,12 @@ On the [Listings Screen](https://developer.adobe.com/developer-distribution/crea
 3. If an Adobe reviewer approves a submission, the status will change to "Approved" or "Published",  depending on whether or not you chose for it to be published immediately.
 4. If a listing is "Published", the *retract* action will remove your listing from the marketplace  and change its status to “Retracted”.
 5. If a listing is “Retracted”, the *publish* action will immediately return your listing to the marketplace and change its status to “Published”.
-6. If a listing is “Approved”, the *publish* action will immediately publish the listing on the marketplace and change its status to “Published”   
+6. If a listing is “Approved”, the *publish* action will immediately publish the listing on the marketplace and change its status to “Published”.
 
 **Note:** for items 4-6, the status can be changed without involving an Adobe Reviewer because all three are already approved. 
 
 All of the same Listing actions appear on the [View Listing Screens](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#view-listing) in the upper right corner with the addition of an “Edit” action.
+
 1. The “Edit” action is available to make listing edits on "Published", "Retracted" and "Approved" listings (also known as a **Metadata Change Request** or **MCR**).
 2. Listing edits can then be submitted, recalled or deleted independently of the "Published", "Retracted" or "Approved" parent listing.
 3. Listing edits enable developers to make quick changes to their listing information without the need to upload a new plugin version.
@@ -131,7 +145,15 @@ Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogr
 
 ### What do I do when I get “Access Denied” upon login?
 
-First, if you have both an Enterprise and Personal account, you can try to login with the other. Next, if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use the slack channel to get help [here](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
+First, if you have both an Enterprise and Personal account, you can try to login with the other. Next, if you are in an Enterprirse, you should contact your Adobe Admin to get access. If you are not aware of who it is, see [this link](https://helpx.adobe.com/enterprise/kb/contact-administrator.html). You can also consult the Admin Console Guide [here](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html). Adobe Employees can use [this slack channel to get help](https://adobe-torq.slack.com/archives/C20KF6FAP). If you work for an Enterprise we recommend that you do not use your Personal account to develop any shared plugins.
+
+### I don't see my listings after logging in.
+
+Your listings may be grouped under different organizations. Click the name next to your profile icon on the upper righthand corner to see a list of organizations you belong to:
+
+![Developer organization picker](../images/developer_org_picker.png)
+
+More information about the organization picker is available in the [Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/#switching-between-your-organizations).
 
 ### What is the revenue share for paid products?
 
@@ -198,7 +220,7 @@ Share the logs described above with us (share the logs in the HAR file along wit
 
 ### When do I have to complete my public profile?
 
-The public profile _must_ be submitted with at least the minimum required fields before, or simultaneously with your first listing submission.
+The public profile *must* be submitted with at least the minimum required fields before, or simultaneously with your first listing submission.
 
 ### How can I troubleshoot the following errors on package upload?
 
@@ -210,7 +232,7 @@ The public profile _must_ be submitted with at least the minimum required fields
 
 Due to an issue with the Exchange portal, the `host.minVersion` and `host.maxVersion` in your UXP plugin manifest must be specified in a.b format. We will soon support the a.b.c format (later in 2023, the date is unconfirmed at this time). For example, if your `manifest.json` contains:
 
-```
+```javascript
     "host": {
         "app": "PS",
         "minVersion": "22.5.7"
@@ -219,31 +241,34 @@ Due to an issue with the Exchange portal, the `host.minVersion` and `host.maxVer
 
 Before submitting to the Marketplace, please edit your `manifest.json` to an a.b. `minVersion` format:
 
-```
+```javascript
     "host": {
         "app": "PS",
         "minVersion": "22.5"
     },
 ```
 
-
 ### I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?
 
 If you work offline, in a setting where access to the internet is extremely limited, or otherwise in another "Feature Restricted Licensing" Adobe installation environment where you do not install the Creative Cloud desktop app, you can still install and use scripts, plugins, extensions, or C++ plugins:
 
 **Scripts**
-- Do not require CCD or the internet (typically).
+
+- Do not require Creative Cloud desktop app or the internet (typically).
 
 **UXP**
+
 - Should work thought double-click install or UPIA.
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
 
 **CEP**
-- Should work, can be installed via UPIA even without CCD present.
+
+- Should work, can be installed via UPIA even without Creative Cloud desktop app present.
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user
 
 **C++ plug-ins**
-- Usually have no reliance on CCD or being online unless the developer mandates it
+
+- Usually have no reliance on Creative Cloud desktop app or being online unless the developer mandates it
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
 
 ### I’m stuck! Can you help me?
