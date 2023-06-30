@@ -39,7 +39,7 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
 - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
 - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
-- [I don't see my listings after logging in.](#I-don't-see-my-listings-after-logging-in)
+- [I don't see my listings after logging in.](#I-dont-see-my-listings-after-logging-in)
 - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
 - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
 - [How do Categories and Tags work?](#how-do-categories-and-tags-work)
