@@ -53,18 +53,23 @@ This document provides answers to frequently asked questions about Adobe Develop
 ## Answers
 
 ### What is Developer Distribution?
+
 [Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new portal for Creative Cloud developers who wish to distribute new and manage existing UXP and ZXP plugin in the Creative Cloud Marketplace. The Creative Cloud Marketplace can be found in both the **Stock & Marketplace** tab in the Creative Cloud desktop app, and on the web within [the Exchange Marketplace](https://exchange.adobe.com/apps/browse/cc?product=All&sort=MOST_POPULAR). The new Developer Distribution portal offers a powerful and flexible surface for developers to rapidly create and update listings, and receive approval with minimal reviewer turnaround time.
 
 ### Who can use Developer Distribution?
+
 All Creative Cloud plugin developers (developers of UXP and ZXP i.e. CEP/MXI & non-plugin items) who wish to list their plugins in the Creative Cloud Marketplace need to use the [Developer Distribution](https://developer.adobe.com/distribute/home) portal to submit their plugins for review and approval. Creative Cloud plugin developers can list new plugin listings and manage existing plugin listings within the Developer Distribution portal.
 
 ### What happens to my existing listings in the Developer Console?
+
 As of today, developers with existing UXP plugin listings in the Developer Console can find them all in Developer Distribution. All listings were successfully migrated to the new platform and can now take advantage of all the cool new features of the Developer Distribution platform.
 
 ### I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?
+
 Yes. From June 2023, you can list your non-plugin items as well as your ZXP packages from Developer Distribution. All your existing listings that you had created on Partner Portal have been migrated on Developer Distribution.
 
 ### What’s new in Developer Distribution? 
+
 Developer Distribution is a modern distribution platform optimized for minimizing friction in developers’ listing workflows.
 
 **Key highlights of the new portal:**
@@ -77,7 +82,8 @@ Developer Distribution is a modern distribution platform optimized for minimizin
 - **Version management:** Our new version management experience enables you to review older versions of your listings with ease.
 - You can manage your marketplace listings as well as your Public Profile from a single place now in the Developer Distribution portal, eliminating the need to go back and forth between the Developer Console and the Exchange Partner Portal.
 
-### What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace? 
+### What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?
+
 The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are two different surfaces of the Creative Cloud plugin marketplace. Both surfaces showcase the same plugins with similar search results. 
 - The Exchange Marketplace provides us with a web surface that helps drive organic traffic from google and other search engines. 
 - The Creative Cloud desktop app Plugin Marketplace provides a secure and stable desktop application where we can better manage plugin acquisition and installation, and drive users directly to Creative Cloud apps to start using the plugin they just acquired.
@@ -85,15 +91,19 @@ The Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace are t
 In the future, we plan to keep enhancing both of these surfaces to improve the discovery of all of the different plugins listed on our marketplace.
 
 ### Do I need to fill in my profile details all over again?
+
 No, developers do not need to fill in their public profile information again. All public profiles are equally accessible and manageable from the Developer Distribution portal as well as the Developer Console.
 
 ### What is an Adobe ID?
+
 An Adobe ID is a federated login credential you create or use when logging into any Adobe website.  You have the option to create a new Adobe ID whenever logging in, or to use an existing Adobe ID.  Once you create a personal Adobe ID (account) and use it to login to the Developer Console or Developer Distribution portal for the first time, you should continue to reuse that same Adobe ID each time, since it is the one that is associated with your individual organization.
 
 ### Should I log in with a personal Adobe ID or Corporate Adobe ID?
+
 The most common approach is to log in with your personal Adobe ID, since the Developer Console and Developer Distribution portal assign an individual organization to your personal Adobe ID the first time you log in.  If you are an enterprise developer who has an Enterprise organization assigned by Adobe, and multiple people in your organization need to be able to manage your plugin, each of you can use your Corporate Adobe ID accounts as long as your admin has assigned you "Developer" privileges. The "Developer" privilege is required for you to sign in to the Developer Console or Developer Distribution portal with a Corporate Adobe ID. You will receive and "Access Denied" message if you do not have this privilege.
 
 ### How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?
+
 Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
  
 On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status. 
