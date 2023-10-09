@@ -49,6 +49,7 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
 - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
 - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
+- [How can I add an extra layer of security to my paid plugins?](#how-can-i-add-an-extra-layer-of-security-to-my-paid-plugins)
 
 ## Answers
 
@@ -142,6 +143,22 @@ Use [this link](https://fastspring.com/sign-up/payee-adobe/) to create an accoun
 Once you have your account you can [login to FastSpring](https://springboard.fastspring.com/email.xml) and set your payment method. After you obtain your key, set it in the **Commerce** section of your public profile under the "Account and Profile".
 
 Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogram/creativecloud/support/faq.html#Tabs_contentbody_section_par_tabs_tab3:~:text=CC%20Integrations%20Review) if you need help entering your FastSpring key.
+
+## How can I add an extra layer of security to my paid plugins?
+Our payment vendor FastSpring offers an extra layer of security to a paid plugin through license codes. When set up, plugin customers will receive a unique license code in their receipt email to ensure your plugin is unlocked by only them.
+
+Use [this link](https://fastspring.com/docs/classic/adding-fulfillment-actions-emails-license-codes-download-links/#license
+) to learn how to generate and upload a License Fulfillment (large list of unique license codes) for a new paid plugin. 
+
+We recommend you submit your plugin listing for Adobe as “Manually publish later”, (as shown in the screenshot below), so that once approved by Adobe, (but not listed publicly), you can create and upload the license codes through FastSpring before you publish your listing.
+
+![](../images/publish-later.png)
+
+For FastSpring questions about fulfillment codes, email [support@fastspring.com](mailto:support@fastspring.com).
+
+ Note that you should choose a large number of license codes because when the initial batch runs out, you will have to contact Adobe to manually upload additional license codes.
+
+For Adobe help to replenish exhausted license codes, email [ccintrev@adobe.com](mailto:ccintrev@adobe.com).
 
 ### What do I do when I get “Access Denied” upon login?
 
