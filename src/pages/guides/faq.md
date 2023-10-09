@@ -38,6 +38,7 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [Should I log in with a personal Adobe ID or Corporate Adobe ID?](#should-i-log-in-with-a-personal-adobe-id-or-corporate-adobe-id)
 - [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
 - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
+- [How can I add an extra layer of security to my paid plugins?](#how-can-i-add-an-extra-layer-of-security-to-my-paid-plugins)
 - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
 - [I don't see my listings after logging in.](#I-dont-see-my-listings-after-logging-in)
 - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
@@ -49,7 +50,6 @@ This document provides answers to frequently asked questions about Adobe Develop
 - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
 - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
 - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
-- [How can I add an extra layer of security to my paid plugins?](#how-can-i-add-an-extra-layer-of-security-to-my-paid-plugins)
 
 ## Answers
 
