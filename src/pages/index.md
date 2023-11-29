@@ -73,19 +73,19 @@ Users who already belong to an Adobe Enterprise or Team organization require eit
 
 ## Next Steps
 
-[Getting started](./getting_started.md)
+[Getting started](../pages/guides/getting_started.md)
 
 Get to know the key concepts around the developer distribution portal.
 
 <DiscoverBlock slots="link, text"/>
 
-[Get a Plugin ID](./plugin_id.md)
+[Get a Plugin ID](../pages/guides/plugin_id.md)
 
 Learn how to get a plugin ID for your plugin.
 
 <DiscoverBlock slots="link, text"/>
 
-[Submission and Review](./submission/overview.md)
+[Submission and Review](../pages/guides/submission/overview.md)
 
 Learn about the submission and review process for your plugin.
 
