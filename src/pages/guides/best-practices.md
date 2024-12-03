@@ -41,8 +41,6 @@ description: This is the page for benefits and best practices of listing in our 
 
 9. Additional Support is available to users for installation issues.
 
-<!-- 10. Developers receive a free Creative Cloud subscription. For a free seat, please contact us at [ccintrev@adobe.com](mailto:ccintrev@adobe.com). -->
-
 ## Best Practices
 
 #### Use the same developer Adobe ID for both UXP and CEP plugins

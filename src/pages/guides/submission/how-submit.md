@@ -14,7 +14,6 @@ The following is a basic overview of the steps for submitted a plugin for review
    **Note:** Further details on the data you are required to submit can be found in the Pre-submission checklist section of this page.
 
 5. Upload your plugin file by dragging and dropping your .ccx/.xdx plugin file onto the appropriate area
-   <!-- After you've dropped in your .ccx/.xdx  plugin file, the fields in the "Manifest details" section of the page will auto-populate based on values you've set in your manifest.  -->
 
    **Note:** If you don't have a .ccx yet, you can learn how to create one on our "Packing your plugin" page. If you don't have a .xdx yet, you can learn how to create one on our "Packing your plugin" page.
 

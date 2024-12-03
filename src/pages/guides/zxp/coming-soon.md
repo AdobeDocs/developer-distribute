@@ -30,15 +30,21 @@ The Creative Cloud Adobe Exchange portal you are used to will soon be merged int
 Developer Distribution is a unified portal where you will soon be able to submit your CEP and UXP plugin listings, and manage them. Read through the [frequently asked questions](../faq.md) about Developer Distribution, or start exploring the Developer Distribution portal by clicking the **Distribute** button in the top right of this page.​
 
 ## Frequently Asked Questions
-- [What is Developer Distribution?](#what-is-developer-distribution)
-- [Why can’t I see my CEP listings?​](#why-cant-i-see-my-cep-listings)
-- [How can I be added to a developer org?​](#how-can-i-be-added-to-a-developer-org)
-- [How can I find out who from my team is the admin of the developer org created for my organization?](#how-can-i-find-out-who-from-my-team-is-the-admin-of-the-developer-org-created-for-my-organization)
-- [I have an account that I use to log into Developer Distribution to manage my UXP plugin listings, and another one that I use to log into Creative Cloud Exchange Partner Portal to manage my ZXP/CEP plugins listings. Will these accounts be automatically merged when Partner Portal workflows move to Developer Distribution, or do I need to do something?](#i-have-an-account-that-i-use-to-log-into-developer-distribution-to-manage-my-uxp-plugin-listings-and-another-one-that-i-use-to-log-into-creative-cloud-exchange-partner-portal-to-manage-my-zxpcep-plugins-listings-will-these-accounts-be-automatically-merged-when-partner-portal-workflows-move-to-developer-distribution-or-do-i-need-to-do-something)
-- [What’s involved in merging accounts?](#whats-involved-in-merging-accounts)
-- [What if I only have one account on the Developer Distribution portal?](#what-if-i-only-have-one-account-on-the-developer-distribution-portal)
-- [What if I only have one account on the Exchange Partner Portal?](#what-if-i-only-have-one-account-on-the-exchange-partner-portal)
-- [Will this change impact how my CEP listings show up in the Adobe Exchange or in Creative Cloud Desktop plugin marketplaces?](#will-this-change-impact-how-my-cep-listings-show-up-in-the-adobe-exchange-or-in-creative-cloud-desktop-plugin-marketplaces)
+- [Important changes coming soon to CEP Distribution](#important-changes-coming-soon-to-cep-distribution)
+  - [Overview](#overview)
+  - [Frequently Asked Questions](#frequently-asked-questions)
+  - [Answers](#answers)
+    - [What is Developer Distribution?](#what-is-developer-distribution)
+    - [Why can't I see my CEP Listings?](#why-cant-i-see-my-cep-listings)
+    - [How can I be added to a developer org?](#how-can-i-be-added-to-a-developer-org)
+    - [How can I find out who from my team is the admin of the developer org created for my organization? ](#how-can-i-find-out-who-from-my-team-is-the-admin-of-the-developer-org-created-for-my-organization)
+    - [I have an account that I use to log into Developer Distribution to manage my UXP plugin listings, and another one that I use to log into Creative Cloud Exchange Partner Portal to manage my ZXP/CEP plugins listings. Will these accounts be automatically merged when Partner Portal workflows move to Developer Distribution, or do I need to do something?](#i-have-an-account-that-i-use-to-log-into-developer-distribution-to-manage-my-uxp-plugin-listings-and-another-one-that-i-use-to-log-into-creative-cloud-exchange-partner-portal-to-manage-my-zxpcep-plugins-listings-will-these-accounts-be-automatically-merged-when-partner-portal-workflows-move-to-developer-distribution-or-do-i-need-to-do-something)
+    - [What’s involved in merging accounts?](#whats-involved-in-merging-accounts)
+      - [Background:](#background)
+      - [Developer Account Merge](#developer-account-merge)
+    - [What if I only have one account on the Developer Distribution portal?](#what-if-i-only-have-one-account-on-the-developer-distribution-portal)
+    - [What if I only have one account on the Exchange Partner Portal?](#what-if-i-only-have-one-account-on-the-exchange-partner-portal)
+    - [Will this change impact how my CEP listings show up in the Adobe Exchange or in Creative Cloud Desktop plugin marketplaces?](#will-this-change-impact-how-my-cep-listings-show-up-in-the-adobe-exchange-or-in-creative-cloud-desktop-plugin-marketplaces)
 
 ## Answers
 
@@ -98,5 +104,3 @@ If you have only built ZXP/CEP plugins in the past and are used to logging into 
 
 ### Will this change impact how my CEP listings show up in the Adobe Exchange or in Creative Cloud Desktop plugin marketplaces?
 There is no impact on how users discover, acquire or install your listings on Adobe Exchange or Creative Cloud Desktop plugin marketplaces.
-
-<br/><br/><br/><br/>

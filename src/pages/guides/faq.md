@@ -25,31 +25,35 @@ This document provides answers to frequently asked questions about Adobe Develop
 
 ## Questions
 
-<br/>
-
-- [What is Developer Distribution?](#what-is-developer-distribution)
-- [Who can use Developer Distribution?](#who-can-use-developer-distribution)
-- [What happens to my existing listings in the Developer Console?](#what-happens-to-my-existing-listings-in-the-developer-console)
-- [I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?](#i-distribute-templatesbrush-packstexturesfilters-or-other-non-plugin-items-via-the-exchange-can-i-use-developer-distribution)
-- [What’s new in Developer Distribution?](#whats-new-in-developer-distribution)
-- [What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?](#whats-the-difference-between-the-creative-cloud-desktop-app-plugin-marketplace-and-exchange-marketplace)
-- [Do I need to fill in my profile details all over again?](#do-i-need-to-fill-in-my-profile-details-all-over-again)
-- [What is an Adobe ID?](#what-is-an-adobe-id)
-- [Should I log in with a personal Adobe ID or Corporate Adobe ID?](#should-i-log-in-with-a-personal-adobe-id-or-corporate-adobe-id)
-- [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
-- [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
-- [How can I add an extra layer of security to my paid plugins?](#how-can-i-add-an-extra-layer-of-security-to-my-paid-plugins)
-- [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
-- [I don't see my listings after logging in.](#I-dont-see-my-listings-after-logging-in)
-- [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
-- [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
-- [How do Categories and Tags work?](#how-do-categories-and-tags-work)
-- [Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?](#do-i-need-to-use-the-adobe-developer-console-at-all-in-the-process-of-distributing-my-uxp-plugin)
-- [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
-- [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
-- [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
-- [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
-- [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
+- [Frequently Asked Questions](#frequently-asked-questions)
+  - [Questions](#questions)
+  - [Answers](#answers)
+    - [What is Developer Distribution?](#what-is-developer-distribution)
+    - [Who can use Developer Distribution?](#who-can-use-developer-distribution)
+    - [What happens to my existing listings in the Developer Console?](#what-happens-to-my-existing-listings-in-the-developer-console)
+    - [I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?](#i-distribute-templatesbrush-packstexturesfilters-or-other-non-plugin-items-via-the-exchange-can-i-use-developer-distribution)
+    - [What’s new in Developer Distribution?](#whats-new-in-developer-distribution)
+    - [What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?](#whats-the-difference-between-the-creative-cloud-desktop-app-plugin-marketplace-and-exchange-marketplace)
+    - [Do I need to fill in my profile details all over again?](#do-i-need-to-fill-in-my-profile-details-all-over-again)
+    - [What is an Adobe ID?](#what-is-an-adobe-id)
+    - [Should I log in with a personal Adobe ID or Corporate Adobe ID?](#should-i-log-in-with-a-personal-adobe-id-or-corporate-adobe-id)
+    - [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
+    - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
+  - [How can I add an extra layer of security to my paid plugins?](#how-can-i-add-an-extra-layer-of-security-to-my-paid-plugins)
+    - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
+    - [I don't see my listings after logging in.](#i-dont-see-my-listings-after-logging-in)
+    - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
+    - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
+    - [How do Categories and Tags work?](#how-do-categories-and-tags-work)
+      - [Categories:](#categories)
+      - [Tags:](#tags)
+    - [Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?](#do-i-need-to-use-the-adobe-developer-console-at-all-in-the-process-of-distributing-my-uxp-plugin)
+    - [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
+    - [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
+    - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
+        - [UXP Manifest Notes](#uxp-manifest-notes)
+    - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
+    - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
 
@@ -202,11 +206,9 @@ In addition to the pre-defined categories, you can also add custom tags to your 
 - Use up to 100 characters to describe your tag.
 - Hit "Enter" to create the tag.
 
-<!-- You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets". -->
-
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?
 
-No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
+No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin-id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
 
 ### How can I fix a server error encountered while using the portal?
 

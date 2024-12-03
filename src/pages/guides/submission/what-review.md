@@ -79,7 +79,7 @@ For modal or headless plugins, the manifest minVersion must be set to 13.0 or ab
 
 ### Adobe Branding
 
-- Make sure to review and adhere to the [Adobe Branding Guidelines](../branding_guidelines.md).
+- Make sure to review and adhere to the [Adobe Branding Guidelines](../branding-guidelines.md).
 
 - Avoid using publisher names, domain names, email addresses, and other such property names that are confusingly similar to existing Adobe brand, product, or service names.
 

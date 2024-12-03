@@ -23,7 +23,7 @@ description: Resources to help developers distributing CEP plugins.
 ---
 
 # Resources
-Here is a list of resources on how to build your plugin and get help during the development process. Head to [Developer Distribution](/distribute/home) when you’re ready to publicly list your plugin on the Adobe marketplaces.​
+Here is a list of resources on how to build your plugin and get help during the development process. Head to [Developer Distribution](https://developer.adobe.com/distribute/home) when you’re ready to publicly list your plugin on the Adobe marketplaces.​
 
 ## [Explore Adobe Exchange](https://exchange.adobe.com/apps/browse/cc)
 With Exchange, Adobe provides you with an easy way to distribute and monetize your integrations.
@@ -66,6 +66,3 @@ After you have successfully built your extension, you should package the extensi
 
 ## [Migrating a CEP panel to UXP](https://github.com/Adobe-CEP/CEP-Resources/tree/master/UXP-Migration-Guide)
 This guide is geared towards CEP (Common Extensibility Platform) developers who would like more technical guidance on migrating their extensions to UXP (Unified eXtensibility Platform). This guide is geared towards CEP (Common Extensibility Platform) developers who would like more technical guidance on migrating their extensions to UXP (Unified eXtensibility Platform). 
-
-<!-- ## [Developer Blog]()
-Get the latest news, updates, and guidance on how to succeed developing on Adobe Creative Cloud Platform SDK and API services. -->
