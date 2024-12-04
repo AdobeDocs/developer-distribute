@@ -2,7 +2,7 @@
     - /developer-distribution/creative-cloud/docs/:
 
 - pages:
-    - [Developer Distribution](/developer-distribution/)
+    - [Developer Distribution](/developer-distribution)
     - [Documentation](guides/index.md)
     - [Support](support/index.md)
 
