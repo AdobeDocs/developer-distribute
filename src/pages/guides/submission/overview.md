@@ -158,7 +158,8 @@ For more information on how to package your UXP plugins, please refer to these a
 
 
 ### ZXP plugin package
-<h3>1. .zxp (CEP/MXI):</h3> 
+
+1. .zxp (CEP/MXI):
 
 - **CEP**: CEP (Common Extensibility Platform) lets you build extensions in Adobe Creative Cloud applications like Photoshop, Illustrator, InDesign, After Effects, and many more. Extensions built with CEP let users customize their Creative Cloud experience for their unique workflows. To create package for a CEP extension:  
 
@@ -186,7 +187,7 @@ For more information on how to package your UXP plugins, please refer to these a
 
 - **Signing and packaging for CEP/MXI:** Adobe provides a command-line tool, `ZXPSignCmd`, that can be used to package and sign extensions. Use [this guide](./packaging_signing.pdf) as a reference on packaging and signing.   
 
-<h3>2. Others (not CEP/MXI):</h3> 
+1. Others (not CEP/MXI):
 
 All non-zxp files (e.g. image, pdf etc.) need to be submitted in a `.zip` folder 
 
