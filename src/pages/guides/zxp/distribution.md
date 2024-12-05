@@ -31,8 +31,6 @@ Developer Distribution is a unified portal where you can submit and manage your 
 
 - [Launch Developer Distribution](https://developer.adobe.com/distribute/home)
 
-<br/>
-
 ## Frequently Asked Questions
 - [Important Changes in ZXP Distribution](#important-changes-in-zxp-distribution)
   - [Frequently Asked Questions](#frequently-asked-questions)
