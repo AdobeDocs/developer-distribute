@@ -20,7 +20,7 @@ title: Coming Soon to CEP Page of Adobe Developer Distribution
 description: Coming Soon to CEP documentation
 ---
 
-<Hero slots="heading, text" background="rgb(141, 52, 78)"/>
+<HeroSimple slots="heading, text" background="rgb(141, 52, 78)"/>
 
 # Important changes coming soon to CEP Distribution
 

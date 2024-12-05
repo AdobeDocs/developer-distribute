@@ -19,7 +19,7 @@ title: Support
 description: This is the support page
 ---
 
-<Hero slots="heading, text" background="rgb(141, 52, 78)" />
+<HeroSimple slots="heading, text" background="rgb(141, 52, 78)" />
 
 # Adobe Developer Distribution Support
 

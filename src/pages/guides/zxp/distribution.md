@@ -20,8 +20,7 @@ title: ZXP Distribution
 description: Important updates for ZXP and distribution.
 ---
 
-<!-- <Hero slots="heading, text1, text2, buttons" variant="fullwidth" /> -->
-<Hero slots="heading,text" background="rgb(141, 52, 78)"/>
+<HeroSimple slots="heading,text" background="rgb(141, 52, 78)"/>
 
 # Important Changes in ZXP Distribution
 The Creative Cloud Exchange Partner Portal has been merged into Adobe Developer Distribution.
