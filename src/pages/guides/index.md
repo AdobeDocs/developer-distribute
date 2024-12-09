@@ -33,7 +33,7 @@ A self-service submission portal for developers to publish listings that extend 
 
 ![Diagram outlining the Use Cases of Developer Distribution for UXP plugin listings. Text description in collapsible element below.](../images/use-cases.drawio.svg)
 
-<DetailsBlock />
+<DetailsBlock slots="header , list" repeat="4" summary = "Text Description of Diagram" subText="Diagram listing common use cases:"/>
 
 - Developer Distribution (Start with the listing metadata):
 
