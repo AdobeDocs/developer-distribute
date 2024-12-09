@@ -33,6 +33,35 @@ A self-service submission portal for developers to publish listings that extend 
 
 ![Diagram outlining the Use Cases of Developer Distribution for UXP plugin listings. Text description in collapsible element below.](../images/use-cases.drawio.svg)
 
+<Details slots="header , list" summary = "Text Description of Diagram" subText="Diagram listing common use cases:"/>
+
+- Developer Distribution (Start with the listing metadata):
+
+1. Create new listing
+2. Download starter package with plugin ID
+3. Upload plugin & enter version details
+4. Submit for review.
+
+- Developer's own sandbox (Develop new plugin):
+
+1. Create new listing
+2. download starter package with plugin ID
+3. upload plugin & enter version details
+4. complete listings & submit for review.
+
+- UXP Development Tool (UDT) (Develop plugin using temporary plugin ID):
+
+1. Create new listing
+2. obtain plugin ID and add to manifest
+3. upload plugin & enter version details
+4. complete listing & submit for review.
+
+- Adobe Developer Console (Create plugin project and get plugin ID):
+  
+1. Create new listing
+2. upload plugin & enter verison details
+3. complete listing details
+4. submit for review
 
 ## Access the Developer Distribution Portal
 
@@ -61,3 +90,4 @@ Learn how to get a plugin ID for your plugin.
 [Submission and Review](./submission/overview.md)
 
 Learn about the submission and review process for your plugin.
+
