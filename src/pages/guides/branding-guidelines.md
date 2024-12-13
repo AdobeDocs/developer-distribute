@@ -21,7 +21,7 @@ description: This is the page for branding guidelines
 
 # Adobe Branding Guidelines
 
-There is a [predefined set of guidelines](https://drive.google.com/drive/folders/1olW7TUAGV4-ne0fdGS2JsJN4pskwS6Pm) that are published by Adobe periodically for the use of Adobe assets and product icons. It is expected that developers strictly adhere to these guidelines.
+There is a [predefined set of guidelines](https://drive.google.com/file/d/1SF_vI8iv1QXJ_sDm-ePwIcPu5Y9NFL25/view) that are published by Adobe periodically for the use of Adobe assets and product icons. It is expected that developers strictly adhere to these guidelines.
 
 - Association with Adobe will increase acceptability within the user community, and users are confident that plugins will meet Adobe's quality standards, which developers can leverage by using Adobe assets with their products.
 
