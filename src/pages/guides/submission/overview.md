@@ -28,7 +28,7 @@ By reviewing every plugin, Adobe aims to help developers get ready for prime tim
 
 <InlineAlert slots="text" variant="info"/>
 
-This set of guides is meant to provide you with an idea of what types of information you will need for the submission process and how to best prepare for review. Working through the guides provided in this section will help you make sure you’ve accounted for all of the requirements so you can avoid having to fix things and resubmit before being published. 
+This set of guides is meant to provide you with an idea of what types of information you will need for the submission process and how to best prepare for review. Working through the guides provided in this section will help you make sure you’ve accounted for all of the requirements so you can avoid having to fix things and resubmit before being published.
 
 ## Submission Data Requirements
 
@@ -48,13 +48,13 @@ Your publisher profile includes required details like:
 2. Your publisher marketing website (again, because this is part of the publisher profile, this website shows for all things you publish with Adobe and should be scoped to you as the publisher, not scoped to any single plugin or integration you submit).
 3. A description of you, the publisher.
 4. Your logo
-5. Trader details. In accordance with the [European Union Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32022R2065) trader requirements, developers who wish to distribute their listings in the EU must provide additional information in their publisher profile. 
+5. Trader details. In accordance with the [European Union Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32022R2065) trader requirements, developers who wish to distribute their listings in the EU must provide additional information in their publisher profile.
 
 <InlineAlert variant="neutral" slots="header, text1, text2, text3" />
 
 Developer/Trader
 
-Note that the terms **developers/traders** are used interchangeably in this guide. 
+Note that the terms **developers/traders** are used interchangeably in this guide.
 
 Any developer who wishes to distribute their listings in the EU can be identified as a trader.
 
@@ -66,13 +66,13 @@ Choose **Yes** if you wish to make your listings available in Adobe Exchange Mar
 
 You must provide the following details:
 
-- Business email address ​
-- Country code and Business telephone number ​
-- Business street address or P.O. box ​
+- Business email address​
+- Country code and Business telephone number
+- Business street address or P.O. box
 - City
-- State/Province/Region 
-- ZIP/Postal code ​
-- Country ​
+- State/Province/Region
+- ZIP/Postal code
+- Country
 
 You must complete and submit your publisher profile in order to submit your first plugin, however this is only a one time thing, unless you decide you need to update for your own reasons.
 
