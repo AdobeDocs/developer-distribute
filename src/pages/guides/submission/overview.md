@@ -88,8 +88,7 @@ Click **Submit for Review** once you have added the information.
 
 Need any corrections in your publisher profile?
 
-You have one opportunity to update and submit your publisher profile through [distribution console](https://developer.adobe.com/console).
-Write to ccintrev@adobe.com to update your profile after it is approved.
+You have one opportunity to update and submit your publisher profile through [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile). Write to ccintrev@adobe.com to update your profile after it is approved.
 
 ### Commerce
 
