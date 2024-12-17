@@ -6,6 +6,8 @@ keywords:
   - Distribution
   - Extensibility
   - SDK
+  - DSA
+  - Know your Trader
   - Developer Tooling
   - UXP
   - Photoshop
