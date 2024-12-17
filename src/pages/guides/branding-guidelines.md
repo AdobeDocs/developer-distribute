@@ -27,6 +27,6 @@ There is a [predefined set of guidelines](https://drive.google.com/file/d/1SF_vI
 
 - Adobe does not allow any change of product icons. Developers are allowed to use Adobe published assets and logos within their products, as long as they do not alter Adobe icons in any way.
 
-- We expect you to thoroughly read the [Adobe Branding Guidelines](../Adobe-Creative-Cloud-Developer-Guidelines.pdf) with due diligence and follow the guidelines exactly. Failure to do so will result in rejection during the review process.
+- We expect you to thoroughly read the [Adobe Branding Guidelines](https://drive.google.com/file/d/1SF_vI8iv1QXJ_sDm-ePwIcPu5Y9NFL25/view) with due diligence and follow the guidelines exactly. Failure to do so will result in rejection during the review process.
 
 - These are the approved [Creative Cloud developer brand assets](https://www.adobe.com/go/distribute-cc-brand-assets) that you can use in-app or for marketing of your plugin listings. Please note that you're required to login with a valid Adobe ID to access this page.
