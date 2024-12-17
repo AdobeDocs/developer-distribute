@@ -62,7 +62,7 @@ Any developer who wishes to distribute their listings in the EU can be identifie
 
 Checkout the [Adobe Know your trader](https://developer.adobe.com/compliance/) guide to understand why you must provide these details to make your listings available in the EU.
 
-### Trader details
+### Trader details 🌟
 
 Choose **Yes** if you wish to make your listings available in Adobe Exchange Marketplace for users in the European Union.
 
