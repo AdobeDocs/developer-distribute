@@ -52,7 +52,7 @@ Your publisher profile includes required details like:
 4. Your logo
 5. Trader details. In accordance with the [European Union Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32022R2065) trader requirements, developers who wish to distribute their listings in the EU must provide additional information in their publisher profile.
 
-<InlineAlert variant="neutral" slots="header, text1, text2, text3" />
+<InlineAlert variant="help" slots="header, text1, text2, text3, text4" />
 
 Developer/Trader
 
@@ -60,7 +60,19 @@ Note that the terms **developers/traders** are used interchangeably in this guid
 
 Any developer who wishes to distribute their listings in the EU can be identified as a trader.
 
-Checkout the [Adobe Know your trader](https://developer.adobe.com/compliance/) guide to understand why you must provide these details to make your listings available in the EU.
+Checkout the [Adobe Know your trader](https://developer.adobe.com/compliance/) guide to understand **why and by when** you must provide these details to make your listings available in the EU.
+
+<InlineNestedAlert variant="info" header="true" iconPosition="right">
+
+   Are you an existing developer? Stay ahead: Update your trader details to Keep EU listings active
+
+   Existing developers can easily update their trader details directly in their publisher profile [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile). 
+   
+   Note that only trader details can be added; other fields cannot be edited by developers. For any other changes, write to ccintrev@adobe.com.
+
+   Failing to update these details will result in the removal of your listing from the EU region.
+   
+ </InlineNestedAlert>
 
 ### Trader details 🌟
 
@@ -78,17 +90,13 @@ You must provide the following details:
 
 You must complete and submit your publisher profile in order to submit your first plugin, however this is only a one time thing, unless you decide you need to update for your own reasons.
 
-<InlineAlert slots="text" variant="warning"/>
-
-Any changes to your publisher profile will need to be submitted for approval again. Frequently changing your publisher profile will confuse users and erode trust. Please be sure you're ready before entering this information.
-
 Click **Submit for Review** once you have added the information.
 
 <InlineAlert variant="neutral" slots="header, text1"/>
 
 Need any corrections in your publisher profile?
 
-You have one opportunity to update and submit your publisher profile through [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile). Write to ccintrev@adobe.com to update your profile after it is approved.
+You have one opportunity to update and submit your publisher profile through [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile). Write to ccintrev@adobe.com to update your profile after it is approved. Any changes to your publisher profile will need to be submitted for approval again.
 
 ### Commerce
 
