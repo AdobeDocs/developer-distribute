@@ -64,9 +64,9 @@ Checkout the [Adobe Know your trader](https://developer.adobe.com/compliance/) g
 
 **Are you an existing developer? Act now: Update your trader details to keep listings active in the EU.**
 
-Existing developers can easily update their trader details directly in their publisher profile through [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile). 
+Existing developers can easily update their trader details directly in their publisher profile through [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile).
 
-Note that only trader details can be added; other fields cannot be edited by developers. For any other changes, write to ccintrev@adobe.com. 
+Note that only trader details can be added; other fields cannot be edited by developers. For any other changes, write to ccintrev@adobe.com.
 
 Your listings will remain invisible in the EU region until trader details are updated.
 
