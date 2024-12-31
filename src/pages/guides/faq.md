@@ -111,9 +111,9 @@ The most common approach is to log in with your personal Adobe ID, since the Dev
 
 ### How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?
 
-Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
+Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](./glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
 
-On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status.
+On the [Listings Screen](./getting-started.md/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status.
 
 1. If a listing is “In Review” the *recall* action will remove your listing from the Review Queue and change its status back to "Draft" (but you lose your place in the review queue).
 2. If an Adobe reviewer rejects a submission the status will change to "Rejected".
@@ -124,13 +124,13 @@ On the [Listings Screen](https://developer.adobe.com/developer-distribution/crea
 
 **Note:** for items 4-6, the status can be changed without involving an Adobe Reviewer because all three are already approved.
 
-All of the same Listing actions appear on the [View Listing Screens](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#view-listing) in the upper right corner with the addition of an “Edit” action.
+All of the same Listing actions appear on the [View Listing Screens](./getting-started.md/#view-listing) in the upper right corner with the addition of an “Edit” action.
 
 1. The “Edit” action is available to make listing edits on "Published", "Retracted" and "Approved" listings (also known as a **Metadata Change Request** or **MCR**).
 2. Listing edits can then be submitted, recalled or deleted independently of the "Published", "Retracted" or "Approved" parent listing.
 3. Listing edits enable developers to make quick changes to their listing information without the need to upload a new plugin version.
 
-Since each listing can have multiple plugin versions each with their own status, there are similar version status actions in the left column of the [Version Screens](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#versions)
+Since each listing can have multiple plugin versions each with their own status, there are similar version status actions in the left column of the [Version Screens](./getting-started.md/#versions)
 
 1. A version "In Review" can be recalled back to "Draft" status.
 2. If an Adobe reviewer rejects a version-only submission (aka patch update), the status will change to "Rejected".
