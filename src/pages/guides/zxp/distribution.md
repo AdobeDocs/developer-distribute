@@ -29,7 +29,7 @@ Developer Distribution is a unified portal where you can submit and manage your 
 
 <AnnouncementBlock slots="buttons" position="center" />
 
-- [Launch Developer Distribution]([./distribute/home](https://developer.adobe.com/distribute/home))
+- [Launch Developer Distribution](https://developer.adobe.com/distribute/home)
 
 ## Frequently Asked Questions
 - [Important Changes in ZXP Distribution](#important-changes-in-zxp-distribution)
