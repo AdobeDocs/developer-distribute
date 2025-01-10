@@ -164,7 +164,7 @@ Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogr
 Our payment vendor FastSpring offers an extra layer of security to a paid plugin through license codes. When set up, plugin customers will receive a unique license code in their receipt email to ensure your plugin is unlocked by only them.
 
 Use [this link](https://fastspring.com/docs/classic/adding-fulfillment-actions-emails-license-codes-download-links/#license
-) to learn how to generate and upload a License Fulfillment (large list of unique license codes) for a new paid plugin. 
+) to learn how to generate and upload a License Fulfillment (large list of unique license codes) for a new paid plugin.
 
 We recommend you submit your plugin listing for Adobe as “Manually publish later”, (as shown in the screenshot below), so that once approved by Adobe, (but not listed publicly), you can create and upload the license codes through FastSpring before you publish your listing.
 
