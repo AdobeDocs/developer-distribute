@@ -97,7 +97,7 @@ Existing developers can easily update their trader details directly in their pub
 
 Note that only trader details can be added; other fields cannot be edited by developers. For any other changes, write to ccintrev@adobe.com.
 
-You must provide trader details by February 16, 2025, to keep your add-on visible and available in Adobe Express for users in the European Union as of February 17, 2025. This trader information will be displayed publicly on your listing detail pages when viewed from EU countries.
+You must provide trader details by February 16, 2025, to keep your plugin visible and available for users in the European Union as of February 17, 2025. This trader information will be displayed publicly on your listing detail pages when viewed from EU countries.
 
 <InlineAlert variant="neutral" slots="header, text1"/>
 

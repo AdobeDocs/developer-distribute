@@ -314,7 +314,7 @@ If you work offline, in a setting where access to the internet is extremely limi
 
 ### What is the deadline for updating trader information?
 
-  Existing Developers must update their trader information in the [public profile](https://developer.adobe.com/distribute/accountProfile) by February 16th.
+  Existing Developers must update their trader information in the [public profile](https://developer.adobe.com/distribute/accountProfile) by February 16, 2025.
 
 ### How should developers update their trader information?
 
@@ -322,7 +322,7 @@ If you work offline, in a setting where access to the internet is extremely limi
 
 ### What happens if a developer fails to update their trader information by the deadline?
 
-  If the trader information is not updated by February 16th, the developer's listings will not be visible to users in the EU region. It is crucial to meet this deadline to avoid disruptions.
+  If the trader information is not updated by February 16, 2025, the developer's listings will not be visible to users in the EU region. It is crucial to meet this deadline to avoid disruptions.
 
 ### Why is my plugin not visible in the EU region?
 
