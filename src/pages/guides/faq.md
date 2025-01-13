@@ -15,6 +15,9 @@ keywords:
   - Developer Console
   - Creative Cloud Desktop
   - FastSpring
+  - DSA
+  - Compliance
+  - Trader Details
 title: FAQ - Frequently Asked Questions
 description: This is the FAQ page
 ---
@@ -27,29 +30,41 @@ This document provides answers to frequently asked questions about Adobe Develop
 
 <br/>
 
-- [What is Developer Distribution?](#what-is-developer-distribution)
-- [Who can use Developer Distribution?](#who-can-use-developer-distribution)
-- [What happens to my existing listings in the Developer Console?](#what-happens-to-my-existing-listings-in-the-developer-console)
-- [I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?](#i-distribute-templatesbrush-packstexturesfilters-or-other-non-plugin-items-via-the-exchange-can-i-use-developer-distribution)
-- [What’s new in Developer Distribution?](#whats-new-in-developer-distribution)
-- [What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?](#whats-the-difference-between-the-creative-cloud-desktop-app-plugin-marketplace-and-exchange-marketplace)
-- [Do I need to fill in my profile details all over again?](#do-i-need-to-fill-in-my-profile-details-all-over-again)
-- [What is an Adobe ID?](#what-is-an-adobe-id)
-- [Should I log in with a personal Adobe ID or Corporate Adobe ID?](#should-i-log-in-with-a-personal-adobe-id-or-corporate-adobe-id)
-- [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
-- [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
-- [How can I add an extra layer of security to my paid plugins?](#how-can-i-add-an-extra-layer-of-security-to-my-paid-plugins)
-- [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
-- [I don't see my listings after logging in.](#I-dont-see-my-listings-after-logging-in)
-- [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
-- [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
-- [How do Categories and Tags work?](#how-do-categories-and-tags-work)
-- [Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?](#do-i-need-to-use-the-adobe-developer-console-at-all-in-the-process-of-distributing-my-uxp-plugin)
-- [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
-- [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
-- [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
-- [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
-- [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
+- [Frequently Asked Questions](#frequently-asked-questions)
+  - [Questions](#questions)
+  - [Answers](#answers)
+    - [What is Developer Distribution?](#what-is-developer-distribution)
+    - [Who can use Developer Distribution?](#who-can-use-developer-distribution)
+    - [What happens to my existing listings in the Developer Console?](#what-happens-to-my-existing-listings-in-the-developer-console)
+    - [I distribute templates/brush packs/textures/filters or other non-plugin items via the Exchange. Can I use Developer Distribution?](#i-distribute-templatesbrush-packstexturesfilters-or-other-non-plugin-items-via-the-exchange-can-i-use-developer-distribution)
+    - [What’s new in Developer Distribution?](#whats-new-in-developer-distribution)
+    - [What's the difference between the Creative Cloud desktop app Plugin Marketplace and Exchange Marketplace?](#whats-the-difference-between-the-creative-cloud-desktop-app-plugin-marketplace-and-exchange-marketplace)
+    - [Do I need to fill in my profile details all over again?](#do-i-need-to-fill-in-my-profile-details-all-over-again)
+    - [What is an Adobe ID?](#what-is-an-adobe-id)
+    - [Should I log in with a personal Adobe ID or Corporate Adobe ID?](#should-i-log-in-with-a-personal-adobe-id-or-corporate-adobe-id)
+    - [How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?](#how-do-i-retract-mark-as-pending-modify-or-re-publish-my-listing-on-developer-distribution)
+    - [How do I set up an account with FastSpring to collect revenue for my first paid listing?](#how-do-i-set-up-an-account-with-fastspring-to-collect-revenue-for-my-first-paid-listing)
+  - [How can I add an extra layer of security to my paid plugins?](#how-can-i-add-an-extra-layer-of-security-to-my-paid-plugins)
+    - [What do I do when I get “Access Denied” upon login?](#what-do-i-do-when-i-get-access-denied-upon-login)
+    - [I don't see my listings after logging in.](#i-dont-see-my-listings-after-logging-in)
+    - [What is the revenue share for paid products?](#what-is-the-revenue-share-for-paid-products)
+    - [What should I do to get support with development?](#what-should-i-do-to-get-support-with-development)
+    - [How do Categories and Tags work?](#how-do-categories-and-tags-work)
+      - [Categories:](#categories)
+      - [Tags:](#tags)
+    - [Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?](#do-i-need-to-use-the-adobe-developer-console-at-all-in-the-process-of-distributing-my-uxp-plugin)
+    - [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
+    - [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
+    - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
+        - [UXP Manifest Notes](#uxp-manifest-notes)
+    - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
+    - [Who qualifies as a "trader" under the DSA?](#who-qualifies-as-a-trader-under-the-dsa)
+    - [What information must plugin developers provide as traders?](#what-information-must-plugin-developers-provide-as-traders)
+    - [What is the deadline for updating trader information?](#what-is-the-deadline-for-updating-trader-information)
+    - [How should developers update their trader information?](#how-should-developers-update-their-trader-information)
+    - [What happens if a developer fails to update their trader information by the deadline?](#what-happens-if-a-developer-fails-to-update-their-trader-information-by-the-deadline)
+    - [Why is my plugin not visible in the EU region?](#why-is-my-plugin-not-visible-in-the-eu-region)
+    - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
 
@@ -145,10 +160,11 @@ Once you have your account you can [login to FastSpring](https://springboard.fas
 Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogram/creativecloud/support/faq.html#Tabs_contentbody_section_par_tabs_tab3:~:text=CC%20Integrations%20Review) if you need help entering your FastSpring key.
 
 ## How can I add an extra layer of security to my paid plugins?
+
 Our payment vendor FastSpring offers an extra layer of security to a paid plugin through license codes. When set up, plugin customers will receive a unique license code in their receipt email to ensure your plugin is unlocked by only them.
 
 Use [this link](https://fastspring.com/docs/classic/adding-fulfillment-actions-emails-license-codes-download-links/#license
-) to learn how to generate and upload a License Fulfillment (large list of unique license codes) for a new paid plugin. 
+) to learn how to generate and upload a License Fulfillment (large list of unique license codes) for a new paid plugin.
 
 We recommend you submit your plugin listing for Adobe as “Manually publish later”, (as shown in the screenshot below), so that once approved by Adobe, (but not listed publicly), you can create and upload the license codes through FastSpring before you publish your listing.
 
@@ -287,6 +303,30 @@ If you work offline, in a setting where access to the internet is extremely limi
 
 - Usually have no reliance on Creative Cloud desktop app or being online unless the developer mandates it
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
+
+### Who qualifies as a "trader" under the DSA?
+
+  In the context of UXP Plugin listings managed through [Adobe Developer Distribution](/distribute/home), developers who publish their listings in the EU region are identified as traders.
+
+### What information must plugin developers provide as traders?
+
+  Developers must provide basic information, including their names, addresses, telephone numbers, and email addresses. This information must be accurate and up-to-date.
+
+### What is the deadline for updating trader information?
+
+  Existing Developers must update their trader information in the [public profile](https://developer.adobe.com/distribute/accountProfile) by February 16, 2025.
+
+### How should developers update their trader information?
+
+  Developers can update their trader information through the [public profile](https://developer.adobe.com/distribute/accountProfile). Please make sure all required fields are filled out accurately.
+
+### What happens if a developer fails to update their trader information by the deadline?
+
+  If the trader information is not updated by February 16, 2025, the developer's listings will not be visible to users in the EU region. It is crucial to meet this deadline to avoid disruptions.
+
+### Why is my plugin not visible in the EU region?
+
+  This could be due to incomplete or outdated trader information in your [public profile](https://developer.adobe.com/distribute/accountProfile). Please make sure all required details are updated and accurate.
 
 ### I’m stuck! Can you help me?
 
