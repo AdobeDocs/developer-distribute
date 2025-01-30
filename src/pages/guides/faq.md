@@ -58,11 +58,6 @@ This document provides answers to frequently asked questions about Adobe Develop
     - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
         - [UXP Manifest Notes](#uxp-manifest-notes)
     - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
-    - [Who qualifies as a "trader" under the DSA?](#who-qualifies-as-a-trader-under-the-dsa)
-    - [What information must plugin developers provide as traders?](#what-information-must-plugin-developers-provide-as-traders)
-    - [What is the deadline for updating trader information?](#what-is-the-deadline-for-updating-trader-information)
-    - [How should developers update their trader information?](#how-should-developers-update-their-trader-information)
-    - [What happens if a developer fails to update their trader information by the deadline?](#what-happens-if-a-developer-fails-to-update-their-trader-information-by-the-deadline)
     - [Why is my plugin not visible in the EU region?](#why-is-my-plugin-not-visible-in-the-eu-region)
     - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
@@ -303,27 +298,7 @@ If you work offline, in a setting where access to the internet is extremely limi
 
 - Usually have no reliance on Creative Cloud desktop app or being online unless the developer mandates it
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
-
-### Who qualifies as a "trader" under the DSA?
-
-  In the context of UXP Plugin listings managed through [Adobe Developer Distribution](/distribute/home), developers who publish their listings in the EU region are identified as traders.
-
-### What information must plugin developers provide as traders?
-
-  Developers must provide basic information, including their names, addresses, telephone numbers, and email addresses. This information must be accurate and up-to-date.
-
-### What is the deadline for updating trader information?
-
-  Existing Developers must update their trader information in the [public profile](https://developer.adobe.com/distribute/accountProfile) by February 16, 2025.
-
-### How should developers update their trader information?
-
-  Developers can update their trader information through the [public profile](https://developer.adobe.com/distribute/accountProfile). Please make sure all required fields are filled out accurately.
-
-### What happens if a developer fails to update their trader information by the deadline?
-
-  If the trader information is not updated by February 16, 2025, the developer's listings will not be visible to users in the EU region. It is crucial to meet this deadline to avoid disruptions.
-
+  
 ### Why is my plugin not visible in the EU region?
 
   This could be due to incomplete or outdated trader information in your [public profile](https://developer.adobe.com/distribute/accountProfile). Please make sure all required details are updated and accurate.
