@@ -59,6 +59,8 @@ This document provides answers to frequently asked questions about Adobe Develop
         - [UXP Manifest Notes](#uxp-manifest-notes)
     - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
     - [Why is my plugin not visible in the EU region?](#why-is-my-plugin-not-visible-in-the-eu-region)
+    - [How can I update my trader details in the publisher profile after submission?](#how-can-i-update-my-trader-details-in-the-publisher-profile-after-submission)
+    - [Can an EU user still use my plugin if they have already installed it, but I am not compliant with the DSA trader requirements?](#can-an-eu-user-still-use-my-plugin-if-they-have-already-installed-it-but-i-am-not-compliant-with-the-dsa-trader-requirements)
     - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
@@ -302,6 +304,14 @@ If you work offline, in a setting where access to the internet is extremely limi
 ### Why is my plugin not visible in the EU region?
 
   This could be due to incomplete or outdated trader information in your [public profile](https://developer.adobe.com/distribute/accountProfile). Please make sure all required details are updated and accurate.
+
+### How can I update my trader details in the publisher profile after submission?
+
+  To update only your trader details in the publisher profile after submission, please contact our team at [ccintrev@adobe.com](mailto:ccintrev@adobe.com). At this time, we are not processing change requests for other fields in the publisher profile.
+
+### Can an EU user still use my plugin if they have already installed it, but I am not compliant with the DSA trader requirements?
+
+  Yes, if an EU user has already installed your plugin, they will still be able to use it even if you are not compliant with the DSA trader requirements. However, they will see a banner with a message indicating the compliance issue.
 
 ### I’m stuck! Can you help me?
 
