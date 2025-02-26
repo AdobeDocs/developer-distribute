@@ -1,5 +1,5 @@
 - pathPrefix:
-    - /developer-distribution/creative-cloud/docs/:
+    - /developer-distribution/creative-cloud/docs/
 
 - pages:
     - [Developer Distribution](/developer-distribution/)
