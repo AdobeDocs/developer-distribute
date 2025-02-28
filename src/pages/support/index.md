@@ -37,7 +37,7 @@ To start a discussion, ask questions or report something you're seeing, please v
 
 ## Bugs and Feature Requests
 
-Log an issue on <https://github.com/AdobeDocs/developer-distribute/issues> to report any bugs or request new product features. 
+Log an issue on [Developer Distribution Github issue] (https://github.com/AdobeDocs/developer-distribute/issues) to report any bugs or request new product features. 
 
 ## Formal Support Requests
 If none of the above helped you arrive at a solution to your issue, you can send an email to [ccintrev@adobe.com](mailto:ccintrev@adobe.com) with a thorough description of the problem and attach all relevant log details and screenshots.
