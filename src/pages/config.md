@@ -3,7 +3,7 @@
 
 - pages:
     - [Developer Distribution](https://developer.adobe.com/developer-distribution/)
-    - [Documentation](guides/index.md)
+    - Documentation
         - [Creative Cloud](guides/getting-started.md)
         - [Experience Cloud](https://developer.adobe.com/deveoper-distribution/experience-cloud/docs/guides/)
     - [Support](support/index.md)
