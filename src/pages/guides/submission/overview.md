@@ -15,143 +15,106 @@ keywords:
   - Developer Console
   - Creative Cloud Desktop
   - FastSpring
-title: Submission and Review - Overview
-description: This is the submission and review overview page
+title: Submission and Review - What We Review
+description: This is the page that describes what we review for a plugin submission
 ---
 
-# Submission and Review
+# What We Review
 
-Congratulations! You've built a great plugin and you're ready to release it to your customers.
+In this section, we will show many of our review test cases and criteria. Each review test case is cause for rejection if not adhered to.
 
-To publish on our Marketplaces, your plugin must first go through a review process.
-By reviewing every plugin, Adobe aims to help developers get ready for prime time and ensure that users have great experiences with the plugins they consume. Our goal is to balance providing you with the best developer experience during the review process as possible, while also ensuring the approved plugins offer a great user experience for our mutual customers.
+This is not meant to be an exhaustive list of what we review for, and our test cases will change and evolve over time. However, checking through each of these test cases will improve your chances of being approved the first time.
 
-<InlineAlert slots="text" variant="info"/>
+## Publisher Profile
 
-This set of guides is meant to provide you with an idea of what types of information you will need for the submission process and how to best prepare for review. Working through the guides provided in this section will help you make sure you’ve accounted for all of the requirements so you can avoid having to fix things and resubmit before being published.
-
-## Submission Data Requirements
-
-Below is the list of data you will be asked to provide during the submission process.
-
-## Publisher profile
-
-Your publisher profile is about you as a company or developer as whole. Once you've submitted this information and it has been approved by Adobe, it is shown for all plugins and integrations you publish with Adobe.
-
-Your publisher profile includes required details like:
-
-1. Your publisher public name (often company name or, for individuals, your own name)
-
-2. Your publisher marketing website (again, because this is part of the publisher profile, this website shows for all things you publish with Adobe and should be scoped to you as the publisher, not scoped to any single plugin or integration you submit)
-
-3. A description of you, the publisher
-
-4. Your logo
-
-<InlineAlert slots="text" variant="info"/>
-
-You must complete and submit your publisher profile in order to submit your first plugin, however this is only a one time thing, unless you decide you need to update for your own reasons.
-
-**Note:** Any changes to your publisher profile will need to be submitted for approval again.
-Frequently changing your publisher profile will confuse users and erode trust. Please be sure you're ready before entering this information.
-
-### Commerce
-
-For paid plugin listings, you’ll need to register with Adobe’s third-party payment provider, [FastSpring](https://fastspring.com/sign-up/payee-adobe/), and enter your FastSpring key into your publisher profile. Please note that it may take up to 24 hours for FastSpring to create your key.
+All data in your publisher profile will be reviewed, including your _public name_, _website_, and _logo_. Make sure that your publisher profile is [Adobe Branding Guidelines](../branding-guidelines.md) compliant.
 
 ## Listing Details
 
-Your listing metadata provides Adobe and users with details about the plugin you are currently submitting. See the [plugin version details below](#plugin-version-details) for the metadata that is submitted for each plugin version.
+Users will see your plugin listing and version details when browsing Adobe Marketplace surfaces.
 
-The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your listing is published.
+In this section, we’ll go over what we’re checking for to ensure that your plugin listing details are complete, correct, and in line with Adobe’s standards.
 
-### General Tab
+### Plugin Description
 
-- Public plugin name
-- Subtitle
-- Support email
-- Help URL
-- Description
+### Plugin Metadata
 
-### Localizations Tab
+- A plugin name should be unique and not identical to existing third party plugin name.
 
-Localized versions of:
+- The plugin description must be relevant and self-explanatory.
 
-- Public plugin name
-- Subtitle
-- Description
+- Regardless of supported languages, an English description must be provided.
 
-### Media Tab
+- All listing content, including author name, email address, and website must comply with Adobe Branding Guidelines.
 
-- 3 plugin icon sizes
+- Any plugin website must provide an email address or contact form so that users can contact the plugin developer easily.
 
-### Tags Tab
+- The listing may not link to websites that are in development (i.e. “under construction”, “coming soon”, etc). Your website will be reviewed, and it must be live at the time of review.
 
-- Categories
-- Custom Tags
+### Manifest Minimum Versions
 
-### Services Tab
+You will need to set your plugin manifest's minimum version depending on the host app and API features you are using.
 
-- Privacy policy
-- Terms of service
-- Commerce: purchase method (paid or free)
+#### Photoshop
 
-## Plugin Version Details
+For all UXP plugins, the manifest `minVersion` must be set to 22.0 or above.
 
-Here you will provide plugin level details for each plugin version submitted.
+#### XD
 
-The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your version is published.
+For panel plugins, the manifest `minVersion` must be set to 21.0 or above.
 
-### General Tab
-**Note:** this tab will vary depending on plugin type being distributed, but may include:
+For modal or headless plugins, the manifest minVersion must be set to 13.0 or above, although 21.0 or above is recommended to take advantage of newer improvements in UXP.
 
-- Plugin package file (see the [section below](#plugin-file))
-- If your plugin requires another application
-- If your plugin requires a 3rd party service
-- Plugin UI supported languages
-- Release notes
+### Icons
 
-### Plugin file tab
-This tab will appear specifically for ZXP plugin distribution, and is where you upload your plugin package file. **Note:** for UXP plugins, the file is uploaded in the 'General' tab.
+- Placeholder icons will not be accepted. Icons must be unique and must be property of the plugin author. Submissions that contain icons from sample projects (or variations thereof) will be rejected.
 
-### Localizations Tab
+- Plugin icons may not contain Adobe product assets or icons.
 
-Localized versions of:
+- Plugin icons must be clear and free of distortion.
 
-- Release notes
+- All required plugin icons must be provided at the appropriate dimensions and file sizes. See the manifest documentation for your host app and "Pre-submission checklist" in this guide to learn more about which icons to include in your plugin package versus which to upload via the Adobe Developer Console.
 
-### Media Tab
+- Plugin icon should be visible properly when the Creative Cloud desktop app color theme is set to Dark mode.
 
-- Screenshots
-- Videos
+### Adobe Branding
 
-## Plugin file
+- Make sure to review and adhere to the [Adobe Branding Guidelines](../branding-guidelines.md).
 
-As part of your submission, you will upload your plugin package. Take the following steps to create your plugin package, categorized by plugin type.
+- Avoid using publisher names, domain names, email addresses, and other such property names that are confusingly similar to existing Adobe brand, product, or service names.
 
-### UXP plugin package
-1. Compress your plugin files as a **.zip** file
+- Using Adobe assets and icons in your plugin or your plugin marketing material requires explicit permission from Adobe (see Adobe Branding Guidelines for details). Note that getting permission to use Adobe branding assets can add to the time it takes to get your plugin approved and published.
 
-    - Select all files within your plugin's parent folder. On both macOS and Windows you can right-click to compress:
+### External Services
 
-      **macOS**:
-      Right-click > Compress items
+If your plugin requires paid credentials, when you submit your plugin to Adobe, you must provide test account login credentials, license number, or anything else that would be required to ensure that we can fully review your plugin.
 
-      **Windows**:
-      Right-click > Send to > Compressed (zipped) folder
+**Note:** All plugin functionality must be accessible, either openly or through the credentials that you provide Adobe, for Adobe's reviewers.
 
-      **Note:** You should _not_ compress the plugin's parent folder. Instead, compress the contents of the parent folder. Failure to do so will likely cause a rejection when submitting.
+### Third Party Companion Apps
 
-2. Rename the **.zip** extension to **.xdx** or **.ccx** depending on the target host app.
+- When a companion app is required, your plugin's description must indicate where the user can download the companion app.
 
-    - Adobe XD recognizes the **.xdx** file extension as an **XD** plugin and Photoshop recognizes the **.ccx** as a **Photoshop** plugin.
+- The companion app must successfully install on platforms it claims to support.
 
-    - By using this file extension, your plugin automatically gets the "double-click to install" feature, meaning that if you share your plugin directly to users, all they have to do is double-click to install the plugin.
+- The companion app must be able to successfully communicate with the plugin.
 
-3. Verify the packaging worked:
+- The companion app must not cause abnormal resource usage (e.g., CPU, RAM, storage).
 
-    - Double-click your final plugin package file. When your OS prompts you to install the plugin, click "Install".
+## User Experience
 
-    - Verify you see a success message upon installation and your plugin available in the host app.
+Checking the plugin's user experience is the core of our review process. Once users install your plugin, we want to make sure they have a great experience with their newfound addition to the host app's core product. In this section, we’ll go over what we’re reviewing in terms of your plugin’s functionality, UI, and more.
 
-For more information on how to package your UXP plugins, please refer to these additional resources ([Photoshop](https://developer.adobe.com/photoshop/uxp/2022/guides/distribution/packaging-your-plugin/), [XD](https://developer.adobe.com/xd/uxp/distribution/packaging-your-plugin/)).
+Since all plugins are different, it isn't possible to provide a permanent and exhaustive list of what we look at. However, we are generally looking at these three areas: functionality, user interface, and performance.
+
+### Functionality
+
+Does the plugin do what is suggested by the associated content and the user interface?
+
+### User interface
+
+Is the user able to complete tasks? Is the UI broken or distorted in any way? Is the user made aware of what is (or isn't) happening?
+
+### Performance
+
+Are system or account resources misused or overused? Is the user left waiting for an abnormal amount of time?
