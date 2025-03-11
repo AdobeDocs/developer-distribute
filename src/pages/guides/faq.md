@@ -1,22 +1,25 @@
 ---
 keywords:
-  - Creative Cloud
-  - Marketplace
-  - Exchange
-  - Distribution
-  - Extensibility
-  - SDK
-  - Developer Tooling
-  - UXP
-  - Photoshop
-  - XD
-  - Plugin
-  - JavaScript
-  - Developer Console
-  - Creative Cloud Desktop
-  - FastSpring
-title: FAQ - Frequently Asked Questions
-description: This is the FAQ page
+- Creative Cloud
+- Marketplace
+- Exchange
+- Distribution
+- Extensibility
+- SDK
+- Developer Tooling
+- UXP
+- Photoshop
+- XD
+- Plugin
+- JavaScript
+- Developer Console
+- Creative Cloud Desktop
+- FastSpring
+- DSA
+- Compliance
+- Trader Details
+  title: FAQ - Frequently Asked Questions
+  description: This is the FAQ page
 ---
 
 # Frequently Asked Questions
@@ -24,6 +27,8 @@ description: This is the FAQ page
 This document provides answers to frequently asked questions about Adobe Developer Distribution. This is a great place to start when troubleshooting a problem with distributing your plugin.
 
 ## Questions
+
+<br/>
 
 - [Frequently Asked Questions](#frequently-asked-questions)
   - [Questions](#questions)
@@ -51,8 +56,11 @@ This document provides answers to frequently asked questions about Adobe Develop
     - [How can I fix a server error encountered while using the portal?](#how-can-i-fix-a-server-error-encountered-while-using-the-portal)
     - [When do I have to complete my public profile?](#when-do-i-have-to-complete-my-public-profile)
     - [How can I troubleshoot the following errors on package upload?](#how-can-i-troubleshoot-the-following-errors-on-package-upload)
-        - [UXP Manifest Notes](#uxp-manifest-notes)
+      - [UXP Manifest Notes](#uxp-manifest-notes)
     - [I work exclusively offline, or in a setting where access to the internet is extremely limited. Can I use scripts, plugins, extensions, or C++ plugins? How can I install all of the above without the Creative Cloud desktop app, or while offline?](#i-work-exclusively-offline-or-in-a-setting-where-access-to-the-internet-is-extremely-limited-can-i-use-scripts-plugins-extensions-or-c-plugins-how-can-i-install-all-of-the-above-without-the-creative-cloud-desktop-app-or-while-offline)
+    - [Why is my plugin not visible in the EU region?](#why-is-my-plugin-not-visible-in-the-eu-region)
+    - [How can I update my trader details in the publisher profile after submission?](#how-can-i-update-my-trader-details-in-the-publisher-profile-after-submission)
+    - [Can an EU user still use my plugin if they have already installed it, but I am not compliant with the DSA trader requirements?](#can-an-eu-user-still-use-my-plugin-if-they-have-already-installed-it-but-i-am-not-compliant-with-the-dsa-trader-requirements)
     - [I’m stuck! Can you help me?](#im-stuck-can-you-help-me)
 
 ## Answers
@@ -83,8 +91,8 @@ Developer Distribution is a modern distribution platform optimized for minimizin
 - **Listing Insights:** you can now see insights like plugin acquisitions by month and year. We plan to introduce additional insights in the future.
 - You now have the ability to *retract*, *recall*, *mark as pending*, *modify*, and *re-publish* listings without contacting the Adobe Review Team.
 - **Metadata change request submission:** You can now submit new metadata changes for active listings without requiring a new version upload or patch.
-    - Metadata change requests enable an accelerated review process, making it faster to update your listings in the marketplace.
-    - We have improved our error messages with hints to accelerate your submission process and minimize submission errors.
+  - Metadata change requests enable an accelerated review process, making it faster to update your listings in the marketplace.
+  - We have improved our error messages with hints to accelerate your submission process and minimize submission errors.
 - **Version management:** Our new version management experience enables you to review older versions of your listings with ease.
 - You can manage your marketplace listings as well as your Public Profile from a single place now in the Developer Distribution portal, eliminating the need to go back and forth between the Developer Console and the Exchange Partner Portal.
 
@@ -111,9 +119,9 @@ The most common approach is to log in with your personal Adobe ID, since the Dev
 
 ### How do I retract, mark as pending, modify or re-publish my listing on Developer Distribution?
 
-Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](./glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
+Review the **Listing Status** and **Version Status** in the [Glossary section of the documentation](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/glossary/#listing-status). The verbs to *retract*, *recall*, *edit* and *publish* will show up as Actions based on the status of the listing or associated plugin version(s).
 
-On the [Listings Screen](./getting-started.md/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status.
+On the [Listings Screen](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#listings), the main call to action button in the card view and the actions column in the list view both affect the status of the overall listing, and the options shown will vary depending on the status.
 
 1. If a listing is “In Review” the *recall* action will remove your listing from the Review Queue and change its status back to "Draft" (but you lose your place in the review queue).
 2. If an Adobe reviewer rejects a submission the status will change to "Rejected".
@@ -124,13 +132,13 @@ On the [Listings Screen](./getting-started.md/#listings), the main call to actio
 
 **Note:** for items 4-6, the status can be changed without involving an Adobe Reviewer because all three are already approved.
 
-All of the same Listing actions appear on the [View Listing Screens](./getting-started.md/#view-listing) in the upper right corner with the addition of an “Edit” action.
+All of the same Listing actions appear on the [View Listing Screens](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#view-listing) in the upper right corner with the addition of an “Edit” action.
 
 1. The “Edit” action is available to make listing edits on "Published", "Retracted" and "Approved" listings (also known as a **Metadata Change Request** or **MCR**).
 2. Listing edits can then be submitted, recalled or deleted independently of the "Published", "Retracted" or "Approved" parent listing.
 3. Listing edits enable developers to make quick changes to their listing information without the need to upload a new plugin version.
 
-Since each listing can have multiple plugin versions each with their own status, there are similar version status actions in the left column of the [Version Screens](./getting-started.md/#versions)
+Since each listing can have multiple plugin versions each with their own status, there are similar version status actions in the left column of the [Version Screens](https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/getting_started/#versions)
 
 1. A version "In Review" can be recalled back to "Draft" status.
 2. If an Adobe reviewer rejects a version-only submission (aka patch update), the status will change to "Rejected".
@@ -149,10 +157,11 @@ Once you have your account you can [login to FastSpring](https://springboard.fas
 Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogram/creativecloud/support/faq.html#Tabs_contentbody_section_par_tabs_tab3:~:text=CC%20Integrations%20Review) if you need help entering your FastSpring key.
 
 ## How can I add an extra layer of security to my paid plugins?
+
 Our payment vendor FastSpring offers an extra layer of security to a paid plugin through license codes. When set up, plugin customers will receive a unique license code in their receipt email to ensure your plugin is unlocked by only them.
 
 Use [this link](https://fastspring.com/docs/classic/adding-fulfillment-actions-emails-license-codes-download-links/#license
-) to learn how to generate and upload a License Fulfillment (large list of unique license codes) for a new paid plugin. 
+) to learn how to generate and upload a License Fulfillment (large list of unique license codes) for a new paid plugin.
 
 We recommend you submit your plugin listing for Adobe as “Manually publish later”, (as shown in the screenshot below), so that once approved by Adobe, (but not listed publicly), you can create and upload the license codes through FastSpring before you publish your listing.
 
@@ -160,7 +169,7 @@ We recommend you submit your plugin listing for Adobe as “Manually publish lat
 
 For FastSpring questions about fulfillment codes, email [support@fastspring.com](mailto:support@fastspring.com).
 
- Note that you should choose a large number of license codes because when the initial batch runs out, you will have to contact Adobe to manually upload additional license codes.
+Note that you should choose a large number of license codes because when the initial batch runs out, you will have to contact Adobe to manually upload additional license codes.
 
 For Adobe help to replenish exhausted license codes, email [ccintrev@adobe.com](mailto:ccintrev@adobe.com).
 
@@ -206,9 +215,11 @@ In addition to the pre-defined categories, you can also add custom tags to your 
 - Use up to 100 characters to describe your tag.
 - Hit "Enter" to create the tag.
 
+<!-- You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets". -->
+
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?
 
-No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin-id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
+No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
 
 ### How can I fix a server error encountered while using the portal?
 
@@ -289,6 +300,18 @@ If you work offline, in a setting where access to the internet is extremely limi
 
 - Usually have no reliance on Creative Cloud desktop app or being online unless the developer mandates it
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
+
+### Why is my plugin not visible in the EU region?
+
+This could be due to incomplete or outdated trader information in your [public profile](https://developer.adobe.com/distribute/accountProfile). Please make sure all required details are updated and accurate.
+
+### How can I update my trader details in the publisher profile after submission?
+
+To update only your trader details in the publisher profile after submission, please contact our team at [ccintrev@adobe.com](mailto:ccintrev@adobe.com). At this time, we are not processing change requests for other fields in the publisher profile.
+
+### Can an EU user still use my plugin if they have already installed it, but I am not compliant with the DSA trader requirements?
+
+Yes, if an EU user has already installed your plugin, they will still be able to use it even if you are not compliant with the DSA trader requirements. However, they will see a banner with a message indicating the compliance issue.
 
 ### I’m stuck! Can you help me?
 
