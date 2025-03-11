@@ -1,24 +1,24 @@
 ---
 keywords:
 - Creative Cloud
-- Marketplace
-- Exchange
-- Distribution
-- Extensibility
-- SDK
-- DSA
-- Know your Trader
-- Developer Tooling
-- UXP
-- Photoshop
-- XD
-- Plugin
-- JavaScript
-- Developer Console
-- Creative Cloud Desktop
-- FastSpring
-  title: Submission and Review - Overview
-  description: This is the submission and review overview page
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - DSA
+  - Know your Trader
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+title: Submission and Review - Overview
+description: This is the submission and review overview page
 ---
 
 # Submission and Review
