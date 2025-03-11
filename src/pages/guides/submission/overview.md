@@ -15,15 +15,13 @@ keywords:
   - Developer Console
   - Creative Cloud Desktop
   - FastSpring
-title: Submission and Review - Overview
-description: This is the submission and review overview page
+title: Submission and Review - What We Review
+description: This is the page that describes what we review for a plugin submission
 ---
 
-# Submission and Review Test
+# Submission and Review
 
-In this section, we will show many of our review test cases and criteria. Each review test case is cause for rejection if not adhered to.
-
-This is not meant to be an exhaustive list of what we review for, and our test cases will change and evolve over time. However, checking through each of these test cases will improve your chances of being approved the first time.
+Congratulations! You've built a great plugin and you're ready to release it to your customers.
 
 ## Publisher Profile
 
