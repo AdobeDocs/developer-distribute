@@ -33,9 +33,3 @@ This set of guides is meant to provide you with an idea of what types of informa
 ## Submission Data Requirements
 
 Below is the list of data you will be asked to provide during the submission process.
-
-## Publisher profile
-
-Your publisher profile is about you as a company or developer as whole. Once you've submitted this information and it has been approved by Adobe, it is shown for all plugins and integrations you publish with Adobe.
-
-Go to **Account and profile** > **Public profile**.
