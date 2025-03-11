@@ -23,6 +23,14 @@ description: This is the submission and review overview page
 
 Congratulations! You've built a great plugin and you're ready to release it to your customers.
 
+<Announcement slots="heading, text, button" />
+
+Are you an existing developer?
+
+Action required: Add trader details to continue EU distribution.
+
+[Add trader details now.](https://developer.adobe.com/distribute/accountProfile)
+
 ## Publisher Profile
 
 All data in your publisher profile will be reviewed, including your _public name_, _website_, and _logo_. Make sure that your publisher profile is [Adobe Branding Guidelines](../branding-guidelines.md) compliant.
