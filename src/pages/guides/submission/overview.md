@@ -1,6 +1,6 @@
 ---
 keywords:
-- Creative Cloud
+  - Creative Cloud
   - Marketplace
   - Exchange
   - Distribution
