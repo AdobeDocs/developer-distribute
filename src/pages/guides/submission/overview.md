@@ -19,7 +19,7 @@ title: Submission and Review - Overview
 description: This is the submission and review overview page
 ---
 
-# Submission and Review Test
+# Submission and Review
 
 Congratulations! You've built a great plugin and you're ready to release it to your customers.
 
