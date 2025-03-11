@@ -1,25 +1,25 @@
 ---
 keywords:
-- Creative Cloud
-- Marketplace
-- Exchange
-- Distribution
-- Extensibility
-- SDK
-- Developer Tooling
-- UXP
-- Photoshop
-- XD
-- Plugin
-- JavaScript
-- Developer Console
-- Creative Cloud Desktop
-- FastSpring
-- DSA
-- Compliance
-- Trader Details
-  title: FAQ - Frequently Asked Questions
-  description: This is the FAQ page
+  - Creative Cloud
+  - Marketplace
+  - Exchange
+  - Distribution
+  - Extensibility
+  - SDK
+  - Developer Tooling
+  - UXP
+  - Photoshop
+  - XD
+  - Plugin
+  - JavaScript
+  - Developer Console
+  - Creative Cloud Desktop
+  - FastSpring
+  - DSA
+  - Compliance
+  - Trader Details
+title: FAQ - Frequently Asked Questions
+description: This is the FAQ page
 ---
 
 # Frequently Asked Questions
@@ -27,8 +27,6 @@ keywords:
 This document provides answers to frequently asked questions about Adobe Developer Distribution. This is a great place to start when troubleshooting a problem with distributing your plugin.
 
 ## Questions
-
-<br/>
 
 - [Frequently Asked Questions](#frequently-asked-questions)
   - [Questions](#questions)
@@ -157,7 +155,6 @@ Once you have your account you can [login to FastSpring](https://springboard.fas
 Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogram/creativecloud/support/faq.html#Tabs_contentbody_section_par_tabs_tab3:~:text=CC%20Integrations%20Review) if you need help entering your FastSpring key.
 
 ## How can I add an extra layer of security to my paid plugins?
-
 Our payment vendor FastSpring offers an extra layer of security to a paid plugin through license codes. When set up, plugin customers will receive a unique license code in their receipt email to ensure your plugin is unlocked by only them.
 
 Use [this link](https://fastspring.com/docs/classic/adding-fulfillment-actions-emails-license-codes-download-links/#license
@@ -215,11 +212,9 @@ In addition to the pre-defined categories, you can also add custom tags to your 
 - Use up to 100 characters to describe your tag.
 - Hit "Enter" to create the tag.
 
-<!-- You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets". -->
-
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?
 
-No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
+No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin-id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
 
 ### How can I fix a server error encountered while using the portal?
 
