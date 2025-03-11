@@ -25,7 +25,7 @@ description: This is the submission and review overview page
 
 Congratulations! You've built a great plugin and you're ready to release it to your customers.
 
-<AnnouncementBlock slots="heading, text, button" />
+<Announcement slots="heading, text, button" />
 
 Are you an existing developer?
 
