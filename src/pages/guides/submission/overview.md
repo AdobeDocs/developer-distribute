@@ -62,7 +62,7 @@ Your publisher profile includes required details like:
 
 <InlineAlert variant="help" slots="header, text1, text2, text3" />
 
-Developer/Trader
+### Developer/Trader
 
 The terms **developers/traders** are used interchangeably in this guide.
 
@@ -91,7 +91,7 @@ Click **Submit for Review** once you have added the information.
 
 <InlineAlert variant="warning" slots="header, text1, text2, text3" />
 
-Are you an existing developer?
+### Are you an existing developer?
 
 Existing developers can easily update their trader details directly in their publisher profile through [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile).
 
@@ -101,7 +101,7 @@ You must provide trader details by February 16, 2025, to keep your plugin visibl
 
 <InlineAlert variant="neutral" slots="header, text1"/>
 
-Need any corrections in your publisher profile?
+### Need any corrections in your publisher profile?
 
 You have one opportunity to update and submit your [publisher profile](https://developer.adobe.com/distribute/accountProfile). If you need to make changes after it is approved, contact ccintrev@adobe.com for a second opportunity to update your profile.
 
