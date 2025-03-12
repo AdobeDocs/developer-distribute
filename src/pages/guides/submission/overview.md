@@ -27,7 +27,7 @@ Congratulations! You've built a great plugin and you're ready to release it to y
 
 <Announcement slots="heading, text, button" />
 
-Are you an existing developer?
+### Are you an existing developer?
 
 Action required: Add trader details to continue EU distribution.
 
