@@ -36,28 +36,6 @@ Below is the list of data you will be asked to provide during the submission pro
 
 ## Publisher profile
 
-Your publisher profile is about you as a company or developer as whole. Once you've submitted this information and it has been approved by Adobe, it is shown for all plugins and integrations you publish with Adobe.
+Your publisher profile is about you as a company or developer as whole. Once you've submitted this information and it has been approved by Adobe, it is shown for all plugins and integrations you publish with Adobe.
 
 Go to **Account and profile** > **Public profile**.
-
-![Submit for review](./submit-review.png)
-
-Your publisher profile includes required details like:
-
-1. Your publisher public name (often company name or, for individuals, your own name).
-2. Your publisher marketing website (again, because this is part of the publisher profile, this website shows for all things you publish with Adobe and should be scoped to you as the publisher, not scoped to any single plugin or integration you submit).
-3. A description of you, the publisher.
-4. Your logo
-5. Trader details. In accordance with the [European Union Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32022R2065) trader requirements, developers who wish to distribute their listings in the EU must provide additional information in their publisher profile.
-
-<InlineAlert variant="help" slots="header, text1, text2, text3" />
-
-Developer/Trader
-
-The terms **developers/traders** are used interchangeably in this guide.
-
-Any developer who wishes to distribute their listings in the EU can be identified as a trader.
-
-Checkout the [Adobe Know your trader](https://developer.adobe.com/compliance/) guide to understand **why and by when** you must provide these details to make your listings available in the EU.
-
-### Trader details 🌟
