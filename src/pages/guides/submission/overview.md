@@ -31,7 +31,7 @@ Are you an existing developer?
 
 Action required: Add trader details to continue EU distribution.
 
-[Add trader details now.](https://developer.adobe.com/distribute/accountProfile)
+- [Add trader details now.](https://developer.adobe.com/distribute/accountProfile)
 
 To publish on our Marketplaces, your plugin must first go through a review process.
 By reviewing every plugin, Adobe aims to help developers get ready for prime time and ensure that users have great experiences with the plugins they consume. Our goal is to balance providing you with the best developer experience during the review process as possible, while also ensuring the approved plugins offer a great user experience for our mutual customers.
