@@ -157,3 +157,18 @@ The information you add in the following tabs will be made public to users via A
 This tab will appear specifically for ZXP plugin distribution, and is where you upload your plugin package file. **Note:** for UXP plugins, the file is uploaded in the 'General' tab.
 
 ### Localizations Tab
+
+Localized versions of:
+
+- Release notes
+
+### Media Tab
+
+- Screenshots
+- Videos
+
+## Plugin file
+
+As part of your submission, you will upload your plugin package. Take the following steps to create your plugin package, categorized by plugin type.
+
+### UXP plugin package
