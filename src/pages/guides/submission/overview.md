@@ -96,3 +96,64 @@ Need any corrections in your publisher profile?
 You have one opportunity to update and submit your [publisher profile](https://developer.adobe.com/distribute/accountProfile). If you need to make changes after it is approved, contact ccintrev@adobe.com for a second opportunity to update your profile.
 
 ### Commerce
+
+For paid plugin listings, you’ll need to register with Adobe’s third-party payment provider, [FastSpring](https://fastspring.com/sign-up/payee-adobe/), and enter your FastSpring key into your publisher profile. Please note that it may take up to 24 hours for FastSpring to create your key.
+
+## Listing Details
+
+Your listing metadata provides Adobe and users with details about the plugin you are currently submitting. See the [plugin version details below](#plugin-version-details) for the metadata that is submitted for each plugin version.
+
+The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your listing is published.
+
+### General Tab
+
+- Public plugin name
+- Subtitle
+- Support email
+- Help URL
+- Description
+
+### Localizations Tab
+
+Localized versions of:
+
+- Public plugin name
+- Subtitle
+- Description
+
+### Media Tab
+
+- 3 plugin icon sizes
+
+### Tags Tab
+
+- Categories
+- Custom Tags
+
+### Services Tab
+
+- Privacy policy
+- Terms of service
+- Commerce: purchase method (paid or free)
+
+## Plugin Version Details
+
+Here you will provide plugin level details for each plugin version submitted.
+
+The information you add in the following tabs will be made public to users via Adobe's Marketplace surfaces once your version is published.
+
+### General Tab
+
+**Note:** this tab will vary depending on plugin type being distributed, but may include:
+
+- Plugin package file (see the [section below](#plugin-file))
+- If your plugin requires another application
+- If your plugin requires a 3rd party service
+- Plugin UI supported languages
+- Release notes
+
+### Plugin file tab
+
+This tab will appear specifically for ZXP plugin distribution, and is where you upload your plugin package file. **Note:** for UXP plugins, the file is uploaded in the 'General' tab.
+
+### Localizations Tab
