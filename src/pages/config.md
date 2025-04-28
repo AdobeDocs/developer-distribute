@@ -12,7 +12,7 @@
     - [Developer Distribution](guides/index.md) 
         - [Getting Started](guides/getting-started.md) 
         - [What's new with ZXP](guides/zxp/distribution.md) 
-            - [Resources](guides/zxp/resources) 
+            - [Resources](guides/zxp/resources.md) 
         - [Get a Plugin ID](guides/plugin-id.md) 
         - [Submission and Review](guides/submission/overview.md) 
             - [What We Review](guides/submission/what-review.md) 
