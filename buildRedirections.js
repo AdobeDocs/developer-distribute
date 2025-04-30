@@ -1,7 +1,7 @@
 const path = require('path');
-const fs = require('node:fs');
 const { pathPrefix } = require('./gatsby-config.js');
 const { globSync }= require('glob');
+const { writeRedirectionsFile } = require('./scriptUtils.js');
 
 try {
     if(!pathPrefix) {
@@ -11,35 +11,35 @@ try {
     let results = globSync(__dirname + '/src/pages/**/*.md');
     let data = [];
 
-    // Fixes paths that end in a trailing slash that shouldn't
-    results.forEach((mdFilePath) => {
-        let originalFilePath = mdFilePath;
+    results.forEach(mdFilePath => {
         mdFilePath = mdFilePath.replace(__dirname + '/src/pages', pathPrefix);
         mdFilePath = path.resolve(mdFilePath);
 
+        // Fixes paths that don't end in a trailing slash but should.
+        // index.md is a directory-level URL that needs a trailing slash
+        if(mdFilePath.endsWith('index.md')) {
+            const source = mdFilePath.replace('/index.md', '');
+            data.push({
+                "Source" : source,
+                "Destination" : source + '/'
+            });
+            data.push({
+                "Source" : source + '/index',
+                "Destination" : source + '/'
+            });
+        }
+        // Fixes paths that end in a trailing slash but shouldn't.
         // skip any index.md or config.md as they don't need redirect
-        if(!mdFilePath.includes('index.md')) {
-            if(!mdFilePath.includes('config.md')) {
-                mdFilePath = mdFilePath.replace('.md', '/');
-                data.push({
-                    "Source" : mdFilePath,
-                    "Destination" : mdFilePath.replace(/\/$/, "")
-                });
-            }
+        else if(!mdFilePath.endsWith('config.md')) {
+            const source = mdFilePath.replace('.md', '/');
+            data.push({
+                "Source" : source,
+                "Destination" : source.replace(/\/$/, "")
+            });
         }
     });
 
-    let redirectionsData = 
-    {
-        "total" : data.length,
-        "offset": 0,
-        "limit": data.length,
-        "data" : data,
-        ":type": "sheet"
-    };
-
-    let redirectionsFilePath = path.resolve(__dirname + '/src/pages/redirects.json');
-    fs.writeFileSync(redirectionsFilePath, JSON.stringify(redirectionsData));
+    writeRedirectionsFile(data);
 
 } catch (err) {
     console.error(err);

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "adobe-dev-distribution",
+  "name": "dev-site-documentation-template",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "repository": {
@@ -12,12 +12,14 @@
     "url": "https://github.com/icaraps"
   },
   "dependencies": {
-    "@adobe/gatsby-theme-aio": "^4.14.4",
+    "@adobe/gatsby-theme-aio": "^4.14.6",
     "gatsby": "4.22.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "react-dom": "^17.0.2"
+  },
+  "resolutions": {
+    "sharp": "0.33.0",
+    "gatsby-sharp": "1.12.0"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
@@ -25,13 +27,14 @@
     "dev": "gatsby develop",
     "dev:https": "gatsby develop --https --host localhost.corp.adobe.com --port 9000",
     "build": "gatsby build",
-    "build:incremental": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test:links": "remark src/pages --quiet --frail",
     "lint": "docker run --rm -e RUN_LOCAL=true --env-file '.github/super-linter.env' -v \"$PWD\":/tmp/lint github/super-linter:slim-v4.10.1",
     "buildNavigation": "node buildNavigation.js",
-    "buildRedirections": "node buildRedirections.js"
+    "buildRedirections": "node buildRedirections.js",
+    "renameFiles": "node renameFiles.js",
+    "normalizeLinks": "node normalizeLinks.js"
   },
   "remarkConfig": {
     "plugins": [
