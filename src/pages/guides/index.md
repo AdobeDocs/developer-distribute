@@ -90,5 +90,3 @@ Learn how to get a plugin ID for your plugin.
 [Submission and Review](./submission/overview.md)
 
 Learn about the submission and review process for your plugin.
-
-<br/>
