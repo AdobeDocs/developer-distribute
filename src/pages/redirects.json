@@ -1,7 +1,7 @@
 {
-  "total": 21,
+  "total": 39,
   "offset": 0,
-  "limit": 21,
+  "limit": 39,
   "data": [
     {
       "Source": "/developer-distribution/creative-cloud/docs",
@@ -85,6 +85,78 @@
     },
     {
       "Source": "/developer-distribution/creative-cloud/docs/guides/submission/how-submit/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/how-submit"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/plugin_id",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/plugin-id"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/getting_started",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/getting-started"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/branding_guidelines",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/branding-guidelines"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/best_practices",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/best-practices"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/zxp/coming_soon",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/zxp/coming-soon"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/what_review",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/what-review"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/timelines_outcomes",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/timelines-outcomes"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/rejection_reasons",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/rejection-reasons"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/how_submit",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/how-submit"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/plugin_id/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/plugin-id"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/getting_started/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/getting-started"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/branding_guidelines/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/branding-guidelines"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/best_practices/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/best-practices"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/zxp/coming_soon/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/zxp/coming-soon"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/what_review/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/what-review"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/timelines_outcomes/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/timelines-outcomes"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/rejection_reasons/",
+      "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/rejection-reasons"
+    },
+    {
+      "Source": "/developer-distribution/creative-cloud/docs/guides/submission/how_submit/",
       "Destination": "/developer-distribution/creative-cloud/docs/guides/submission/how-submit"
     }
   ],
