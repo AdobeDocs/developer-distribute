@@ -28,8 +28,6 @@ This document provides answers to frequently asked questions about Adobe Develop
 
 ## Questions
 
-<br/>
-
 - [Frequently Asked Questions](#frequently-asked-questions)
   - [Questions](#questions)
   - [Answers](#answers)
@@ -157,7 +155,6 @@ Once you have your account you can [login to FastSpring](https://springboard.fas
 Please contact [CC Integrations Review](https://partners.adobe.com/exchangeprogram/creativecloud/support/faq.html#Tabs_contentbody_section_par_tabs_tab3:~:text=CC%20Integrations%20Review) if you need help entering your FastSpring key.
 
 ## How can I add an extra layer of security to my paid plugins?
-
 Our payment vendor FastSpring offers an extra layer of security to a paid plugin through license codes. When set up, plugin customers will receive a unique license code in their receipt email to ensure your plugin is unlocked by only them.
 
 Use [this link](https://fastspring.com/docs/classic/adding-fulfillment-actions-emails-license-codes-download-links/#license
@@ -214,8 +211,6 @@ In addition to the pre-defined categories, you can also add custom tags to your 
 - Type at least two characters for your tag.
 - Use up to 100 characters to describe your tag.
 - Hit "Enter" to create the tag.
-
-<!-- You can select up to two categories out of five available for creating custom tags for your UXP listing, and each custom tag you define will apply to both. The five categories are currently "Collaboration". "Tools & Automation", "Usability & Testing", "Publish & Handoff" and "Design Assets". -->
 
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?
 
@@ -300,7 +295,7 @@ If you work offline, in a setting where access to the internet is extremely limi
 
 - Usually have no reliance on Creative Cloud desktop app or being online unless the developer mandates it
 - Cannot be downloaded from the Exchange first, as it would tie to a specific user.
-  
+
 ### Why is my plugin not visible in the EU region?
 
   This could be due to incomplete or outdated trader information in your [public profile](https://developer.adobe.com/distribute/accountProfile). Please make sure all required details are updated and accurate.
@@ -316,3 +311,4 @@ If you work offline, in a setting where access to the internet is extremely limi
 ### I’m stuck! Can you help me?
 
 It’s all going to be OK. [Email us](mailto:ccintrev@adobe.com) and we’ll help you.
+
