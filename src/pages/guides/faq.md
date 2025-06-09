@@ -219,7 +219,7 @@ In addition to the pre-defined categories, you can also add custom tags to your 
 
 ### Do I need to use the Adobe Developer Console at all in the process of distributing my UXP plugin?
 
-No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin_id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
+No, the Adobe Developer Console is no longer required in the process of distributing a plugin since you can simply [get a plugin ID](./plugin-id.md) from the Developer Distribution portal itself. However, the option to create a UXP plugin on a project still exists in the Adobe Developer Console, but it will simply route you to the Adobe Developer Distribution portal to actually create and manage your listing.
 
 ### How can I fix a server error encountered while using the portal?
 

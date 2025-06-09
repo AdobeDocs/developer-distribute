@@ -27,7 +27,7 @@ This is not meant to be an exhaustive list of what we review for, and our test c
 
 ## Publisher Profile
 
-All data in your publisher profile will be reviewed, including your _public name_, _website_, and _logo_. Make sure that your publisher profile is [Adobe Branding Guidelines](../branding_guidelines.md) compliant.
+All data in your publisher profile will be reviewed, including your _public name_, _website_, and _logo_. Make sure that your publisher profile is [Adobe Branding Guidelines](../branding-guidelines.md) compliant.
 
 ## Listing Details
 
@@ -79,7 +79,7 @@ For modal or headless plugins, the manifest minVersion must be set to 13.0 or ab
 
 ### Adobe Branding
 
-- Make sure to review and adhere to the [Adobe Branding Guidelines](../branding_guidelines.md).
+- Make sure to review and adhere to the [Adobe Branding Guidelines](../branding-guidelines.md).
 
 - Avoid using publisher names, domain names, email addresses, and other such property names that are confusingly similar to existing Adobe brand, product, or service names.
 

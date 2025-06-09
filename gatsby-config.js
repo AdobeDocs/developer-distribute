@@ -34,7 +34,7 @@ module.exports = {
         title: "Developer Distribution",
         pages: [          
           {
-            path: "guides/getting_started.md",
+            path: "guides/getting-started.md",
             title: "Getting Started",
           },          
           {          
@@ -48,7 +48,7 @@ module.exports = {
             ],
           },         
           {
-            path: "guides/plugin_id.md",
+            path: "guides/plugin-id.md",
             title: "Get a Plugin ID",
           },
           {
@@ -56,25 +56,25 @@ module.exports = {
             path: "guides/submission/overview.md",
             pages: [
               {
-                path: "guides/submission/what_review.md",
+                path: "guides/submission/what-review.md",
                 title: "What We Review",
               },
               {
-                path: "guides/submission/timelines_outcomes.md",
+                path: "guides/submission/timelines-outcomes.md",
                 title: "Timelines and Outcomes",
               },
               {
-                path: "guides/submission/rejection_reasons.md",
+                path: "guides/submission/rejection-reasons.md",
                 title: "Top Rejection Reasons",
               },
             ],
           },
           {
-            path: "guides/branding_guidelines.md",
+            path: "guides/branding-guidelines.md",
             title: "Adobe Branding Guidelines",
           },
           {
-            path: "guides/best_practices.md",
+            path: "guides/best-practices.md",
             title: "Benefits and Best Practices",
           },
           {

@@ -30,7 +30,7 @@ Developer Distribution is a unified portal where you can submit and manage your 
 
 <TeaserBlock slots="buttons" textColor="black" position="center" backgroundColor="" />
 
-- [Launch Developer Distribution](/distribute/home)
+- [Launch Developer Distribution](https://developer.adobe.com/distribute/home)
 
 <br/>
 

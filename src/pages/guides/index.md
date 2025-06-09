@@ -27,7 +27,7 @@ A self-service submission portal for developers to publish listings that extend 
 
 ## Overview
 
-[Adobe Developer Distribution](/distribute/home) is a new surface for developers to submit and manage their listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. This document provides guidance on how to use the Developer Distribution surface for listing submissions. Documentation will be updated as future releases support for additional Adobe products.​
+[Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new surface for developers to submit and manage their listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. This document provides guidance on how to use the Developer Distribution surface for listing submissions. Documentation will be updated as future releases support for additional Adobe products.​
 
 ## Developer Distribution New Listing Use Cases for UXP Plugin Listings​
 
@@ -75,13 +75,13 @@ Users who already belong to an Adobe Enterprise or Team organization require eit
 
 ## Next Steps
 
-[Getting started](./getting_started.md)
+[Getting started](./getting-started.md)
 
 Get to know the key concepts around the developer distribution portal.
 
 <DiscoverBlock slots="link, text"/>
 
-[Get a Plugin ID](./plugin_id.md)
+[Get a Plugin ID](./plugin-id.md)
 
 Learn how to get a plugin ID for your plugin.
 

@@ -23,7 +23,7 @@ description: Resources to help developers distributing CEP plugins.
 ---
 
 # Resources
-Here is a list of resources on how to build your plugin and get help during the development process. Head to [Developer Distribution](/distribute/home) when you’re ready to publicly list your plugin on the Adobe marketplaces.​
+Here is a list of resources on how to build your plugin and get help during the development process. Head to [Developer Distribution](https://developer.adobe.com/distribute/home) when you’re ready to publicly list your plugin on the Adobe marketplaces.​
 
 ## [Explore Adobe Exchange](https://exchange.adobe.com/apps/browse/cc)
 With Exchange, Adobe provides you with an easy way to distribute and monetize your integrations.

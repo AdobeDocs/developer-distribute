@@ -29,7 +29,7 @@ Build your plugin using UDT, and once you are ready to publish click on ‘Share
 
 ## Starting from Adobe Developer Distribution
 
-Create a new listing from the [Developer Distribution home page](/distribute/home) and download a starter package from the "Listing Overview" page, which will automatically contain the new plugin ID.
+Create a new listing from the [Developer Distribution home page](https://developer.adobe.com/distribute/home) and download a starter package from the "Listing Overview" page, which will automatically contain the new plugin ID.
 
 ## Starting from Adobe Developer Console
 
