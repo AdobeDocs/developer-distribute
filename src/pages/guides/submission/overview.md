@@ -25,15 +25,15 @@ description: This is the submission and review overview page
 
 Congratulations! You've built a great plugin and you're ready to release it to your customers.
 
-<AnnouncementBlock slots="heading, text, button" />
+<Announcement slots="heading, text, button" variant="secondary" />
 
-Are you an existing developer?
+### Are you an existing developer?
 
 Action required: Add trader details to continue EU distribution.
 
-[Add trader details now.](https://developer.adobe.com/distribute/accountProfile)
+- [Add trader details now.](https://developer.adobe.com/distribute/accountProfile)
 
-To publish on our Marketplaces, your plugin must first go through a review process.
+To publish on our Marketplaces,your plugin must first go through a review process.
 By reviewing every plugin, Adobe aims to help developers get ready for prime time and ensure that users have great experiences with the plugins they consume. Our goal is to balance providing you with the best developer experience during the review process as possible, while also ensuring the approved plugins offer a great user experience for our mutual customers.
 
 <InlineAlert slots="text" variant="info"/>
@@ -62,7 +62,7 @@ Your publisher profile includes required details like:
 
 <InlineAlert variant="help" slots="header, text1, text2, text3" />
 
-Developer/Trader
+### Developer/Trader
 
 The terms **developers/traders** are used interchangeably in this guide.
 
@@ -76,7 +76,7 @@ Choose **Yes** if you wish to make your listings available in Adobe Exchange Mar
 
 You must provide the following details:
 
-- Business email address​
+- Business email address
 - Country code and Business telephone number
 - Business street address or P.O. box
 - City
@@ -91,7 +91,7 @@ Click **Submit for Review** once you have added the information.
 
 <InlineAlert variant="warning" slots="header, text1, text2, text3" />
 
-Are you an existing developer?
+### Are you an existing developer?
 
 Existing developers can easily update their trader details directly in their publisher profile through [Adobe Developer Distribution](https://developer.adobe.com/distribute/accountProfile).
 
@@ -101,7 +101,7 @@ You must provide trader details by February 16, 2025, to keep your plugin visibl
 
 <InlineAlert variant="neutral" slots="header, text1"/>
 
-Need any corrections in your publisher profile?
+### Need any corrections in your publisher profile?
 
 You have one opportunity to update and submit your [publisher profile](https://developer.adobe.com/distribute/accountProfile). If you need to make changes after it is approved, contact ccintrev@adobe.com for a second opportunity to update your profile.
 
@@ -185,61 +185,61 @@ As part of your submission, you will upload your plugin package. Take the follow
 
 1. Compress your plugin files as a **.zip** file
 
-   - Select all files within your plugin's parent folder. On both macOS and Windows you can right-click to compress:
+    - Select all files within your plugin's parent folder. On both macOS and Windows you can right-click to compress:
 
-     **macOS**:
-     Right-click > Compress items
+      **macOS**:
+      Right-click > Compress items
 
-     **Windows**:
-     Right-click > Send to > Compressed (zipped) folder
+      **Windows**:
+      Right-click > Send to > Compressed (zipped) folder
 
-     **Note:** You should _not_ compress the plugin's parent folder. Instead, compress the contents of the parent folder. Failure to do so will likely cause a rejection when submitting.
+      **Note:** You should _not_ compress the plugin's parent folder. Instead, compress the contents of the parent folder. Failure to do so will likely cause a rejection when submitting.
 
 2. Rename the **.zip** extension to **.xdx** or **.ccx** depending on the target host app.
 
-   - Adobe XD recognizes the **.xdx** file extension as an **XD** plugin and Photoshop recognizes the **.ccx** as a **Photoshop** plugin.
+    - Adobe XD recognizes the **.xdx** file extension as an **XD** plugin and Photoshop recognizes the **.ccx** as a **Photoshop** plugin.
 
-   - By using this file extension, your plugin automatically gets the "double-click to install" feature, meaning that if you share your plugin directly to users, all they have to do is double-click to install the plugin.
+    - By using this file extension, your plugin automatically gets the "double-click to install" feature, meaning that if you share your plugin directly to users, all they have to do is double-click to install the plugin.
 
 3. Verify the packaging worked:
 
-   - Double-click your final plugin package file. When your OS prompts you to install the plugin, click "Install".
+    - Double-click your final plugin package file. When your OS prompts you to install the plugin, click "Install".
 
-   - Verify you see a success message upon installation and your plugin available in the host app.
+    - Verify you see a success message upon installation and your plugin available in the host app.
 
 For more information on how to package your UXP plugins, please refer to these additional resources ([Photoshop](https://developer.adobe.com/photoshop/uxp/2022/guides/distribution/packaging-your-plugin/), [XD](https://developer.adobe.com/xd/uxp/distribution/packaging-your-plugin/)).
 
 ### ZXP plugin package
 
-<h3>1. .zxp (CEP/MXI):</h3>
+1. ### .zxp (CEP/MXI):
 
-- **CEP**: CEP (Common Extensibility Platform) lets you build extensions in Adobe Creative Cloud applications like Photoshop, Illustrator, InDesign, After Effects, and many more. Extensions built with CEP let users customize their Creative Cloud experience for their unique workflows. To create package for a CEP extension:  
+- **CEP**: CEP (Common Extensibility Platform) lets you build extensions in Adobe Creative Cloud applications like Photoshop, Illustrator, InDesign, After Effects, and many more. Extensions built with CEP let users customize their Creative Cloud experience for their unique workflows. To create package for a CEP extension:
 
-   1. Create a folder with the desired name of the `.zxp` package you want to upload
+    1. Create a folder with the desired name of the `.zxp` package you want to upload
 
-   2. Add a folder called CSXS, that should contain the manifest.xml file. This file is the manifest file and has details such as products and platforms supported  
+    2. Add a folder called CSXS, that should contain the manifest.xml file. This file is the manifest file and has details such as products and platforms supported
 
-   3. Add an extension-panel HTML file and any dependent files
+    3. Add an extension-panel HTML file and any dependent files
 
-   4. Add any other optional resources used by the extension, such as icons and localization files
+    4. Add any other optional resources used by the extension, such as icons and localization files
 
-   5. For a hybrid extension, the folder must include the resource files for the native plugin or scripting component
+    5. For a hybrid extension, the folder must include the resource files for the native plugin or scripting component
 
-   6. A file named `mimetype` will be generated by the signing process, which is detailed in the next step 'Signing and packaging for CEP/MXI'.
+    6. A file named `mimetype` will be generated by the signing process, which is detailed in the next step 'Signing and packaging for CEP/MXI'.
 
-   For more information, refer to [this guide](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Package%20Distribute%20Install) for packaging and signing your CEP plugins.
+  For more information, refer to [this guide](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Package%20Distribute%20Install) for packaging and signing your CEP plugins.
 
 - **MXI:** MXI packaging is used to have more generically formed packages. With an MXI, you can not only include multiple ZXP containing any extensions, but you can also include files to be placed anywhere on the user’s system. To create a package:
 
-   1. Add manifest details such as a unique bundle id and versions for Adobe products that your app supports in a `.mxi` file  
+    1. Add manifest details such as a unique bundle id and versions for Adobe products that your app supports in a `.mxi` file
 
-   2. The `.mxi` file should have the name that matches the bundle id of your extension
+    2. The `.mxi` file should have the name that matches the bundle id of your extension
 
-   A file named `mimetype` will be generated by the signing process, which is detailed in the next step 'Signing and packaging for CEP/MXI'.  
+  A file named `mimetype` will be generated by the signing process, which is detailed in the next step 'Signing and packaging for CEP/MXI'.
 
-- **Signing and packaging for CEP/MXI:** Adobe provides a command-line tool, `ZXPSignCmd`, that can be used to package and sign extensions. Use [this guide](./packaging_signing.pdf) as a reference on packaging and signing.
+- **Signing and packaging for CEP/MXI:** Adobe provides a command-line tool, `ZXPSignCmd`, that can be used to package and sign extensions. Use[this guide](https://drive.google.com/file/d/1PFVKLSNnr01u3QK49feL5zKUE0a0wEMO/view) as a reference on packaging and signing.
 
-<h3>2. Others (not CEP/MXI):</h3>
+1. ### Others (not CEP/MXI):
 
 All non-zxp files (e.g. image, pdf etc.) need to be submitted in a `.zip` folder
 
