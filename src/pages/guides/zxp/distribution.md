@@ -31,8 +31,6 @@ Developer Distribution is a unified portal where you can submit and manage your 
 
 - [Launch Developer Distribution](https://developer.adobe.com/distribute/home)
 
-<br/>
-
 ## Frequently Asked Questions
 - [What is Developer Distribution?](#what-is-developer-distribution)
 - [Why can't I upload a plugin package larger than 300 MB?](#why-cant-i-upload-a-plugin-package-larger-than-300-mb)
