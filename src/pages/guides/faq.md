@@ -180,7 +180,7 @@ Your listings may be grouped under different organizations. Click the name next 
 
 ![Developer organization picker](../images/developer_org_picker.png)
 
-More information about the organization picker is available in the [Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/#switching-between-your-organizations).
+More information about the organization picker is available in the [Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started#switching-between-your-organizations).
 
 ### What is the revenue share for paid products?
 
