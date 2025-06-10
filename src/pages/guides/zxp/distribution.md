@@ -27,7 +27,7 @@ The Creative Cloud Exchange Partner Portal has been merged into Adobe Developer 
 
 Developer Distribution is a unified portal where you can submit and manage your ZXP and UXP plugin listings. Click **Distribute** in the top right, to begin creating your ZXP listings from Developer Distribution, or manage your existing ones. ​
 
-<Annoucement slots="buttons" position="center"/>
+<Announcement slots="buttons" position="center"/>
 
 - [Launch Developer Distribution](https://developer.adobe.com/distribute/home)
 
