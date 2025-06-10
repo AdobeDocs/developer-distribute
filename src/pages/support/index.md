@@ -29,7 +29,7 @@ If you have questions about how to use Adobe Developer Distribution or you are l
 
 Access a knowledge base of frequently asked questions and find answers to some of the most common questions asked by other Developer Distribution users. This is a great place to start when needing answers to a question.
 
-Visit the [Adobe Developer Distribution FAQ](../guides/faq.md) to learn more. 
+Visit the [Adobe Developer Distribution FAQ](../guides/faq.md) to learn more.
 
 ## Developer Forums
 
@@ -37,7 +37,7 @@ To start a discussion, ask questions or report something you're seeing, please v
 
 ## Bugs and Feature Requests
 
-Log an issue on [Developer Distribution Github issue](https://github.com/AdobeDocs/developer-distribute/issues) to report any bugs or request new product features.
+Log an issue on [Developer Distribution Github issue](https://github.com/AdobeDocs/developer-distribute/issues) to report any bugs or request new product features. 
 
 ## Formal Support Requests
 If none of the above helped you arrive at a solution to your issue, you can send an email to [ccintrev@adobe.com](mailto:ccintrev@adobe.com) with a thorough description of the problem and attach all relevant log details and screenshots.
