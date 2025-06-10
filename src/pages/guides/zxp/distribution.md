@@ -20,15 +20,14 @@ title: ZXP Distribution
 description: Important updates for ZXP and distribution.
 ---
 
-<!-- <Hero slots="heading, text1, text2, buttons" variant="fullwidth" /> -->
-<Hero slots="heading,text" background="rgb(141, 52, 78)"/>
+<HeroSimple slots="heading,text" background="rgb(141, 52, 78)"/>
 
 # Important Changes in ZXP Distribution
 The Creative Cloud Exchange Partner Portal has been merged into Adobe Developer Distribution.
 
 Developer Distribution is a unified portal where you can submit and manage your ZXP and UXP plugin listings. Click **Distribute** in the top right, to begin creating your ZXP listings from Developer Distribution, or manage your existing ones. ​
 
-<TeaserBlock slots="buttons" textColor="black" position="center" backgroundColor="" />
+<Annoucement slots="buttons" position="center"/>
 
 - [Launch Developer Distribution](https://developer.adobe.com/distribute/home)
 
