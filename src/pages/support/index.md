@@ -19,7 +19,7 @@ title: Support
 description: This is the support page
 ---
 
-<Hero slots="heading, text" background="rgb(141, 52, 78)" />
+<HeroSimple slots="heading, text" background="rgb(141, 52, 78)" />
 
 # Adobe Developer Distribution Support
 
@@ -41,8 +41,3 @@ Log an issue on <https://github.com/AdobeDocs/developer-distribute/issues> to re
 
 ## Formal Support Requests
 If none of the above helped you arrive at a solution to your issue, you can send an email to [ccintrev@adobe.com](mailto:ccintrev@adobe.com) with a thorough description of the problem and attach all relevant log details and screenshots.
-
-<!-- ## Submit Feedback
-If you notice something is missing from our documentation, have a suggestion, or want to provide feedback on how we can improve, please submit it via the form below.<br/>
-
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrrHty6UJHCYvbrd?hide_Products=true&prefill_Products=Developer%20Distribution" frameborder="0" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe> -->

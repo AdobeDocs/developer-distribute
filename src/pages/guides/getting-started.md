@@ -81,7 +81,7 @@ This is where you enter your new listing metadata in five tabs: General, Localiz
 
 ![Screenshot of a form with the same options as before publishing](../images/Listing_Details_published_listing.png)
 
-### Versions
+### Versions 
 
 This section of the listing details can be found in the left side navigation and allows you to **Add** a new version or click on existing versions to manage them.
 
