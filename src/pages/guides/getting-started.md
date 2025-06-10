@@ -101,8 +101,6 @@ This section of the listing details can be found in the left side navigation and
 
 View the number of plugins acquired by month and year, multiple version status summary and review or manage Ratings & Reviews.
 
-<!-- ![](../images/Published_Listing_Insights.png) -->
-
 ![Screenshot showing multiple charts, including number of acquisitions per month, yearly acquisitions, ratings and reviews, as well as a pie chart showing a "status breakdown" of the available versions ("approved", "draft", etc.)](../images/Published_Listing_Insights.png)
 
 ## Account and Profile
@@ -112,7 +110,5 @@ Manage/submit your public facing publisher profile information and enter a [Fast
 <InlineAlert slots="text" variant="warning"/>
 
 The public profile _must_ be submitted before, or simultaneously with your first listing submission.
-
-<!-- ![](../images/Account_and_Profile.png) -->
 
 ![Screenshot of the Account and information page, containing the option to specify "public name", "marketing website", "description", a 250*250 px logo, and Commerce information](../images/Account_and_Profile.png)
