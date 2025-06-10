@@ -29,9 +29,9 @@ description: This is the page for benefits and best practices of listing in our 
 
 3. Plugin acquisition is tied to an Adobe ID. Users may easily reinstall your plugin on a new machine or on alternative hardware.
 
-4. Users are automatically notified of plugin updates and installing updates is easy.
+4. Users are automatically notified of plugin updates and installing updates is easy. 
 
-5. With developer profiles, users can easily find all of your plugins on one page.
+5. With developer profiles, users can easily find all of your plugins on one page. 
 
 6. An easy monetization opportunity built in. Adobe uses [FastSpring](https://fastspring.com/sign-up/payee-adobe/) for the handling of payments.
 
