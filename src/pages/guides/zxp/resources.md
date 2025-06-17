@@ -46,7 +46,7 @@ Learn about all APIs and SDKs for all Adobe products.
 ## [Creative Cloud platform forums](https://www.adobe.com/go/creative_cloud_developer_forums)
 Have discussions and get support from community experts and Adobe staff.
 
-## [Tech blog](https://www.adobe.com/go/creative_cloud_tech_blog)
+## [Tech blog](https://blog.developer.adobe.com/)
 Explore posts about API updates, how-tos, events and much more.
 
 ## [Newsletter](https://www.adobe.com/go/creative_cloud_developer_news)
