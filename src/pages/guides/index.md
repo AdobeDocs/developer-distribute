@@ -31,9 +31,9 @@ A self-service submission portal for developers to publish listings that extend 
 
 ## Developer Distribution New Listing Use Cases for UXP Plugin Listings​
 
-![Diagram outlining the Use Cases of Developer Distribution for UXP plugin listings. Text description in collapsible element below.](../images/use-cases.drawio.svg)
+![Diagram outlining the Use Cases of Developer Distribution for UXP plugin listings. Text description in collapsible element below.](./images/use-cases.drawio.svg)
 
-<DetailsBlock slots="header , list" repeat="4" summary="Text Description of Diagram" subText="Diagram listing common use cases:"/>
+<Details slots="header , list" repeat="4" summary="Text Description of Diagram" subText="Diagram listing common use cases:"/>
 
 - Developer Distribution (Start with the listing metadata):
 
