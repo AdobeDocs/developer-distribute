@@ -19,7 +19,7 @@ title: Support
 description: This is the support page
 ---
 
-<Hero slots="heading, text" background="rgb(141, 52, 78)" />
+<HeroSimple slots="heading, text" background="rgb(141, 52, 78)" />
 
 # Adobe Developer Distribution Support
 
@@ -33,16 +33,11 @@ Visit the [Adobe Developer Distribution FAQ](../guides/faq.md) to learn more.
 
 ## Developer Forums
 
-To start a discussion, ask questions or report something you're seeing, please visit our [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/plugin-marketplace/66). On the forums you will find official Adobe developers and knowledgeable community members who are ready and available to help you find the information you need. 
+To start a discussion, ask questions or report something you're seeing, please visit our [Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com/c/plugin-marketplace/66). On the forums you will find official Adobe developers and knowledgeable community members who are ready and available to help you find the information you need.
 
 ## Bugs and Feature Requests
 
-Log an issue on <https://github.com/AdobeDocs/developer-distribute/issues> to report any bugs or request new product features. 
+Log an issue on [Developer Distribution Github issue](https://github.com/AdobeDocs/developer-distribute/issues) to report any bugs or request new product features. 
 
 ## Formal Support Requests
 If none of the above helped you arrive at a solution to your issue, you can send an email to [ccintrev@adobe.com](mailto:ccintrev@adobe.com) with a thorough description of the problem and attach all relevant log details and screenshots.
-
-<!-- ## Submit Feedback
-If you notice something is missing from our documentation, have a suggestion, or want to provide feedback on how we can improve, please submit it via the form below.<br/>
-
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrrHty6UJHCYvbrd?hide_Products=true&prefill_Products=Developer%20Distribution" frameborder="0" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe> -->

@@ -27,7 +27,7 @@ This is not meant to be an exhaustive list of what we review for, and our test c
 
 ## Publisher Profile
 
-All data in your publisher profile will be reviewed, including your _public name_, _website_, and _logo_. Make sure that your publisher profile is [Adobe Branding Guidelines](../branding_guidelines.md) compliant.
+All data in your publisher profile will be reviewed, including your _public name_, _website_, and _logo_. Make sure that your publisher profile is [Adobe Branding Guidelines](../branding-guidelines.md) compliant.
 
 ## Listing Details
 
@@ -45,11 +45,11 @@ In this section, we’ll go over what we’re checking for to ensure that your p
 
 - Regardless of supported languages, an English description must be provided.
 
-- All listing content, including author name, email address, and website must comply with Adobe Branding Guidelines.
+- All listing content, including author name, email address, and website must comply with Adobe Branding Guidelines.
 
 - Any plugin website must provide an email address or contact form so that users can contact the plugin developer easily.
 
-- The listing may not link to websites that are in development (i.e. “under construction”, “coming soon”, etc). Your website will be reviewed, and it must be live at the time of review.
+- The listing may not link to websites that are in development (i.e. “under construction”, “coming soon”, etc). Your website will be reviewed, and it must be live at the time of review.
 
 ### Manifest Minimum Versions
 
@@ -79,11 +79,11 @@ For modal or headless plugins, the manifest minVersion must be set to 13.0 or ab
 
 ### Adobe Branding
 
-- Make sure to review and adhere to the [Adobe Branding Guidelines](../branding_guidelines.md).
+- Make sure to review and adhere to the [Adobe Branding Guidelines](../branding-guidelines.md).
 
 - Avoid using publisher names, domain names, email addresses, and other such property names that are confusingly similar to existing Adobe brand, product, or service names.
 
-- Using Adobe assets and icons in your plugin or your plugin marketing material requires explicit permission from Adobe (see Adobe Branding Guidelines for details). Note that getting permission to use Adobe branding assets can add to the time it takes to get your plugin approved and published.
+- Using Adobe assets and icons in your plugin or your plugin marketing material requires explicit permission from Adobe (see Adobe Branding Guidelines for details). Note that getting permission to use Adobe branding assets can add to the time it takes to get your plugin approved and published.
 
 ### External Services
 

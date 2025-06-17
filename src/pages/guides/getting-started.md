@@ -21,7 +21,7 @@ description: This is the getting started page
 
 # Getting Started
 
-This getting started guide introduces key areas of the [Adobe Developer Distribution portal](/distribute/home) to help you begin distributing your plugins quickly and easily. The Adobe Developer Distribution portal enables you to quickly publish a **listing** for your plugin on two Creative Cloud Marketplaces; the Creative Cloud desktop app Marketplace and Adobe Exchange in these three easy steps:
+This getting started guide introduces key areas of the [Adobe Developer Distribution portal](https://developer.adobe.com/distribute/home) to help you begin distributing your plugins quickly and easily. The Adobe Developer Distribution portal enables you to quickly publish a **listing** for your plugin on two Creative Cloud Marketplaces; the Creative Cloud desktop app Marketplace and Adobe Exchange in these three easy steps:
 
 1. Add your public profile.
 2. Create a **listing** to represent your plugin with metadata, the packaged plugin, and a **version**.
@@ -33,7 +33,7 @@ A **listing** is what users see on a Marketplace. It contains metadata to descri
 
 ## Overview
 
-The following section will provide a brief overview of each view in the [Adobe Developer Distribution portal](/distribute/home) to help you get started using it quickly.
+The following section will provide a brief overview of each view in the [Adobe Developer Distribution portal](https://developer.adobe.com/distribute/home) to help you get started using it quickly.
 
 ## Home
 
@@ -81,7 +81,7 @@ This is where you enter your new listing metadata in five tabs: General, Localiz
 
 ![Screenshot of a form with the same options as before publishing](../images/Listing_Details_published_listing.png)
 
-### Versions
+### Versions 
 
 This section of the listing details can be found in the left side navigation and allows you to **Add** a new version or click on existing versions to manage them.
 
@@ -101,8 +101,6 @@ This section of the listing details can be found in the left side navigation and
 
 View the number of plugins acquired by month and year, multiple version status summary and review or manage Ratings & Reviews.
 
-<!-- ![](../../images/Published_Listing_Insights.png) -->
-
 ![Screenshot showing multiple charts, including number of acquisitions per month, yearly acquisitions, ratings and reviews, as well as a pie chart showing a "status breakdown" of the available versions ("approved", "draft", etc.)](../images/Published_Listing_Insights.png)
 
 ## Account and Profile
@@ -112,7 +110,5 @@ Manage/submit your public facing publisher profile information and enter a [Fast
 <InlineAlert slots="text" variant="warning"/>
 
 The public profile _must_ be submitted before, or simultaneously with your first listing submission.
-
-<!-- ![](../../images/Account_and_Profile.png) -->
 
 ![Screenshot of the Account and information page, containing the option to specify "public name", "marketing website", "description", a 250*250 px logo, and Commerce information](../images/Account_and_Profile.png)
