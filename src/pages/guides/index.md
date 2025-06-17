@@ -27,7 +27,7 @@ A self-service submission portal for developers to publish listings that extend 
 
 ## Overview
 
-[Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new surface for developers to submit and manage their listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. This document provides guidance on how to use the Developer Distribution surface for listing submissions. Documentation will be updated as future releases support for additional Adobe products.
+[Adobe Developer Distribution](https://developer.adobe.com/distribute/home) is a new surface for developers to submit and manage their listings. The Developer Distribution surface offers a powerful and flexible approach to allow developers to create listings more rapidly, and receive approval with minimal reviewer turnaround time. This document provides guidance on how to use the Developer Distribution surface for listing submissions. Documentation will be updated as future releases support for additional Adobe products.​
 
 ## Developer Distribution New Listing Use Cases for UXP Plugin Listings
 
@@ -37,31 +37,31 @@ A self-service submission portal for developers to publish listings that extend 
 
 - Developer Distribution (Start with the listing metadata):
 
-  1. Create new listing
-  2. Download starter package with plugin ID
-  3. Upload plugin & enter version details
-  4. Submit for review.
+1. Create new listing
+2. Download starter package with plugin ID
+3. Upload plugin & enter version details
+4. Submit for review.
 
 - Developer's own sandbox (Develop new plugin):
 
-  1. Create new listing
-  2. download starter package with plugin ID
-  3. upload plugin & enter version details
-  4. complete listings & submit for review.
+1. Create new listing
+2. download starter package with plugin ID
+3. upload plugin & enter version details
+4. complete listings & submit for review.
 
 - UXP Development Tool (UDT) (Develop plugin using temporary plugin ID):
 
-  1. Create new listing
-  2. obtain plugin ID and add to manifest
-  3. upload plugin & enter version details
-  4. complete listing & submit for review.
+1. Create new listing
+2. obtain plugin ID and add to manifest
+3. upload plugin & enter version details
+4. complete listing & submit for review.
 
 - Adobe Developer Console (Create plugin project and get plugin ID):
 
-  1. Create new listing
-  2. upload plugin & enter verison details
-  3. complete listing details
-  4. submit for review
+1. Create new listing
+2. upload plugin & enter verison details
+3. complete listing details
+4. submit for review
 
 ## Access the Developer Distribution Portal
 
